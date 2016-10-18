@@ -1,0 +1,3426 @@
+(dp0
+S'http://dbpedia.org/resource/Category:Systems_programming_languages'
+p1
+VSystems programming languages
+p2
+sS'http://dbpedia.org/resource/Category:American_inventions'
+p3
+VAmerican inventions
+p4
+sS'http://dbpedia.org/resource/Category:Econometrics_software'
+p5
+VEconometrics software
+p6
+sS'http://dbpedia.org/resource/Category:Free_data_analysis_software'
+p7
+VFree data analysis software
+p8
+sS'http://dbpedia.org/resource/John_McCarthy_(computer_scientist)'
+p9
+VJohn McCarthy (computer scientist)
+p10
+sS'http://dbpedia.org/resource/OPS5'
+p11
+VOPS5
+p12
+sS'http://dbpedia.org/resource/Category:Unix_SUS2008_utilities'
+p13
+VUnix SUS2008 utilities
+p14
+sS'http://dbpedia.org/resource/Apple_Inc.'
+p15
+S'/Apple Inc.'
+p16
+sS'http://dbpedia.org/resource/Perl'
+p17
+VPerl
+p18
+sS'http://dbpedia.org/resource/ProSet'
+p19
+VProSet
+p20
+sS'http://dbpedia.org/resource/Friedrich_L._Bauer'
+p21
+VFriedrich L. Bauer
+p22
+sS'http://dbpedia.org/resource/Epigram_(programming_language)'
+p23
+VEpigram (programming language)
+p24
+sS'http://dbpedia.org/resource/CLIPS'
+p25
+VCLIPS
+p26
+sS'http://dbpedia.org/ontology/Agent'
+p27
+Vagent
+p28
+sS'http://dbpedia.org/resource/Motorola_68000'
+p29
+VMotorola 68000
+p30
+sS'http://dbpedia.org/resource/CoolMUD'
+p31
+VCoolMUD
+p32
+sS'http://dbpedia.org/resource/C--'
+p33
+VC--
+p34
+sS'http://dbpedia.org/resource/Grace_Hopper'
+p35
+VGrace Hopper
+p36
+sS'http://dbpedia.org/resource/Category:Borland'
+p37
+VBorland
+p38
+sS'http://dbpedia.org/resource/Cyclone_(programming_language)'
+p39
+VCyclone (programming language)
+p40
+sS'http://dbpedia.org/resource/ColdC'
+p41
+VColdC
+p42
+sS'http://dbpedia.org/resource/Category:Python_implementations'
+p43
+VPython implementations
+p44
+sS'http://dbpedia.org/resource/Category:PDP-11'
+p45
+VPDP-11
+p46
+sS'http://dbpedia.org/resource/Category:JavaScript'
+p47
+VJavaScript
+p48
+sS'http://dbpedia.org/resource/Category:Microcomputer_software'
+p49
+VMicrocomputer software
+p50
+sS'http://dbpedia.org/resource/POP-2'
+p51
+VPOP-2
+p52
+sS'http://dbpedia.org/resource/Category:OCaml_software'
+p53
+VOCaml software
+p54
+sS'http://dbpedia.org/resource/C99'
+p55
+VC99
+p56
+sS'http://dbpedia.org/resource/Category:2002_introductions'
+p57
+V2002 introductions
+p58
+sS'http://dbpedia.org/resource/Logtalk'
+p59
+VLogtalk
+p60
+sS'http://dbpedia.org/resource/Sheffield'
+p61
+VSheffield
+p62
+sS'http://dbpedia.org/resource/Microsoft_Research'
+p63
+VMicrosoft Research
+p64
+sS'http://dbpedia.org/resource/Category:Articles_with_example_BASIC_code'
+p65
+VArticles with example BASIC code
+p66
+sS'http://dbpedia.org/resource/COMIT'
+p67
+VCOMIT
+p68
+sS'http://dbpedia.org/resource/ABC_(programming_language)'
+p69
+VABC (programming language)
+p70
+sS'http://dbpedia.org/resource/Category:Dynamic_programming_languages'
+p71
+VDynamic programming languages
+p72
+sS'http://dbpedia.org/resource/Goo_(programming_language)'
+p73
+VGoo (programming language)
+p74
+sS'http://dbpedia.org/resource/Category:Common_Lisp_software'
+p75
+VCommon Lisp software
+p76
+sS'http://dbpedia.org/resource/Bluespec,_Inc.'
+p77
+VBluespec, Inc.
+p78
+sS'http://dbpedia.org/resource/Category:C_software'
+p79
+VC software
+p80
+sS'http://dbpedia.org/resource/Category:Simulation_software_stubs'
+p81
+VSimulation software stubs
+p82
+sS'http://dbpedia.org/resource/KTurtle'
+p83
+VKTurtle
+p84
+sS'http://dbpedia.org/resource/Category:Harvard_University'
+p85
+VHarvard University
+p86
+sS'http://dbpedia.org/resource/Category:PL/I_programming_language_family'
+p87
+VPL/I programming language family
+p88
+sS'http://dbpedia.org/resource/LiveScript'
+p89
+VLiveScript
+p90
+sS'http://dbpedia.org/resource/Category:OS_X_development'
+p91
+VOS X development
+p92
+sS'http://dbpedia.org/resource/Category:Lisp_programming_language_family'
+p93
+VLisp programming language family
+p94
+sS'http://dbpedia.org/resource/Nominal_type_system'
+p95
+VNominal type system
+p96
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1957'
+p97
+VProgramming languages created in 1957
+p98
+sS'http://dbpedia.org/resource/Regensburg'
+p99
+VRegensburg
+p100
+sS'http://dbpedia.org/resource/Category:Physical_computing'
+p101
+VPhysical computing
+p102
+sS'http://dbpedia.org/resource/Oaklisp'
+p103
+VOaklisp
+p104
+sS'http://dbpedia.org/resource/Strand_(programming_language)'
+p105
+VStrand (programming language)
+p106
+sS'http://dbpedia.org/ontology/Organisation'
+p107
+Vorganisation
+p108
+sS'http://dbpedia.org/resource/IBM_704'
+p109
+VIBM 704
+p110
+sS'http://dbpedia.org/resource/Calgary'
+p111
+VCalgary
+p112
+sS'http://dbpedia.org/resource/Category:Hardware_description_languages'
+p113
+VHardware description languages
+p114
+sS'http://dbpedia.org/ontology/University'
+p115
+Vuniversity
+p116
+sS'http://dbpedia.org/resource/Budapest'
+p117
+VBudapest
+p118
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2000'
+p119
+VProgramming languages created in 2000
+p120
+sS'http://dbpedia.org/ontology/Work'
+p121
+Vwork
+p122
+sS'http://dbpedia.org/resource/Category:Disney_technology'
+p123
+VDisney technology
+p124
+sS'http://dbpedia.org/resource/Squirrel_(programming_language)'
+p125
+VSquirrel (programming language)
+p126
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2001'
+p127
+VProgramming languages created in 2001
+p128
+sS'http://dbpedia.org/resource/Constraint_Handling_Rules'
+p129
+VConstraint Handling Rules
+p130
+sS'http://dbpedia.org/resource/Category:GNUstep'
+p131
+VGNUstep
+p132
+sS'http://dbpedia.org/resource/Niklaus_Wirth'
+p133
+VNiklaus Wirth
+p134
+sS'http://dbpedia.org/resource/Category:Numerical_programming_languages'
+p135
+VNumerical programming languages
+p136
+sS'http://dbpedia.org/resource/GRASS_(programming_language)'
+p137
+VGRASS (programming language)
+p138
+sS'http://dbpedia.org/resource/IBM'
+p139
+VIBM
+p140
+sS'http://dbpedia.org/resource/Category:ActionScript'
+p141
+VActionScript
+p142
+sS'http://dbpedia.org/resource/Category:Computer_algebra_system_software_for_Windows'
+p143
+VComputer algebra system software for Windows
+p144
+sS'http://dbpedia.org/resource/Category:Unix_text_processing_utilities'
+p145
+VUnix text processing utilities
+p146
+sS'http://dbpedia.org/resource/Lasso_(programming_language)'
+p147
+VLasso (programming language)
+p148
+sS'http://dbpedia.org/resource/Category:Linux_programming_tools'
+p149
+VLinux programming tools
+p150
+sS'http://dbpedia.org/resource/Category:Ada_programming_language_family'
+p151
+VAda programming language family
+p152
+sS'http://dbpedia.org/resource/Category:Data-centric_programming_languages'
+p153
+VData-centric programming languages
+p154
+sS'http://dbpedia.org/resource/Category:Functional_languages'
+p155
+VFunctional languages
+p156
+sS'http://dbpedia.org/resource/Prolog'
+p157
+VProlog
+p158
+sS'http://dbpedia.org/resource/Adriaan_van_Wijngaarden'
+p159
+VAdriaan van Wijngaarden
+p160
+sS'http://dbpedia.org/resource/Clipper_(programming_language)'
+p161
+VClipper (programming language)
+p162
+sS'http://dbpedia.org/resource/Rexx'
+p163
+VRexx
+p164
+sS'http://dbpedia.org/resource/Chicago'
+p165
+VChicago
+p166
+sS'http://dbpedia.org/resource/BCPL'
+p167
+VBCPL
+p168
+sS'http://dbpedia.org/resource/Osaka_Prefecture'
+p169
+VOsaka Prefecture
+p170
+sS'http://dbpedia.org/resource/Category:Automated_theorem_proving'
+p171
+VAutomated theorem proving
+p172
+sS'http://dbpedia.org/resource/Category:Ruby_(programming_language)'
+p173
+VRuby (programming language)
+p174
+sS'http://dbpedia.org/resource/Butler_Lampson'
+p175
+VButler Lampson
+p176
+sS'http://dbpedia.org/resource/Category:Microsoft_Visual_Studio'
+p177
+VMicrosoft Visual Studio
+p178
+sS'http://dbpedia.org/resource/Rotterdam'
+p179
+VRotterdam
+p180
+sS'http://dbpedia.org/resource/Lisaac'
+p181
+VLisaac
+p182
+sS'http://dbpedia.org/resource/David_Turner_(computer_scientist)'
+p183
+VDavid Turner (computer scientist)
+p184
+sS'http://dbpedia.org/resource/Category:Statically_typed_programming_languages'
+p185
+VStatically typed programming languages
+p186
+sS'http://dbpedia.org/resource/Missouri'
+p187
+VMissouri
+p188
+sS'http://dbpedia.org/resource/Spec_Sharp'
+p189
+VSpec Sharp
+p190
+sS'http://dbpedia.org/resource/Io_(programming_language)'
+p191
+VIo (programming language)
+p192
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Java_code'
+p193
+VArticles with example Java code
+p194
+sS'http://dbpedia.org/resource/Category:C++'
+p195
+VC++
+p196
+sS'http://dbpedia.org/resource/Lambert_Meertens'
+p197
+VLambert Meertens
+p198
+sS'http://dbpedia.org/resource/Category:Array_programming_languages'
+p199
+VArray programming languages
+p200
+sS'http://dbpedia.org/resource/Category:C_Sharp_programming_language_family'
+p201
+VC Sharp programming language family
+p202
+sS'http://dbpedia.org/resource/Category:1966_in_computer_science'
+p203
+V1966 in computer science
+p204
+sS'http://dbpedia.org/resource/Category:History_of_artificial_intelligence'
+p205
+VHistory of artificial intelligence
+p206
+sS'http://dbpedia.org/resource/Object_REXX'
+p207
+VObject REXX
+p208
+sS'http://dbpedia.org/resource/Category:Articles_with_example_ALGOL_60_code'
+p209
+VArticles with example ALGOL 60 code
+p210
+sS'http://dbpedia.org/resource/Category:Experimental_programming_languages'
+p211
+VExperimental programming languages
+p212
+sS'http://dbpedia.org/resource/Category:Computer_algebra_system_software_for_OS_X'
+p213
+VComputer algebra system software for OS X
+p214
+sS'http://dbpedia.org/resource/Scala_(programming_language)'
+p215
+VScala (programming language)
+p216
+sS'http://dbpedia.org/resource/Category:Computer_standards'
+p217
+VComputer standards
+p218
+sS'http://dbpedia.org/resource/Category:ML_programming_language_family'
+p219
+VML programming language family
+p220
+sS'http://dbpedia.org/resource/Category:Windows_database-related_software'
+p221
+VWindows database-related software
+p222
+sS'http://dbpedia.org/resource/Pennsylvania'
+p223
+VPennsylvania
+p224
+sS'http://dbpedia.org/resource/Category:Visual_programming_languages'
+p225
+VVisual programming languages
+p226
+sS'http://dbpedia.org/resource/Category:Inferno_(operating_system)'
+p227
+VInferno (operating system)
+p228
+sS'http://dbpedia.org/resource/Category:Programming_language_standards'
+p229
+VProgramming language standards
+p230
+sS'http://dbpedia.org/resource/Kingdom_of_Hungary'
+p231
+VKingdom of Hungary
+p232
+sS'http://dbpedia.org/resource/Emerald_(programming_language)'
+p233
+VEmerald (programming language)
+p234
+sS'http://dbpedia.org/resource/Category:Prototype-based_programming_languages'
+p235
+VPrototype-based programming languages
+p236
+sS'http://dbpedia.org/resource/Alfred_Aho'
+p237
+VAlfred Aho
+p238
+sS'http://dbpedia.org/resource/Category:Scala_(programming_language)'
+p239
+VScala (programming language)
+p240
+sS'http://dbpedia.org/resource/Curry_(programming_language)'
+p241
+VCurry (programming language)
+p242
+sS'http://dbpedia.org/resource/Category:.NET_Framework'
+p243
+V.NET Framework
+p244
+sS'http://dbpedia.org/resource/Martin_Richards_(computer_scientist)'
+p245
+VMartin Richards (computer scientist)
+p246
+sS'http://dbpedia.org/resource/ISWIM'
+p247
+VISWIM
+p248
+sS'http://dbpedia.org/resource/Category:Mathematical_modeling'
+p249
+VMathematical modeling
+p250
+sS'http://dbpedia.org/resource/Category:Command_shells'
+p251
+VCommand shells
+p252
+sS'http://dbpedia.org/resource/C_shell'
+p253
+VC shell
+p254
+sS'http://dbpedia.org/ontology/Person'
+p255
+Vperson
+p256
+sS'http://dbpedia.org/resource/Chomski'
+p257
+VChomski
+p258
+sS'http://dbpedia.org/resource/Standard_ML'
+p259
+VStandard ML
+p260
+sS'http://dbpedia.org/resource/Category:Proprietary_commercial_software_for_Linux'
+p261
+VProprietary commercial software for Linux
+p262
+sS'http://dbpedia.org/resource/Seed7'
+p263
+VSeed7
+p264
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1996'
+p265
+VProgramming languages created in 1996
+p266
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1995'
+p267
+VProgramming languages created in 1995
+p268
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1994'
+p269
+VProgramming languages created in 1994
+p270
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1993'
+p271
+VProgramming languages created in 1993
+p272
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1991'
+p273
+VProgramming languages created in 1991
+p274
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1990'
+p275
+VProgramming languages created in 1990
+p276
+sS'http://dbpedia.org/resource/CoffeeScript'
+p277
+VCoffeeScript
+p278
+sS'http://dbpedia.org/resource/Category:Prolog_programming_language_family'
+p279
+VProlog programming language family
+p280
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1999'
+p281
+VProgramming languages created in 1999
+p282
+sS'http://dbpedia.org/resource/Paris'
+p283
+VParis
+p284
+sS'http://dbpedia.org/resource/Category:1958_in_computer_science'
+p285
+V1958 in computer science
+p286
+sS'http://dbpedia.org/resource/Category:Data_analysis_software'
+p287
+VData analysis software
+p288
+sS'http://dbpedia.org/resource/Category:Mathematical_optimization_software'
+p289
+VMathematical optimization software
+p290
+sS'http://dbpedia.org/resource/Gradual_typing'
+p291
+VGradual typing
+p292
+sS'http://dbpedia.org/resource/Category:Synchronous_programming_languages'
+p293
+VSynchronous programming languages
+p294
+sS'http://dbpedia.org/resource/Component_Pascal'
+p295
+VComponent Pascal
+p296
+sS'http://dbpedia.org/resource/Ralph_Griswold'
+p297
+VRalph Griswold
+p298
+sS'http://dbpedia.org/resource/Toronto'
+p299
+VToronto
+p300
+sS'http://dbpedia.org/resource/Category:Virtual_reality_communities'
+p301
+VVirtual reality communities
+p302
+sS'http://dbpedia.org/resource/Substructural_type_system'
+p303
+VSubstructural type system
+p304
+sS'http://dbpedia.org/resource/Category:Parallel_computing'
+p305
+VParallel computing
+p306
+sS'http://dbpedia.org/resource/Haskell_(programming_language)'
+p307
+VHaskell (programming language)
+p308
+sS'http://dbpedia.org/resource/Scheme_(programming_language)'
+p309
+VScheme (programming language)
+p310
+sS'http://dbpedia.org/resource/Category:Ada_(programming_language)'
+p311
+VAda (programming language)
+p312
+sS'http://dbpedia.org/resource/SASL_(programming_language)'
+p313
+VSASL (programming language)
+p314
+sS'http://dbpedia.org/resource/Caml'
+p315
+VCaml
+p316
+sS'http://dbpedia.org/resource/Category:Interpreters_(computing)'
+p317
+VInterpreters (computing)
+p318
+sS'http://dbpedia.org/resource/Brian_Kernighan'
+p319
+VBrian Kernighan
+p320
+sS'http://dbpedia.org/resource/Peter_Landin'
+p321
+VPeter Landin
+p322
+sS'http://dbpedia.org/resource/Ecma_International'
+p323
+VEcma International
+p324
+sS'http://dbpedia.org/resource/MSX_BASIC'
+p325
+VMSX BASIC
+p326
+sS'http://dbpedia.org/resource/Go_(programming_language)'
+p327
+VGo (programming language)
+p328
+sS'http://dbpedia.org/resource/Category:Unix_shells'
+p329
+VUnix shells
+p330
+sS'http://dbpedia.org/resource/Category:Pontifical_Catholic_University_of_Rio_de_Janeiro'
+p331
+VPontifical Catholic University of Rio de Janeiro
+p332
+sS'http://dbpedia.org/resource/Category:Embedded_systems'
+p333
+VEmbedded systems
+p334
+sS'http://dbpedia.org/resource/Sass_(stylesheet_language)'
+p335
+VSass (stylesheet language)
+p336
+sS'http://dbpedia.org/resource/Less_(stylesheet_language)'
+p337
+VLess (stylesheet language)
+p338
+sS'http://dbpedia.org/resource/Category:Software_using_the_GPL_license'
+p339
+VSoftware using the GPL license
+p340
+sS'http://dbpedia.org/resource/AWK'
+p341
+VAWK
+p342
+sS'http://dbpedia.org/resource/Category:Pascal_programming_language_family'
+p343
+VPascal programming language family
+p344
+sS'http://dbpedia.org/resource/Category:Nondeterministic_programming_languages'
+p345
+VNondeterministic programming languages
+p346
+sS'http://dbpedia.org/ontology/ProgrammingLanguage'
+p347
+Vprogramming language
+p348
+sS'http://dbpedia.org/resource/Mirah_(programming_language)'
+p349
+VMirah (programming language)
+p350
+sS'http://dbpedia.org/resource/Category:Oberon_programming_language_family'
+p351
+VOberon programming language family
+p352
+sS'http://dbpedia.org/resource/Victor_Yngve'
+p353
+VVictor Yngve
+p354
+sS'http://dbpedia.org/resource/Category:1963_introductions'
+p355
+V1963 introductions
+p356
+sS'http://dbpedia.org/resource/Philadelphia'
+p357
+VPhiladelphia
+p358
+sS'http://dbpedia.org/resource/Speedcoding'
+p359
+VSpeedcoding
+p360
+sS'http://dbpedia.org/resource/Clojure'
+p361
+VClojure
+p362
+sS'http://dbpedia.org/resource/Category:.NET_programming_languages'
+p363
+V.NET programming languages
+p364
+sS'http://dbpedia.org/resource/Lennart_Augustsson'
+p365
+VLennart Augustsson
+p366
+sS'http://dbpedia.org/ontology/EducationalInstitution'
+p367
+Veducational institution
+p368
+sS'http://dbpedia.org/resource/Turing_(programming_language)'
+p369
+VTuring (programming language)
+p370
+sS'http://dbpedia.org/resource/Category:IBM_software'
+p371
+VIBM software
+p372
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Ruby_code'
+p373
+VArticles with example Ruby code
+p374
+sS'http://dbpedia.org/resource/Category:Web_programming'
+p375
+VWeb programming
+p376
+sS'http://dbpedia.org/resource/TOM_(object-oriented_programming_language)'
+p377
+VTOM (object-oriented programming language)
+p378
+sS'http://dbpedia.org/resource/ML_(programming_language)'
+p379
+VML (programming language)
+p380
+sS'http://dbpedia.org/resource/Guy_L._Steele,_Jr.'
+p381
+VGuy L. Steele, Jr.
+p382
+sS'http://dbpedia.org/resource/Elixir_(programming_language)'
+p383
+VElixir (programming language)
+p384
+sS'http://dbpedia.org/resource/Ruby_(programming_language)'
+p385
+VRuby (programming language)
+p386
+sS'http://dbpedia.org/resource/Category:Free_data_visualization_software'
+p387
+VFree data visualization software
+p388
+sS'http://dbpedia.org/resource/Category:Multi-paradigm_programming_languages'
+p389
+VMulti-paradigm programming languages
+p390
+sS'http://dbpedia.org/resource/Category:1987_establishments_in_Ontario'
+p391
+V1987 establishments in Ontario
+p392
+sS'http://dbpedia.org/resource/Baltimore'
+p393
+VBaltimore
+p394
+sS'http://dbpedia.org/resource/Hop_(software)'
+p395
+VHop (software)
+p396
+sS'http://dbpedia.org/resource/SETL'
+p397
+VSETL
+p398
+sS'http://dbpedia.org/resource/Dylan_(programming_language)'
+p399
+VDylan (programming language)
+p400
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_the_1970s'
+p401
+VProgramming languages created in the 1970s
+p402
+sS'http://dbpedia.org/resource/Groovy_(programming_language)'
+p403
+VGroovy (programming language)
+p404
+sS'http://dbpedia.org/resource/COBOL'
+p405
+VCOBOL
+p406
+sS'http://dbpedia.org/resource/Oz_(programming_language)'
+p407
+VOz (programming language)
+p408
+sS'http://dbpedia.org/resource/Common_Lisp'
+p409
+VCommon Lisp
+p410
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1979'
+p411
+VProgramming languages created in 1979
+p412
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1970'
+p413
+VProgramming languages created in 1970
+p414
+sS'http://dbpedia.org/resource/JavaScript'
+p415
+VJavaScript
+p416
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1972'
+p417
+VProgramming languages created in 1972
+p418
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1975'
+p419
+VProgramming languages created in 1975
+p420
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1977'
+p421
+VProgramming languages created in 1977
+p422
+sS'http://dbpedia.org/resource/Category:Fortran_programming_language_family'
+p423
+VFortran programming language family
+p424
+sS'http://dbpedia.org/resource/Category:Plotting_software'
+p425
+VPlotting software
+p426
+sS'http://dbpedia.org/resource/IBM_PC_DOS'
+p427
+VIBM PC DOS
+p428
+sS'http://dbpedia.org/resource/Carcassonne'
+p429
+VCarcassonne
+p430
+sS'http://dbpedia.org/resource/Category:Desktop_database_application_development_tools'
+p431
+VDesktop database application development tools
+p432
+sS'http://dbpedia.org/resource/Manifest_typing'
+p433
+VManifest typing
+p434
+sS'http://dbpedia.org/resource/Category:Agent-based_programming_languages'
+p435
+VAgent-based programming languages
+p436
+sS'http://dbpedia.org/resource/VP-Info'
+p437
+VVP-Info
+p438
+sS'http://dbpedia.org/resource/MiniD'
+p439
+VMiniD
+p440
+sS'http://dbpedia.org/resource/Category:Artificial_intelligence'
+p441
+VArtificial intelligence
+p442
+sS'http://dbpedia.org/resource/Category:Computer_vision_software'
+p443
+VComputer vision software
+p444
+sS'http://dbpedia.org/resource/Kenneth_E._Iverson'
+p445
+VKenneth E. Iverson
+p446
+sS'http://dbpedia.org/resource/Category:Free_system_software'
+p447
+VFree system software
+p448
+sS'http://dbpedia.org/resource/Mathematica'
+p449
+VMathematica
+p450
+sS'http://dbpedia.org/resource/Robin_Milner'
+p451
+VRobin Milner
+p452
+sS'http://dbpedia.org/resource/Category:Static_program_analysis_tools'
+p453
+VStatic program analysis tools
+p454
+sS'http://dbpedia.org/resource/SP/k'
+p455
+VSP/k
+p456
+sS'http://dbpedia.org/resource/Christopher_Strachey'
+p457
+VChristopher Strachey
+p458
+sS'http://dbpedia.org/resource/The_Bronx'
+p459
+VThe Bronx
+p460
+sS'http://dbpedia.org/resource/Category:CP/M_software'
+p461
+VCP/M software
+p462
+sS'http://dbpedia.org/resource/Category:Academic_programming_languages'
+p463
+VAcademic programming languages
+p464
+sS'http://dbpedia.org/resource/Sather'
+p465
+VSather
+p466
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Racket_code'
+p467
+VArticles with example Racket code
+p468
+sS'http://dbpedia.org/resource/IBM_BASIC'
+p469
+VIBM BASIC
+p470
+sS'http://dbpedia.org/resource/Category:Objective-C'
+p471
+VObjective-C
+p472
+sS'http://dbpedia.org/resource/Quark_Framework'
+p473
+VQuark Framework
+p474
+sS'http://dbpedia.org/resource/OS_X'
+p475
+VOS X
+p476
+sS'http://dbpedia.org/resource/Kent_Recursive_Calculator'
+p477
+VKent Recursive Calculator
+p478
+sS'http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica'
+p479
+VCentrum Wiskunde & Informatica
+p480
+sS'http://dbpedia.org/resource/Category:IEC_standards'
+p481
+VIEC standards
+p482
+sS'http://dbpedia.org/resource/Newsqueak'
+p483
+VNewsqueak
+p484
+sS'http://dbpedia.org/resource/Category:1957_software'
+p485
+V1957 software
+p486
+sS'http://dbpedia.org/resource/Herbert_A._Simon'
+p487
+VHerbert A. Simon
+p488
+sS'http://dbpedia.org/resource/Argus_(programming_language)'
+p489
+VArgus (programming language)
+p490
+sS'http://dbpedia.org/resource/Category:Concurrent_computing'
+p491
+VConcurrent computing
+p492
+sS'http://dbpedia.org/resource/Category:Data_visualization_software'
+p493
+VData visualization software
+p494
+sS'http://dbpedia.org/resource/Timmins'
+p495
+VTimmins
+p496
+sS'http://dbpedia.org/resource/Mercury_(programming_language)'
+p497
+VMercury (programming language)
+p498
+sS'http://dbpedia.org/resource/Pittsburgh'
+p499
+VPittsburgh
+p500
+sS'http://dbpedia.org/resource/Louisiana'
+p501
+VLouisiana
+p502
+sS'http://dbpedia.org/resource/PARC_(company)'
+p503
+VPARC (company)
+p504
+sS'http://dbpedia.org/resource/Logo_(programming_language)'
+p505
+VLogo (programming language)
+p506
+sS'http://dbpedia.org/resource/Category:Formal_methods_tools'
+p507
+VFormal methods tools
+p508
+sS'http://dbpedia.org/resource/John_Backus'
+p509
+VJohn Backus
+p510
+sS'http://dbpedia.org/resource/Duck_typing'
+p511
+VDuck typing
+p512
+sS'http://dbpedia.org/resource/Xavier_Leroy'
+p513
+VXavier Leroy
+p514
+sS'http://dbpedia.org/resource/PACT_(compiler)'
+p515
+VPACT (compiler)
+p516
+sS'http://dbpedia.org/resource/NetLogo'
+p517
+VNetLogo
+p518
+sS'http://dbpedia.org/resource/FreeBSD'
+p519
+VFreeBSD
+p520
+sS'http://dbpedia.org/resource/San_Francisco'
+p521
+VSan Francisco
+p522
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_the_1990s'
+p523
+VProgramming languages created in the 1990s
+p524
+sS'http://dbpedia.org/resource/Category:C_programming_language_family'
+p525
+VC programming language family
+p526
+sS'http://dbpedia.org/resource/Tony_Hoare'
+p527
+VTony Hoare
+p528
+sS'http://dbpedia.org/resource/Category:Simulation_programming_languages'
+p529
+VSimulation programming languages
+p530
+sS'http://dbpedia.org/resource/CPL_(programming_language)'
+p531
+VCPL (programming language)
+p532
+sS'http://dbpedia.org/resource/Category:Java_programming_language_family'
+p533
+VJava programming language family
+p534
+sS'http://dbpedia.org/resource/Category:Delphi_(programming_language)'
+p535
+VDelphi (programming language)
+p536
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1964'
+p537
+VProgramming languages created in 1964
+p538
+sS'http://dbpedia.org/resource/Falcon_(programming_language)'
+p539
+VFalcon (programming language)
+p540
+sS'http://dbpedia.org/resource/Icon_(programming_language)'
+p541
+VIcon (programming language)
+p542
+sS'http://dbpedia.org/resource/Category:Educational_math_software'
+p543
+VEducational math software
+p544
+sS'http://dbpedia.org/resource/F_Sharp_(programming_language)'
+p545
+VF Sharp (programming language)
+p546
+sS'http://dbpedia.org/resource/Category:DOS_software'
+p547
+VDOS software
+p548
+sS'http://dbpedia.org/resource/Nu_(programming_language)'
+p549
+VNu (programming language)
+p550
+sS'http://dbpedia.org/resource/Bjarne_Stroustrup'
+p551
+VBjarne Stroustrup
+p552
+sS'http://dbpedia.org/resource/Bob_Bemer'
+p553
+VBob Bemer
+p554
+sS'http://dbpedia.org/resource/Forth_(programming_language)'
+p555
+VForth (programming language)
+p556
+sS'http://dbpedia.org/resource/Oberon-2_(programming_language)'
+p557
+VOberon-2 (programming language)
+p558
+sS'http://dbpedia.org/resource/Weimar_Republic'
+p559
+VWeimar Republic
+p560
+sS'http://dbpedia.org/resource/Thomas_E._Kurtz'
+p561
+VThomas E. Kurtz
+p562
+sS'http://dbpedia.org/resource/Category:Articles_with_example_MATLAB/Octave_code'
+p563
+VArticles with example MATLAB/Octave code
+p564
+sS'http://dbpedia.org/resource/Category:Set_theoretic_programming_languages'
+p565
+VSet theoretic programming languages
+p566
+sS'http://dbpedia.org/resource/QML'
+p567
+VQML
+p568
+sS'http://dbpedia.org/ontology/Software'
+p569
+Vsoftware
+p570
+sS'http://dbpedia.org/resource/Common_Lisp_Object_System'
+p571
+VCommon Lisp Object System
+p572
+sS'http://dbpedia.org/resource/Category:Discontinued_programming_languages'
+p573
+VDiscontinued programming languages
+p574
+sS'http://dbpedia.org/resource/Alice_(programming_language)'
+p575
+VAlice (programming language)
+p576
+sS'http://dbpedia.org/resource/Kotlin_(programming_language)'
+p577
+VKotlin (programming language)
+p578
+sS'http://dbpedia.org/resource/Category:Forth_programming_language_family'
+p579
+VForth programming language family
+p580
+sS'http://dbpedia.org/resource/Cadence_SKILL'
+p581
+VCadence SKILL
+p582
+sS'http://dbpedia.org/resource/SNOBOL'
+p583
+VSNOBOL
+p584
+sS'http://dbpedia.org/resource/Category:Haskell_programming_language_family'
+p585
+VHaskell programming language family
+p586
+sS'http://dbpedia.org/resource/F*_(programming_language)'
+p587
+VF* (programming language)
+p588
+sS'http://dbpedia.org/resource/Category:Animation_software'
+p589
+VAnimation software
+p590
+sS'http://dbpedia.org/resource/Category:Integrated_development_environments'
+p591
+VIntegrated development environments
+p592
+sS'http://dbpedia.org/resource/Switzerland'
+p593
+VSwitzerland
+p594
+sS'http://dbpedia.org/resource/ALGOL_58'
+p595
+VALGOL 58
+p596
+sS'http://dbpedia.org/resource/Category:2014_introductions'
+p597
+V2014 introductions
+p598
+sS'http://dbpedia.org/resource/Scratch_(programming_language)'
+p599
+VScratch (programming language)
+p600
+sS'http://dbpedia.org/resource/TypeScript'
+p601
+VTypeScript
+p602
+sS'http://dbpedia.org/resource/Squeak'
+p603
+VSqueak
+p604
+sS'http://dbpedia.org/resource/Category:Massachusetts_General_Hospital'
+p605
+VMassachusetts General Hospital
+p606
+sS'http://dbpedia.org/resource/Weinfelden'
+p607
+VWeinfelden
+p608
+sS'http://dbpedia.org/resource/Allen_Newell'
+p609
+VAllen Newell
+p610
+sS'http://dbpedia.org/resource/C++11'
+p611
+VC++11
+p612
+sS'http://dbpedia.org/resource/Java_(programming_language)'
+p613
+VJava (programming language)
+p614
+sS'http://dbpedia.org/resource/Plan_9_from_Bell_Labs'
+p615
+VPlan 9 from Bell Labs
+p616
+sS'http://dbpedia.org/resource/Category:REXX_(programming_language)'
+p617
+VREXX (programming language)
+p618
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1973'
+p619
+VProgramming languages created in 1973
+p620
+sS'http://dbpedia.org/resource/Category:Numerical_analysis_software_for_Windows'
+p621
+VNumerical analysis software for Windows
+p622
+sS'http://dbpedia.org/resource/ALGOL'
+p623
+VALGOL
+p624
+sS'http://dbpedia.org/resource/Category:2003_introductions'
+p625
+V2003 introductions
+p626
+sS'http://dbpedia.org/resource/Nemerle'
+p627
+VNemerle
+p628
+sS'http://dbpedia.org/resource/Zonnon'
+p629
+VZonnon
+p630
+sS'http://dbpedia.org/resource/Fantom_(programming_language)'
+p631
+VFantom (programming language)
+p632
+sS'http://dbpedia.org/resource/PHP'
+p633
+VPHP
+p634
+sS'http://dbpedia.org/resource/C++'
+p635
+VC++
+p636
+sS'http://dbpedia.org/ontology/birthDate'
+p637
+Vbirth date
+p638
+sS'http://dbpedia.org/resource/Category:Formal_specification_languages'
+p639
+VFormal specification languages
+p640
+sS'http://dbpedia.org/resource/Daniel_Weinreb'
+p641
+VDaniel Weinreb
+p642
+sS'http://dbpedia.org/resource/Object_Pascal'
+p643
+VObject Pascal
+p644
+sS'http://dbpedia.org/resource/South_Africa'
+p645
+VSouth Africa
+p646
+sS'http://dbpedia.org/resource/Category:University_of_Toronto'
+p647
+VUniversity of Toronto
+p648
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Haskell_code'
+p649
+VArticles with example Haskell code
+p650
+sS'http://dbpedia.org/resource/David_J._Farber'
+p651
+VDavid J. Farber
+p652
+sS'http://dbpedia.org/resource/Category:Borland_software'
+p653
+VBorland software
+p654
+sS'http://dbpedia.org/resource/ECMAScript'
+p655
+VECMAScript
+p656
+sS'http://dbpedia.org/resource/Los_Angeles'
+p657
+VLos Angeles
+p658
+sS'http://dbpedia.org/resource/Category:Scheme_(programming_language)_implementations'
+p659
+VScheme (programming language) implementations
+p660
+sS'http://dbpedia.org/resource/Free_Software_Foundation'
+p661
+VFree Software Foundation
+p662
+sS'http://dbpedia.org/resource/BitC'
+p663
+VBitC
+p664
+sS'http://dbpedia.org/resource/Harlequin_(software_company)'
+p665
+VHarlequin (software company)
+p666
+sS'http://dbpedia.org/resource/Moose_(Perl)'
+p667
+VMoose (Perl)
+p668
+sS'http://dbpedia.org/resource/Polyphonic_C_Sharp'
+p669
+VPolyphonic C Sharp
+p670
+sS'http://dbpedia.org/resource/Alberta'
+p671
+VAlberta
+p672
+sS'http://dbpedia.org/resource/Category:Data_mining_and_machine_learning_software'
+p673
+VData mining and machine learning software
+p674
+sS'http://dbpedia.org/resource/S_(programming_language)'
+p675
+VS (programming language)
+p676
+sS'http://dbpedia.org/resource/Paul_Hudak'
+p677
+VPaul Hudak
+p678
+sS'http://dbpedia.org/resource/Bell_Labs'
+p679
+VBell Labs
+p680
+sS'http://dbpedia.org/resource/Category:Pedagogic_integrated_development_environments'
+p681
+VPedagogic integrated development environments
+p682
+sS'http://dbpedia.org/resource/Guido_van_Robot'
+p683
+VGuido van Robot
+p684
+sS'http://dbpedia.org/resource/Category:Query_languages'
+p685
+VQuery languages
+p686
+sS'http://dbpedia.org/resource/Category:2012_software'
+p687
+V2012 software
+p688
+sS'http://dbpedia.org/resource/Category:1990_in_computer_science'
+p689
+V1990 in computer science
+p690
+sS'http://dbpedia.org/property/typing'
+p691
+Vtyping
+p692
+sS'http://dbpedia.org/resource/Category:Fortran'
+p693
+VFortran
+p694
+sS'http://dbpedia.org/resource/AutoHotkey'
+p695
+VAutoHotkey
+p696
+sS'http://dbpedia.org/resource/Category:Health_informatics'
+p697
+VHealth informatics
+p698
+sS'http://dbpedia.org/resource/Category:Source-to-source_compilers'
+p699
+VSource-to-source compilers
+p700
+sS'http://dbpedia.org/resource/Steve_Omohundro'
+p701
+VSteve Omohundro
+p702
+sS'http://dbpedia.org/resource/Category:Literate_programming'
+p703
+VLiterate programming
+p704
+sS'http://dbpedia.org/resource/Adele_Goldberg_(computer_scientist)'
+p705
+VAdele Goldberg (computer scientist)
+p706
+sS'http://dbpedia.org/resource/John_Hughes_(computer_scientist)'
+p707
+VJohn Hughes (computer scientist)
+p708
+sS'http://dbpedia.org/resource/Lua_(programming_language)'
+p709
+VLua (programming language)
+p710
+sS'http://dbpedia.org/resource/Category:Apple_Inc._software'
+p711
+VApple Inc. software
+p712
+sS'http://dbpedia.org/resource/Category:IBM_mainframe_operating_systems'
+p713
+VIBM mainframe operating systems
+p714
+sS'http://dbpedia.org/resource/Walter_Bright'
+p715
+VWalter Bright
+p716
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_by_women'
+p717
+VProgramming languages created by women
+p718
+sS'http://dbpedia.org/resource/Category:Programming_languages'
+p719
+VProgramming languages
+p720
+sS'http://dbpedia.org/resource/Category:Microsoft_BASIC'
+p721
+VMicrosoft BASIC
+p722
+sS'http://dbpedia.org/resource/PL/I'
+p723
+VPL/I
+p724
+sS'http://dbpedia.org/resource/Category:1972_in_computer_science'
+p725
+V1972 in computer science
+p726
+sS'http://dbpedia.org/resource/Category:Concatenative_programming_languages'
+p727
+VConcatenative programming languages
+p728
+sS'http://dbpedia.org/resource/Python_(programming_language)'
+p729
+VPython (programming language)
+p730
+sS'http://dbpedia.org/resource/Category:Free_software_programmed_in_Haskell'
+p731
+VFree software programmed in Haskell
+p732
+sS'http://dbpedia.org/resource/Coq'
+p733
+VCoq
+p734
+sS'http://dbpedia.org/resource/Category:Chalmers_University_of_Technology'
+p735
+VChalmers University of Technology
+p736
+sS'http://dbpedia.org/resource/GW-BASIC'
+p737
+VGW-BASIC
+p738
+sS'http://dbpedia.org/resource/Category:NeXT'
+p739
+VNeXT
+p740
+sS'http://dbpedia.org/resource/SQL/PSM'
+p741
+VSQL/PSM
+p742
+sS'http://dbpedia.org/resource/Information_Processing_Language'
+p743
+VInformation Processing Language
+p744
+sS'http://dbpedia.org/resource/French_Institute_for_Research_in_Computer_Science_and_Automation'
+p745
+VFrench Institute for Research in Computer Science and Automation
+p746
+sS'http://dbpedia.org/resource/Category:Computer_algebra_system_software_for_Linux'
+p747
+VComputer algebra system software for Linux
+p748
+sS'http://dbpedia.org/resource/Vita_Nuova_Holdings'
+p749
+VVita Nuova Holdings
+p750
+sS'http://dbpedia.org/resource/University_of_Waikato'
+p751
+VUniversity of Waikato
+p752
+sS'http://dbpedia.org/ontology/Device'
+p753
+Vdevice
+p754
+sS'http://dbpedia.org/resource/Peter_Naur'
+p755
+VPeter Naur
+p756
+sS'http://dbpedia.org/resource/German_Empire'
+p757
+VGerman Empire
+p758
+sS'http://dbpedia.org/resource/Category:Mac_OS_development'
+p759
+VMac OS development
+p760
+sS'http://dbpedia.org/resource/Category:Science_software'
+p761
+VScience software
+p762
+sS'http://dbpedia.org/resource/Andrei_Alexandrescu'
+p763
+VAndrei Alexandrescu
+p764
+sS'http://dbpedia.org/resource/Category:BASIC_compilers'
+p765
+VBASIC compilers
+p766
+sS'http://dbpedia.org/resource/Category:1995_in_computer_science'
+p767
+V1995 in computer science
+p768
+sS'http://dbpedia.org/resource/Strong_and_weak_typing'
+p769
+VStrong and weak typing
+p770
+sS'http://dbpedia.org/resource/CMS-2_(programming_language)'
+p771
+VCMS-2 (programming language)
+p772
+sS'http://dbpedia.org/resource/Singularity_(operating_system)'
+p773
+VSingularity (operating system)
+p774
+sS'http://dbpedia.org/resource/Category:Smalltalk_programming_language_family'
+p775
+VSmalltalk programming language family
+p776
+sS'http://dbpedia.org/resource/Category:Software_modeling_language'
+p777
+VSoftware modeling language
+p778
+sS'http://dbpedia.org/resource/Brad_Cox'
+p779
+VBrad Cox
+p780
+sS'http://dbpedia.org/resource/VAX-11'
+p781
+VVAX-11
+p782
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_the_20th_century'
+p783
+VProgramming languages created in the 20th century
+p784
+sS'http://dbpedia.org/resource/Cross-platform'
+p785
+VCross-platform
+p786
+sS'http://dbpedia.org/resource/Massachusetts_Institute_of_Technology'
+p787
+VMassachusetts Institute of Technology
+p788
+sS'http://dbpedia.org/resource/Category:Java_(programming_language)'
+p789
+VJava (programming language)
+p790
+sS'http://dbpedia.org/resource/Lee_E._McMahon'
+p791
+VLee E. McMahon
+p792
+sS'http://dbpedia.org/resource/Heinz_Rutishauser'
+p793
+VHeinz Rutishauser
+p794
+sS'http://dbpedia.org/resource/Category:Proprietary_database_management_systems'
+p795
+VProprietary database management systems
+p796
+sS'http://dbpedia.org/resource/Type_system'
+p797
+VType system
+p798
+sS'http://dbpedia.org/resource/Polymorphism_(computer_science)'
+p799
+VPolymorphism (computer science)
+p800
+sS'http://dbpedia.org/ontology/Scientist'
+p801
+Vscientist
+p802
+sS'http://dbpedia.org/resource/Dennis_Ritchie'
+p803
+VDennis Ritchie
+p804
+sS'http://dbpedia.org/resource/Category:Microsoft_Research'
+p805
+VMicrosoft Research
+p806
+sS'http://dbpedia.org/resource/Springfield,_Massachusetts'
+p807
+VSpringfield, Massachusetts
+p808
+sS'http://dbpedia.org/resource/Category:University_of_Cambridge_Computer_Laboratory'
+p809
+VUniversity of Cambridge Computer Laboratory
+p810
+sS'http://dbpedia.org/resource/Lucid_(programming_language)'
+p811
+VLucid (programming language)
+p812
+sS'http://dbpedia.org/resource/Category:Rust_(programming_language)'
+p813
+VRust (programming language)
+p814
+sS'http://dbpedia.org/resource/Bronxville,_New_York'
+p815
+VBronxville, New York
+p816
+sS'http://dbpedia.org/resource/Larry_Wall'
+p817
+VLarry Wall
+p818
+sS'http://dbpedia.org/resource/Category:Dynamically_typed_programming_languages'
+p819
+VDynamically typed programming languages
+p820
+sS'http://dbpedia.org/resource/ActionScript'
+p821
+VActionScript
+p822
+sS'http://dbpedia.org/resource/Category:Object-oriented_programming_languages'
+p823
+VObject-oriented programming languages
+p824
+sS'http://dbpedia.org/resource/Category:GNU_Project_software'
+p825
+VGNU Project software
+p826
+sS'http://dbpedia.org/resource/ALGOL_W'
+p827
+VALGOL W
+p828
+sS'http://dbpedia.org/resource/Agda_(programming_language)'
+p829
+VAgda (programming language)
+p830
+sS'http://dbpedia.org/resource/JOHNNIAC'
+p831
+VJOHNNIAC
+p832
+sS'http://dbpedia.org/resource/Object_Oberon'
+p833
+VObject Oberon
+p834
+sS'http://dbpedia.org/resource/Category:1982_establishments_in_Ontario'
+p835
+V1982 establishments in Ontario
+p836
+sS'http://dbpedia.org/resource/Category:Proof_assistants'
+p837
+VProof assistants
+p838
+sS'http://dbpedia.org/resource/Fortran'
+p839
+VFortran
+p840
+sS'http://dbpedia.org/resource/Objective-C'
+p841
+VObjective-C
+p842
+sS'http://dbpedia.org/resource/Wally_Feurzeig'
+p843
+VWally Feurzeig
+p844
+sS'http://dbpedia.org/resource/Rust_(programming_language)'
+p845
+VRust (programming language)
+p846
+sS'http://dbpedia.org/resource/Category:MUD_programming_languages'
+p847
+VMUD programming languages
+p848
+sS'http://dbpedia.org/resource/Category:CodeGear_software'
+p849
+VCodeGear software
+p850
+sS'http://dbpedia.org/resource/Berlin'
+p851
+VBerlin
+p852
+sS'http://dbpedia.org/resource/Category:Stylesheet_languages'
+p853
+VStylesheet languages
+p854
+sS'http://dbpedia.org/resource/Strasbourg'
+p855
+VStrasbourg
+p856
+sS'http://dbpedia.org/resource/Category:Simulation_software'
+p857
+VSimulation software
+p858
+sS'http://dbpedia.org/resource/Category:Constraint_programming'
+p859
+VConstraint programming
+p860
+sS'http://dbpedia.org/resource/Category:Modula_programming_language_family'
+p861
+VModula programming language family
+p862
+sS'http://dbpedia.org/resource/QuickBASIC'
+p863
+VQuickBASIC
+p864
+sS'http://dbpedia.org/resource/Opa_(programming_language)'
+p865
+VOpa (programming language)
+p866
+sS'http://dbpedia.org/resource/Category:R6RS_Scheme'
+p867
+VR6RS Scheme
+p868
+sS'http://dbpedia.org/resource/Category:Educational_programming_languages'
+p869
+VEducational programming languages
+p870
+sS'http://dbpedia.org/resource/R_(programming_language)'
+p871
+VR (programming language)
+p872
+sS'http://dbpedia.org/resource/Category:C_(programming_language)'
+p873
+VC (programming language)
+p874
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_the_1950s'
+p875
+VProgramming languages created in the 1950s
+p876
+sS'http://dbpedia.org/resource/Processing_(programming_language)'
+p877
+VProcessing (programming language)
+p878
+sS'http://dbpedia.org/resource/Category:ISO_standards'
+p879
+VISO standards
+p880
+sS'http://dbpedia.org/resource/Xojo'
+p881
+VXojo
+p882
+sS'http://dbpedia.org/resource/Elm_(programming_language)'
+p883
+VElm (programming language)
+p884
+sS'http://dbpedia.org/resource/SISAL'
+p885
+VSISAL
+p886
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2004'
+p887
+VProgramming languages created in 2004
+p888
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2005'
+p889
+VProgramming languages created in 2005
+p890
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2006'
+p891
+VProgramming languages created in 2006
+p892
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2007'
+p893
+VProgramming languages created in 2007
+p894
+sS'http://dbpedia.org/resource/Category:COBOL'
+p895
+VCOBOL
+p896
+sS'http://dbpedia.org/resource/Python_Software_Foundation'
+p897
+VPython Software Foundation
+p898
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2002'
+p899
+VProgramming languages created in 2002
+p900
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2003'
+p901
+VProgramming languages created in 2003
+p902
+sS'http://dbpedia.org/resource/James_Cordy'
+p903
+VJames Cordy
+p904
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2008'
+p905
+VProgramming languages created in 2008
+p906
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2009'
+p907
+VProgramming languages created in 2009
+p908
+sS'http://dbpedia.org/resource/Q_(programming_language_from_Kx_Systems)'
+p909
+VQ (programming language from Kx Systems)
+p910
+sS'http://dbpedia.org/resource/Martin_Odersky'
+p911
+VMartin Odersky
+p912
+sS'http://dbpedia.org/resource/Category:Video_game_development_software'
+p913
+VVideo game development software
+p914
+sS'http://dbpedia.org/resource/Charles_Katz'
+p915
+VCharles Katz
+p916
+sS'http://dbpedia.org/resource/Category:Functional_logic_programming_languages'
+p917
+VFunctional logic programming languages
+p918
+sS'http://dbpedia.org/resource/David_Moon'
+p919
+VDavid Moon
+p920
+sS'http://dbpedia.org/ontology/designer'
+p921
+Vdesigner
+p922
+sS'http://dbpedia.org/resource/Category:IEEE_DASC_standards'
+p923
+VIEEE DASC standards
+p924
+sS'http://dbpedia.org/resource/Gilad_Bracha'
+p925
+VGilad Bracha
+p926
+sS'http://dbpedia.org/resource/Stephen_White'
+p927
+VStephen White
+p928
+sS'http://dbpedia.org/resource/Jean_Ichbiah'
+p929
+VJean Ichbiah
+p930
+sS'http://dbpedia.org/resource/Visual_Basic_.NET'
+p931
+VVisual Basic .NET
+p932
+sS'http://dbpedia.org/resource/Category:JavaScript_programming_language_family'
+p933
+VJavaScript programming language family
+p934
+sS'http://dbpedia.org/resource/Motorola_6809'
+p935
+VMotorola 6809
+p936
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_the_1960s'
+p937
+VProgramming languages created in the 1960s
+p938
+sS'http://dbpedia.org/resource/IBM_650'
+p939
+VIBM 650
+p940
+sS'http://dbpedia.org/resource/Category:Programming_languages_with_an_ISO_standard'
+p941
+VProgramming languages with an ISO standard
+p942
+sS'http://dbpedia.org/resource/Category:Plan_9_from_Bell_Labs'
+p943
+VPlan 9 from Bell Labs
+p944
+sS'http://dbpedia.org/resource/Modula-2'
+p945
+VModula-2
+p946
+sS'http://dbpedia.org/resource/Category:Internet_terminology'
+p947
+VInternet terminology
+p948
+sS'http://dbpedia.org/resource/Etoys_(programming_language)'
+p949
+VEtoys (programming language)
+p950
+sS'http://dbpedia.org/resource/Bertrand_Meyer'
+p951
+VBertrand Meyer
+p952
+sS'http://dbpedia.org/resource/Peter_J._Weinberger'
+p953
+VPeter J. Weinberger
+p954
+sS'http://dbpedia.org/property/developer'
+p955
+Vdeveloper
+p956
+sS'http://dbpedia.org/resource/Category:XML_data_access'
+p957
+VXML data access
+p958
+sS'http://dbpedia.org/resource/Category:Scheme_(programming_language)'
+p959
+VScheme (programming language)
+p960
+sS'http://dbpedia.org/resource/Concepts_(C++)'
+p961
+VConcepts (C++)
+p962
+sS'http://dbpedia.org/resource/Netscape'
+p963
+VNetscape
+p964
+sS'http://dbpedia.org/resource/BeanShell'
+p965
+VBeanShell
+p966
+sS'http://dbpedia.org/resource/Clean_(programming_language)'
+p967
+VClean (programming language)
+p968
+sS'http://dbpedia.org/resource/IOS'
+p969
+VIOS
+p970
+sS'http://dbpedia.org/resource/AutoIt'
+p971
+VAutoIt
+p972
+sS'http://dbpedia.org/resource/Julia_(programming_language)'
+p973
+VJulia (programming language)
+p974
+sS'http://dbpedia.org/resource/Category:Audio_programming_languages'
+p975
+VAudio programming languages
+p976
+sS'http://dbpedia.org/resource/MOO_(programming_language)'
+p977
+VMOO (programming language)
+p978
+sS'http://dbpedia.org/resource/Category:Statistical_programming_languages'
+p979
+VStatistical programming languages
+p980
+sS'http://dbpedia.org/resource/Category:High-level_programming_languages'
+p981
+VHigh-level programming languages
+p982
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1989'
+p983
+VProgramming languages created in 1989
+p984
+sS'http://dbpedia.org/resource/Category:Formal_methods'
+p985
+VFormal methods
+p986
+sS'http://dbpedia.org/resource/Denmark'
+p987
+VDenmark
+p988
+sS'http://dbpedia.org/resource/Alan_Kay'
+p989
+VAlan Kay
+p990
+sS'http://dbpedia.org/resource/MUMPS'
+p991
+VMUMPS
+p992
+sS'http://dbpedia.org/resource/Category:Adobe_Flash'
+p993
+VAdobe Flash
+p994
+sS'http://dbpedia.org/resource/Category:Free_plotting_software'
+p995
+VFree plotting software
+p996
+sS'http://dbpedia.org/resource/SubL'
+p997
+VSubL
+p998
+sS'http://dbpedia.org/resource/Scott_Fahlman'
+p999
+S'/Scott Fahlman'
+p1000
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Scheme_code'
+p1001
+VArticles with example Scheme code
+p1002
+sS'http://dbpedia.org/resource/Haarlem'
+p1003
+S'/Haarlem'
+p1004
+sS'http://dbpedia.org/resource/Mozilla_Foundation'
+p1005
+VMozilla Foundation
+p1006
+sS'http://dbpedia.org/resource/Hank_Levy_(computer_scientist)'
+p1007
+VHank Levy (computer scientist)
+p1008
+sS'http://dbpedia.org/resource/Category:Declarative_programming_languages'
+p1009
+VDeclarative programming languages
+p1010
+sS'http://dbpedia.org/resource/Category:Formerly_proprietary_software'
+p1011
+VFormerly proprietary software
+p1012
+sS'http://dbpedia.org/resource/Category:Free_software_programmed_in_C'
+p1013
+VFree software programmed in C
+p1014
+sS'http://dbpedia.org/resource/Harbour_(software)'
+p1015
+VHarbour (software)
+p1016
+sS'http://dbpedia.org/resource/Category:Software_synthesizers'
+p1017
+VSoftware synthesizers
+p1018
+sS'http://dbpedia.org/resource/Category:Ecma_standards'
+p1019
+VEcma standards
+p1020
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Perl_code'
+p1021
+VArticles with example Perl code
+p1022
+sS'http://dbpedia.org/resource/Category:Regression_and_curve_fitting_software'
+p1023
+VRegression and curve fitting software
+p1024
+sS'http://dbpedia.org/resource/COMAL'
+p1025
+VCOMAL
+p1026
+sS'http://dbpedia.org/resource/Category:User_interface_markup_languages'
+p1027
+VUser interface markup languages
+p1028
+sS'http://dbpedia.org/resource/Canada'
+p1029
+VCanada
+p1030
+sS'http://dbpedia.org/resource/University_of_California,_Berkeley'
+p1031
+VUniversity of California, Berkeley
+p1032
+sS'http://dbpedia.org/resource/Cool_(programming_language)'
+p1033
+VCool (programming language)
+p1034
+sS'http://dbpedia.org/resource/Joy_(programming_language)'
+p1035
+VJoy (programming language)
+p1036
+sS'http://dbpedia.org/resource/Digital_Mars'
+p1037
+VDigital Mars
+p1038
+sS'http://dbpedia.org/resource/Category:Free_computer_libraries'
+p1039
+VFree computer libraries
+p1040
+sS'http://dbpedia.org/resource/Windows_PowerShell'
+p1041
+VWindows PowerShell
+p1042
+sS'http://dbpedia.org/resource/DBase'
+p1043
+VDBase
+p1044
+sS'http://dbpedia.org/resource/Visual_Basic'
+p1045
+VVisual Basic
+p1046
+sS'http://dbpedia.org/resource/Category:Articles_with_example_code'
+p1047
+VArticles with example code
+p1048
+sS'http://dbpedia.org/resource/Pure_Data'
+p1049
+VPure Data
+p1050
+sS'http://dbpedia.org/resource/Category:Class-based_programming_languages'
+p1051
+VClass-based programming languages
+p1052
+sS'http://dbpedia.org/resource/Category:Windows_administration'
+p1053
+VWindows administration
+p1054
+sS'http://dbpedia.org/resource/Monkey_X'
+p1055
+VMonkey X
+p1056
+sS'http://dbpedia.org/resource/Category:Free_and_open-source_software_licenses'
+p1057
+VFree and open-source software licenses
+p1058
+sS'http://dbpedia.org/resource/Category:Agent-based_software'
+p1059
+VAgent-based software
+p1060
+sS'http://dbpedia.org/resource/Carnegie_Mellon_University'
+p1061
+VCarnegie Mellon University
+p1062
+sS'http://dbpedia.org/resource/Category:Stack-oriented_programming_languages'
+p1063
+VStack-oriented programming languages
+p1064
+sS'http://dbpedia.org/resource/Euclid_(programming_language)'
+p1065
+VEuclid (programming language)
+p1066
+sS'http://dbpedia.org/resource/Oracle_Corporation'
+p1067
+VOracle Corporation
+p1068
+sS'http://dbpedia.org/resource/BASIC'
+p1069
+VBASIC
+p1070
+sS'http://dbpedia.org/resource/Category:SNOBOL_programming_language_family'
+p1071
+VSNOBOL programming language family
+p1072
+sS'http://dbpedia.org/resource/Category:XBase_programming_language_family'
+p1073
+VXBase programming language family
+p1074
+sS'http://dbpedia.org/resource/Category:MIT_Media_Lab'
+p1075
+VMIT Media Lab
+p1076
+sS'http://dbpedia.org/resource/Category:Software_using_the_PHP_license'
+p1077
+VSoftware using the PHP license
+p1078
+sS'http://dbpedia.org/resource/Smalltalk'
+p1079
+VSmalltalk
+p1080
+sS'http://dbpedia.org/resource/Ken_Thompson'
+p1081
+VKen Thompson
+p1082
+sS'http://dbpedia.org/resource/Category:Alan_Turing'
+p1083
+VAlan Turing
+p1084
+sS'http://dbpedia.org/resource/Racket_(programming_language)'
+p1085
+VRacket (programming language)
+p1086
+sS'http://dbpedia.org/resource/Category:Software_using_the_Artistic_license'
+p1087
+S'/Category:Software using the Artistic license'
+p1088
+sS'http://dbpedia.org/resource/Socialist_Republic_of_Romania'
+p1089
+VSocialist Republic of Romania
+p1090
+sS'http://dbpedia.org/resource/Perl_6'
+p1091
+VPerl 6
+p1092
+sS'http://dbpedia.org/resource/Pike_(programming_language)'
+p1093
+VPike (programming language)
+p1094
+sS'http://dbpedia.org/resource/Category:Concurrent_programming_languages'
+p1095
+VConcurrent programming languages
+p1096
+sS'http://dbpedia.org/resource/Structural_type_system'
+p1097
+VStructural type system
+p1098
+sS'http://dbpedia.org/resource/B_(programming_language)'
+p1099
+VB (programming language)
+p1100
+sS'http://dbpedia.org/resource/Category:Numerical_analysis_software_for_OS_X'
+p1101
+VNumerical analysis software for OS X
+p1102
+sS'http://dbpedia.org/resource/MUF_(programming_language)'
+p1103
+VMUF (programming language)
+p1104
+sS'http://dbpedia.org/resource/Karel_(programming_language)'
+p1105
+VKarel (programming language)
+p1106
+sS'http://dbpedia.org/resource/IBM_i_Control_Language'
+p1107
+VIBM i Control Language
+p1108
+sS'http://dbpedia.org/resource/Category:MUMPS_programming_language'
+p1109
+VMUMPS programming language
+p1110
+sS'http://dbpedia.org/resource/LPC_(programming_language)'
+p1111
+VLPC (programming language)
+p1112
+sS'http://dbpedia.org/resource/Category:Numerical_linear_algebra'
+p1113
+VNumerical linear algebra
+p1114
+sS'http://dbpedia.org/resource/Category:Electronic_music_software'
+p1115
+VElectronic music software
+p1116
+sS'http://dbpedia.org/resource/Philip_Wadler'
+p1117
+VPhilip Wadler
+p1118
+sS'http://dbpedia.org/resource/Limbo_(programming_language)'
+p1119
+VLimbo (programming language)
+p1120
+sS'http://dbpedia.org/resource/Eiffel_Software'
+p1121
+VEiffel Software
+p1122
+sS'http://dbpedia.org/resource/Category:Pascal_(programming_language)'
+p1123
+VPascal (programming language)
+p1124
+sS'http://dbpedia.org/resource/QBasic'
+p1125
+VQBasic
+p1126
+sS'http://dbpedia.org/resource/Polymorphic_Programming_Language'
+p1127
+VPolymorphic Programming Language
+p1128
+sS'http://dbpedia.org/resource/Category:Apple_Inc.'
+p1129
+VApple Inc.
+p1130
+sS'http://dbpedia.org/resource/Category:Scripting_languages'
+p1131
+VScripting languages
+p1132
+sS'http://dbpedia.org/resource/Category:Software_using_the_PSF_license'
+p1133
+VSoftware using the PSF license
+p1134
+sS'http://dbpedia.org/resource/Category:Proprietary_software'
+p1135
+VProprietary software
+p1136
+sS'http://dbpedia.org/resource/APL_(programming_language)'
+p1137
+VAPL (programming language)
+p1138
+sS'http://dbpedia.org/resource/Linux'
+p1139
+VLinux
+p1140
+sS'http://dbpedia.org/resource/Category:Xerox'
+p1141
+VXerox
+p1142
+sS'http://dbpedia.org/resource/Category:JavaScript_libraries'
+p1143
+VJavaScript libraries
+p1144
+sS'http://dbpedia.org/resource/Concurrent_Euclid'
+p1145
+VConcurrent Euclid
+p1146
+sS'http://dbpedia.org/resource/Tom_Duff'
+p1147
+VTom Duff
+p1148
+sS'http://dbpedia.org/resource/Category:Component-based_software_engineering'
+p1149
+VComponent-based software engineering
+p1150
+sS'http://dbpedia.org/resource/VHDL'
+p1151
+VVHDL
+p1152
+sS'http://dbpedia.org/resource/Category:Programming_tools_for_Windows'
+p1153
+VProgramming tools for Windows
+p1154
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Pascal_code'
+p1155
+VArticles with example Pascal code
+p1156
+sS'http://www.w3.org/2001/XMLSchema#date'
+p1157
+Vxsd:date
+p1158
+sS'http://dbpedia.org/resource/IBM_7090'
+p1159
+VIBM 7090
+p1160
+sS'http://dbpedia.org/resource/Wisconsin'
+p1161
+VWisconsin
+p1162
+sS'http://dbpedia.org/resource/Category:Mathematical_optimization'
+p1163
+S'/Category:Mathematical optimization'
+p1164
+sS'http://dbpedia.org/resource/Tcl'
+p1165
+VTcl
+p1166
+sS'http://dbpedia.org/resource/KL1'
+p1167
+VKL1
+p1168
+sS'http://dbpedia.org/resource/KL0'
+p1169
+VKL0
+p1170
+sS'http://dbpedia.org/resource/Yealmpton'
+p1171
+VYealmpton
+p1172
+sS'http://dbpedia.org/resource/OCaml'
+p1173
+VOCaml
+p1174
+sS'http://dbpedia.org/resource/Verilog'
+p1175
+VVerilog
+p1176
+sS'http://dbpedia.org/resource/Category:Free_educational_software'
+p1177
+VFree educational software
+p1178
+sS'http://dbpedia.org/resource/Richard_P._Gabriel'
+p1179
+VRichard P. Gabriel
+p1180
+sS'http://dbpedia.org/resource/Category:ALGOL_60_dialect'
+p1181
+VALGOL 60 dialect
+p1182
+sS'http://dbpedia.org/resource/Category:Unix_programming_tools'
+p1183
+VUnix programming tools
+p1184
+sS'http://dbpedia.org/resource/Stackless_Python'
+p1185
+VStackless Python
+p1186
+sS'http://dbpedia.org/resource/Ontario'
+p1187
+VOntario
+p1188
+sS'http://dbpedia.org/resource/Category:Software_using_the_Mozilla_license'
+p1189
+VSoftware using the Mozilla license
+p1190
+sS'http://dbpedia.org/resource/Ioke_(programming_language)'
+p1191
+VIoke (programming language)
+p1192
+sS'http://dbpedia.org/resource/AtScript'
+p1193
+VAtScript
+p1194
+sS'http://dbpedia.org/resource/Category:Google_software'
+p1195
+VGoogle software
+p1196
+sS'http://dbpedia.org/resource/Category:Numerical_software'
+p1197
+VNumerical software
+p1198
+sS'http://dbpedia.org/resource/Type_safety'
+p1199
+VType safety
+p1200
+sS'http://dbpedia.org/resource/Category:Microsoft_software'
+p1201
+VMicrosoft software
+p1202
+sS'http://dbpedia.org/resource/California'
+p1203
+VCalifornia
+p1204
+sS'http://dbpedia.org/resource/Turing+'
+p1205
+VTuring+
+p1206
+sS'http://dbpedia.org/resource/Microsoft'
+p1207
+VMicrosoft
+p1208
+sS'http://dbpedia.org/resource/SHARE_(computing)'
+p1209
+VSHARE (computing)
+p1210
+sS'http://dbpedia.org/resource/Wayne_Ratliff'
+p1211
+VWayne Ratliff
+p1212
+sS'http://dbpedia.org/resource/Eiffel_(programming_language)'
+p1213
+VEiffel (programming language)
+p1214
+sS'http://dbpedia.org/resource/Category:1995_introductions'
+p1215
+V1995 introductions
+p1216
+sS'http://www.w3.org/2001/XMLSchema#gYear'
+p1217
+Vxsd:gYear
+p1218
+sS'http://dbpedia.org/resource/New_Orleans'
+p1219
+VNew Orleans
+p1220
+sS'http://dbpedia.org/resource/Boo_(programming_language)'
+p1221
+VBoo (programming language)
+p1222
+sS'http://dbpedia.org/resource/PL/SQL'
+p1223
+VPL/SQL
+p1224
+sS'http://dbpedia.org/resource/Category:Software_using_the_LGPL_license'
+p1225
+VSoftware using the LGPL license
+p1226
+sS'http://dbpedia.org/resource/Category:1979_software'
+p1227
+V1979 software
+p1228
+sS'http://dbpedia.org/resource/Category:C++_programming_language_family'
+p1229
+VC++ programming language family
+p1230
+sS'http://dbpedia.org/resource/Jacob_T._Schwartz'
+p1231
+VJacob T. Schwartz
+p1232
+sS'http://dbpedia.org/resource/Category:PHP'
+p1233
+VPHP
+p1234
+sS'http://dbpedia.org/resource/Nim_(programming_language)'
+p1235
+VNim (programming language)
+p1236
+sS'http://dbpedia.org/resource/Agora_(programming_language)'
+p1237
+VAgora (programming language)
+p1238
+sS'http://dbpedia.org/resource/Category:Icon_programming_language_family'
+p1239
+VIcon programming language family
+p1240
+sS'http://dbpedia.org/resource/Category:Database-related_software_for_Linux'
+p1241
+VDatabase-related software for Linux
+p1242
+sS'http://dbpedia.org/resource/Visual_Prolog'
+p1243
+VVisual Prolog
+p1244
+sS'http://dbpedia.org/resource/K_(programming_language)'
+p1245
+VK (programming language)
+p1246
+sS'http://dbpedia.org/resource/Category:Object-oriented_programming'
+p1247
+VObject-oriented programming
+p1248
+sS'http://dbpedia.org/resource/Category:1967_in_robotics'
+p1249
+V1967 in robotics
+p1250
+sS'http://dbpedia.org/resource/Category:Functional_programming'
+p1251
+VFunctional programming
+p1252
+sS'http://dbpedia.org/resource/Ric_Holt'
+p1253
+VRic Holt
+p1254
+sS'http://dbpedia.org/resource/Unicon_(programming_language)'
+p1255
+VUnicon (programming language)
+p1256
+sS'http://dbpedia.org/resource/Category:Logic_programming_languages'
+p1257
+VLogic programming languages
+p1258
+sS'http://dbpedia.org/resource/Alsace-Lorraine'
+p1259
+VAlsace-Lorraine
+p1260
+sS'http://dbpedia.org/resource/Category:BASIC_programming_language_family'
+p1261
+VBASIC programming language family
+p1262
+sS'http://dbpedia.org/resource/Korn_shell'
+p1263
+VKorn shell
+p1264
+sS'http://dbpedia.org/resource/Category:Numerical_analysis_software_for_Linux'
+p1265
+VNumerical analysis software for Linux
+p1266
+sS'http://dbpedia.org/resource/Category:Procedural_programming_languages'
+p1267
+S'/Category:Procedural programming languages'
+p1268
+sS'http://dbpedia.org/resource/Category:Dependently_typed_languages'
+p1269
+VDependently typed languages
+p1270
+sS'http://dbpedia.org/resource/Category:Free_software_projects'
+p1271
+VFree software projects
+p1272
+sS'http://dbpedia.org/resource/Category:Java_specification_requests'
+p1273
+VJava specification requests
+p1274
+sS'http://dbpedia.org/resource/C_(programming_language)'
+p1275
+VC (programming language)
+p1276
+sS'http://dbpedia.org/resource/Brendan_Eich'
+p1277
+VBrendan Eich
+p1278
+sS'http://dbpedia.org/resource/Nial'
+p1279
+VNial
+p1280
+sS'http://dbpedia.org/resource/AMPL'
+p1281
+VAMPL
+p1282
+sS'http://dbpedia.org/resource/Category:Avionics_programming_languages'
+p1283
+VAvionics programming languages
+p1284
+sS'http://dbpedia.org/resource/ISLISP'
+p1285
+VISLISP
+p1286
+sS'http://dbpedia.org/resource/GameMonkey_Script'
+p1287
+VGameMonkey Script
+p1288
+sS'http://dbpedia.org/resource/Category:Articles_with_example_JavaScript_code'
+p1289
+VArticles with example JavaScript code
+p1290
+sS'http://dbpedia.org/resource/J_Sharp'
+p1291
+VJ Sharp
+p1292
+sS'http://dbpedia.org/resource/Category:Pattern_matching_programming_languages'
+p1293
+VPattern matching programming languages
+p1294
+sS'http://dbpedia.org/resource/Category:Software_using_the_Apache_license'
+p1295
+VSoftware using the Apache license
+p1296
+sS'http://dbpedia.org/resource/Konrad_Zuse'
+p1297
+VKonrad Zuse
+p1298
+sS'http://dbpedia.org/resource/Category:1970_in_computer_science'
+p1299
+V1970 in computer science
+p1300
+sS'http://dbpedia.org/resource/Category:Mozilla'
+p1301
+VMozilla
+p1302
+sS'http://dbpedia.org/resource/Category:Text-oriented_programming_languages'
+p1303
+VText-oriented programming languages
+p1304
+sS'http://dbpedia.org/resource/Erik_Meijer_(computer_scientist)'
+p1305
+VErik Meijer (computer scientist)
+p1306
+sS'http://dbpedia.org/resource/Category:Statistical_software'
+p1307
+VStatistical software
+p1308
+sS'http://dbpedia.org/resource/Category:JVM_programming_languages'
+p1309
+VJVM programming languages
+p1310
+sS'http://dbpedia.org/resource/Daniel_Henry_Holmes_Ingalls,_Jr.'
+p1311
+VDaniel Henry Holmes Ingalls, Jr.
+p1312
+sS'http://dbpedia.org/resource/Mesa_(programming_language)'
+p1313
+VMesa (programming language)
+p1314
+sS'http://dbpedia.org/resource/Miranda_(programming_language)'
+p1315
+VMiranda (programming language)
+p1316
+sS'http://dbpedia.org/resource/FLOW-MATIC'
+p1317
+VFLOW-MATIC
+p1318
+sS'http://dbpedia.org/resource/England'
+p1319
+VEngland
+p1320
+sS'http://dbpedia.org/resource/Generic_Java'
+p1321
+VGeneric Java
+p1322
+sS'http://dbpedia.org/resource/Category:Free_audio_software'
+p1323
+VFree audio software
+p1324
+sS'http://dbpedia.org/resource/Category:Type_systems'
+p1325
+VType systems
+p1326
+sS'http://dbpedia.org/resource/Category:4GL'
+p1327
+V4GL
+p1328
+sS'http://dbpedia.org/resource/Lustre_(programming_language)'
+p1329
+VLustre (programming language)
+p1330
+sS'http://dbpedia.org/resource/Courant_Institute_of_Mathematical_Sciences'
+p1331
+VCourant Institute of Mathematical Sciences
+p1332
+sS'http://dbpedia.org/resource/Category:Free_statistical_software'
+p1333
+VFree statistical software
+p1334
+sS'http://dbpedia.org/resource/Klaus_Samelson'
+p1335
+VKlaus Samelson
+p1336
+sS'http://dbpedia.org/resource/Category:Cross-platform_software'
+p1337
+VCross-platform software
+p1338
+sS'http://dbpedia.org/resource/Category:Stack-based_virtual_machines'
+p1339
+VStack-based virtual machines
+p1340
+sS'http://dbpedia.org/resource/Hampstead'
+p1341
+VHampstead
+p1342
+sS'http://dbpedia.org/resource/Alan_Perlis'
+p1343
+VAlan Perlis
+p1344
+sS'http://dbpedia.org/resource/Category:Large-scale_mathematical_formalization_projects'
+p1345
+VLarge-scale mathematical formalization projects
+p1346
+sS'http://dbpedia.org/resource/Category:IBM_personal_computers'
+p1347
+VIBM personal computers
+p1348
+sS'http://dbpedia.org/resource/TELCOMP'
+p1349
+VTELCOMP
+p1350
+sS'http://dbpedia.org/resource/Category:Java_platform'
+p1351
+VJava platform
+p1352
+sS'http://dbpedia.org/resource/Rob_Pike'
+p1353
+VRob Pike
+p1354
+sS'http://dbpedia.org/resource/Steven_Pemberton'
+p1355
+VSteven Pemberton
+p1356
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1955'
+p1357
+VProgramming languages created in 1955
+p1358
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1954'
+p1359
+VProgramming languages created in 1954
+p1360
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1959'
+p1361
+VProgramming languages created in 1959
+p1362
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1958'
+p1363
+VProgramming languages created in 1958
+p1364
+sS'http://dbpedia.org/resource/Category:Extensible_syntax_programming_languages'
+p1365
+VExtensible syntax programming languages
+p1366
+sS'http://dbpedia.org/resource/CLU_(programming_language)'
+p1367
+VCLU (programming language)
+p1368
+sS'http://dbpedia.org/resource/MATLAB'
+p1369
+VMATLAB
+p1370
+sS'http://dbpedia.org/resource/AppleScript'
+p1371
+VAppleScript
+p1372
+sS'http://dbpedia.org/resource/Netherlands'
+p1373
+VNetherlands
+p1374
+sS'http://dbpedia.org/resource/POP-11'
+p1375
+VPOP-11
+p1376
+sS'http://dbpedia.org/resource/Alain_Colmerauer'
+p1377
+VAlain Colmerauer
+p1378
+sS'http://dbpedia.org/resource/Category:Time_series_software'
+p1379
+VTime series software
+p1380
+sS'http://dbpedia.org/resource/Category:Intensional_programming_languages'
+p1381
+VIntensional programming languages
+p1382
+sS'http://dbpedia.org/resource/Category:Computer_algebra_systems'
+p1383
+VComputer algebra systems
+p1384
+sS'http://dbpedia.org/resource/Type_inference'
+p1385
+VType inference
+p1386
+sS'http://dbpedia.org/resource/Category:Computer_graphics'
+p1387
+VComputer graphics
+p1388
+sS'http://dbpedia.org/resource/Category:Function-level_languages'
+p1389
+VFunction-level languages
+p1390
+sS'http://dbpedia.org/resource/Category:Structured_programming_languages'
+p1391
+VStructured programming languages
+p1392
+sS'http://dbpedia.org/resource/Ratfor'
+p1393
+VRatfor
+p1394
+sS'http://dbpedia.org/resource/Simula'
+p1395
+VSimula
+p1396
+sS'http://dbpedia.org/resource/Category:Cross-platform_free_software'
+p1397
+VCross-platform free software
+p1398
+sS'http://dbpedia.org/resource/Category:Common_Lisp'
+p1399
+VCommon Lisp
+p1400
+sS'http://dbpedia.org/resource/Microsoft_Windows'
+p1401
+VMicrosoft Windows
+p1402
+sS'http://dbpedia.org/resource/Category:SQL'
+p1403
+VSQL
+p1404
+sS'http://dbpedia.org/resource/Category:Data_processing'
+p1405
+VData processing
+p1406
+sS'http://dbpedia.org/resource/Category:Microsoft_development_tools'
+p1407
+VMicrosoft development tools
+p1408
+sS'http://dbpedia.org/resource/Category:Software_using_the_BSD_license'
+p1409
+VSoftware using the BSD license
+p1410
+sS'http://dbpedia.org/resource/Category:Perl_6'
+p1411
+VPerl 6
+p1412
+sS'http://dbpedia.org/resource/Category:Brazilian_inventions'
+p1413
+VBrazilian inventions
+p1414
+sS'http://dbpedia.org/resource/Category:IRIX_software'
+p1415
+VIRIX software
+p1416
+sS'http://dbpedia.org/resource/Category:High_Integrity_Programming_Language'
+p1417
+VHigh Integrity Programming Language
+p1418
+sS'http://dbpedia.org/resource/Category:Qt_(framework)'
+p1419
+VQt (framework)
+p1420
+sS'http://dbpedia.org/resource/D_(programming_language)'
+p1421
+VD (programming language)
+p1422
+sS'http://dbpedia.org/resource/Category:Linear_algebra'
+p1423
+VLinear algebra
+p1424
+sS'http://dbpedia.org/resource/Sault_Ste._Marie,_Michigan'
+p1425
+VSault Ste. Marie, Michigan
+p1426
+sS'http://dbpedia.org/resource/Category:Java_development_tools'
+p1427
+VJava development tools
+p1428
+sS'http://dbpedia.org/resource/F_Sharp_Software_Foundation'
+p1429
+VF Sharp Software Foundation
+p1430
+sS'http://dbpedia.org/resource/James_Gosling'
+p1431
+VJames Gosling
+p1432
+sS'http://dbpedia.org/resource/Bucharest'
+p1433
+VBucharest
+p1434
+sS'http://dbpedia.org/resource/Rebol'
+p1435
+VRebol
+p1436
+sS'http://dbpedia.org/resource/New_York'
+p1437
+VNew York
+p1438
+sS'http://dbpedia.org/resource/Category:BASIC_interpreters'
+p1439
+VBASIC interpreters
+p1440
+sS'http://dbpedia.org/resource/Factor_(programming_language)'
+p1441
+VFactor (programming language)
+p1442
+sS'http://dbpedia.org/resource/Category:Software_written_primarily_in_assembly_language'
+p1443
+VSoftware written primarily in assembly language
+p1444
+sS'http://dbpedia.org/resource/Language_Integrated_Query'
+p1445
+VLanguage Integrated Query
+p1446
+sS'http://dbpedia.org/resource/Dart_(programming_language)'
+p1447
+VDart (programming language)
+p1448
+sS'http://dbpedia.org/resource/Category:Object-based_programming_languages'
+p1449
+VObject-based programming languages
+p1450
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2013'
+p1451
+VProgramming languages created in 2013
+p1452
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2012'
+p1453
+VProgramming languages created in 2012
+p1454
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2011'
+p1455
+VProgramming languages created in 2011
+p1456
+sS'http://dbpedia.org/resource/Barbara_Liskov'
+p1457
+VBarbara Liskov
+p1458
+sS'http://dbpedia.org/resource/Category:AmigaOS_4_software'
+p1459
+VAmigaOS 4 software
+p1460
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_2014'
+p1461
+VProgramming languages created in 2014
+p1462
+sS'http://dbpedia.org/resource/Category:Public_domain_software'
+p1463
+VPublic domain software
+p1464
+sS'http://dbpedia.org/resource/Cleveland'
+p1465
+VCleveland
+p1466
+sS'http://dbpedia.org/resource/Category:2007_software'
+p1467
+V2007 software
+p1468
+sS'http://dbpedia.org/resource/Category:Logo_programming_language_family'
+p1469
+VLogo programming language family
+p1470
+sS'http://dbpedia.org/resource/Category:Proprietary_cross-platform_software'
+p1471
+VProprietary cross-platform software
+p1472
+sS'http://dbpedia.org/resource/DOS'
+p1473
+VDOS
+p1474
+sS'http://dbpedia.org/resource/David_Ungar'
+p1475
+VDavid Ungar
+p1476
+sS'http://dbpedia.org/resource/Richard_E._Pattis'
+p1477
+VRichard E. Pattis
+p1478
+sS'http://dbpedia.org/resource/Category:Software_using_the_MIT_license'
+p1479
+VSoftware using the MIT license
+p1480
+sS'http://dbpedia.org/property/operatingSystem'
+p1481
+Voperating system
+p1482
+sS'http://dbpedia.org/ontology/birthPlace'
+p1483
+Vbirth place
+p1484
+sS'http://dbpedia.org/resource/Simon_Peyton_Jones'
+p1485
+VSimon Peyton Jones
+p1486
+sS'http://dbpedia.org/resource/Objective-J'
+p1487
+VObjective-J
+p1488
+sS'http://dbpedia.org/ontology/OfficeHolder'
+p1489
+Voffice holder
+p1490
+sS'http://dbpedia.org/ontology/influenced'
+p1491
+Vinfluenced
+p1492
+sS'http://dbpedia.org/resource/Category:Algol_programming_language_family'
+p1493
+VAlgol programming language family
+p1494
+sS'http://dbpedia.org/resource/Category:Mathematical_software'
+p1495
+VMathematical software
+p1496
+sS'http://dbpedia.org/resource/Category:Persistent_programming_languages'
+p1497
+VPersistent programming languages
+p1498
+sS'http://dbpedia.org/resource/BBN_Technologies'
+p1499
+VBBN Technologies
+p1500
+sS'http://dbpedia.org/resource/Android_(operating_system)'
+p1501
+VAndroid (operating system)
+p1502
+sS'http://dbpedia.org/resource/Sun_Microsystems'
+p1503
+VSun Microsystems
+p1504
+sS'http://dbpedia.org/ontology/TopicalConcept'
+p1505
+Vtopical concept
+p1506
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1969'
+p1507
+VProgramming languages created in 1969
+p1508
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1962'
+p1509
+VProgramming languages created in 1962
+p1510
+sS'http://dbpedia.org/resource/Category:1990_software'
+p1511
+V1990 software
+p1512
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1966'
+p1513
+VProgramming languages created in 1966
+p1514
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1967'
+p1515
+VProgramming languages created in 1967
+p1516
+sS'http://dbpedia.org/resource/Category:Standard_Unix_programs'
+p1517
+VStandard Unix programs
+p1518
+sS'http://dbpedia.org/resource/Category:Tcl_programming_language_family'
+p1519
+VTcl programming language family
+p1520
+sS'http://dbpedia.org/resource/Pascal_(programming_language)'
+p1521
+VPascal (programming language)
+p1522
+sS'http://dbpedia.org/resource/XSB'
+p1523
+VXSB
+p1524
+sS'http://dbpedia.org/resource/Category:GTK+_language_bindings'
+p1525
+VGTK+ language bindings
+p1526
+sS'http://dbpedia.org/resource/Ada_(programming_language)'
+p1527
+VAda (programming language)
+p1528
+sS'http://dbpedia.org/resource/Category:MSX'
+p1529
+VMSX
+p1530
+sS'http://dbpedia.org/resource/Category:2012_introductions'
+p1531
+V2012 introductions
+p1532
+sS'http://dbpedia.org/resource/Category:Software_using_the_Academic_Free_License'
+p1533
+VSoftware using the Academic Free License
+p1534
+sS'http://dbpedia.org/resource/Category:Free_software_programmed_in_Scala'
+p1535
+VFree software programmed in Scala
+p1536
+sS'http://dbpedia.org/resource/Rc'
+p1537
+VRc
+p1538
+sS'http://dbpedia.org/resource/Modula'
+p1539
+VModula
+p1540
+sS'http://dbpedia.org/resource/Boston'
+p1541
+VBoston
+p1542
+sS'http://dbpedia.org/resource/ATS_(programming_language)'
+p1543
+VATS (programming language)
+p1544
+sS'http://dbpedia.org/resource/EuLisp'
+p1545
+VEuLisp
+p1546
+sS'http://dbpedia.org/resource/Roberto_Ierusalimschy'
+p1547
+VRoberto Ierusalimschy
+p1548
+sS'http://dbpedia.org/resource/Category:Dylan_(programming_language)'
+p1549
+VDylan (programming language)
+p1550
+sS'http://dbpedia.org/resource/JScript_.NET'
+p1551
+VJScript .NET
+p1552
+sS'http://dbpedia.org/resource/Lisp_(programming_language)'
+p1553
+VLisp (programming language)
+p1554
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1953'
+p1555
+VProgramming languages created in 1953
+p1556
+sS'http://dbpedia.org/resource/Category:JOSS_programming_language_family'
+p1557
+VJOSS programming language family
+p1558
+sS'http://dbpedia.org/resource/Datalog'
+p1559
+VDatalog
+p1560
+sS'http://dbpedia.org/resource/J_(programming_language)'
+p1561
+VJ (programming language)
+p1562
+sS'http://dbpedia.org/resource/Swift_(programming_language)'
+p1563
+VSwift (programming language)
+p1564
+sS'http://dbpedia.org/resource/Washington,_D.C.'
+p1565
+VWashington, D.C.
+p1566
+sS'http://dbpedia.org/resource/Emacs_Lisp'
+p1567
+VEmacs Lisp
+p1568
+sS'http://dbpedia.org/resource/PDP-11'
+p1569
+VPDP-11
+p1570
+sS'http://dbpedia.org/resource/Vala_(programming_language)'
+p1571
+VVala (programming language)
+p1572
+sS'http://dbpedia.org/resource/Plymouth'
+p1573
+VPlymouth
+p1574
+sS'http://dbpedia.org/resource/John_G._Kemeny'
+p1575
+VJohn G. Kemeny
+p1576
+sS'http://dbpedia.org/resource/Category:Filename_extensions'
+p1577
+VFilename extensions
+p1578
+sS'http://dbpedia.org/resource/Hampton_Catlin'
+p1579
+VHampton Catlin
+p1580
+sS'http://dbpedia.org/resource/Yukihiro_Matsumoto'
+p1581
+VYukihiro Matsumoto
+p1582
+sS'http://dbpedia.org/resource/Category:2001_introductions'
+p1583
+V2001 introductions
+p1584
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1981'
+p1585
+VProgramming languages created in 1981
+p1586
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1982'
+p1587
+VProgramming languages created in 1982
+p1588
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1983'
+p1589
+VProgramming languages created in 1983
+p1590
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1984'
+p1591
+VProgramming languages created in 1984
+p1592
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1985'
+p1593
+VProgramming languages created in 1985
+p1594
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1986'
+p1595
+VProgramming languages created in 1986
+p1596
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1987'
+p1597
+VProgramming languages created in 1987
+p1598
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_1988'
+p1599
+VProgramming languages created in 1988
+p1600
+sS'http://dbpedia.org/resource/Category:Register-based_virtual_machines'
+p1601
+VRegister-based virtual machines
+p1602
+sS'http://dbpedia.org/ontology/Company'
+p1603
+Vcompany
+p1604
+sS'http://dbpedia.org/resource/Category:Perl'
+p1605
+VPerl
+p1606
+sS'http://dbpedia.org/resource/Category:Dutch_inventions'
+p1607
+VDutch inventions
+p1608
+sS'http://dbpedia.org/resource/Self_(programming_language)'
+p1609
+VSelf (programming language)
+p1610
+sS'http://dbpedia.org/ontology/MilitaryPerson'
+p1611
+Vmilitary person
+p1612
+sS'http://dbpedia.org/resource/Genie_(programming_language)'
+p1613
+VGenie (programming language)
+p1614
+sS'http://dbpedia.org/resource/Category:1991_software'
+p1615
+V1991 software
+p1616
+sS'http://dbpedia.org/resource/Category:PHP_programming_language'
+p1617
+VPHP programming language
+p1618
+sS'http://dbpedia.org/resource/Sed'
+p1619
+VSed
+p1620
+sS'http://dbpedia.org/resource/COWSEL'
+p1621
+VCOWSEL
+p1622
+sS'http://dbpedia.org/resource/Illinois'
+p1623
+VIllinois
+p1624
+sS'http://dbpedia.org/resource/NewtonScript'
+p1625
+VNewtonScript
+p1626
+sS'http://dbpedia.org/resource/Remington_Rand'
+p1627
+VRemington Rand
+p1628
+sS'http://dbpedia.org/resource/United_States'
+p1629
+VUnited States
+p1630
+sS'http://dbpedia.org/resource/Category:Reactive_programming_languages'
+p1631
+VReactive programming languages
+p1632
+sS'http://dbpedia.org/resource/Category:1977_software'
+p1633
+V1977 software
+p1634
+sS'http://dbpedia.org/resource/Ceylon_(programming_language)'
+p1635
+VCeylon (programming language)
+p1636
+sS'http://dbpedia.org/resource/Generics_in_Java'
+p1637
+VGenerics in Java
+p1638
+sS'http://dbpedia.org/resource/Guido_van_Rossum'
+p1639
+VGuido van Rossum
+p1640
+sS'http://dbpedia.org/resource/Frederiksberg'
+p1641
+VFrederiksberg
+p1642
+sS'http://dbpedia.org/resource/Anders_Hejlsberg'
+p1643
+VAnders Hejlsberg
+p1644
+sS'http://dbpedia.org/resource/MDL_(programming_language)'
+p1645
+VMDL (programming language)
+p1646
+sS'http://dbpedia.org/resource/Category:Sun_Microsystems'
+p1647
+VSun Microsystems
+p1648
+sS'http://dbpedia.org/resource/C_Sharp_(programming_language)'
+p1649
+VC Sharp (programming language)
+p1650
+sS'http://dbpedia.org/resource/Category:JavaScript_dialect_engines'
+p1651
+VJavaScript dialect engines
+p1652
+sS'http://dbpedia.org/resource/Category:Lua_(programming_language)'
+p1653
+VLua (programming language)
+p1654
+sS'http://dbpedia.org/resource/Category:Discontinued_Microsoft_BASICs'
+p1655
+VDiscontinued Microsoft BASICs
+p1656
+sS'http://dbpedia.org/resource/Category:Data_management'
+p1657
+VData management
+p1658
+sS'http://dbpedia.org/resource/Alef_(programming_language)'
+p1659
+VAlef (programming language)
+p1660
+sS'http://dbpedia.org/resource/Matita'
+p1661
+VMatita
+p1662
+sS'http://dbpedia.org/resource/Seymour_Papert'
+p1663
+VSeymour Papert
+p1664
+sS'http://dbpedia.org/resource/Category:Programming_languages_created_in_the_1980s'
+p1665
+VProgramming languages created in the 1980s
+p1666
+sS'http://dbpedia.org/resource/Category:Red_Hat'
+p1667
+VRed Hat
+p1668
+sS'http://dbpedia.org/resource/Aarhus'
+p1669
+VAarhus
+p1670
+sS'http://dbpedia.org/resource/Category:Mono_(software)'
+p1671
+VMono (software)
+p1672
+sS'http://dbpedia.org/resource/Category:Articles_with_example_OCaml_code'
+p1673
+VArticles with example OCaml code
+p1674
+sS'http://dbpedia.org/resource/Category:Free_theorem_provers'
+p1675
+VFree theorem provers
+p1676
+sS'http://dbpedia.org/ontology/Genre'
+p1677
+Vgenre
+p1678
+sS'http://dbpedia.org/resource/Inferno_(operating_system)'
+p1679
+VInferno (operating system)
+p1680
+sS'http://dbpedia.org/resource/Milwaukee'
+p1681
+VMilwaukee
+p1682
+sS'http://dbpedia.org/resource/Cliff_Shaw'
+p1683
+VCliff Shaw
+p1684
+sS'http://dbpedia.org/resource/AgentSheets'
+p1685
+VAgentSheets
+p1686
+sS'http://dbpedia.org/resource/Category:Free_software_programmed_in_OCaml'
+p1687
+VFree software programmed in OCaml
+p1688
+sS'http://dbpedia.org/resource/COMTRAN'
+p1689
+VCOMTRAN
+p1690
+sS'http://dbpedia.org/resource/Category:APL_programming_language_family'
+p1691
+VAPL programming language family
+p1692
+sS'http://dbpedia.org/resource/Category:Compilers'
+p1693
+VCompilers
+p1694
+sS'http://dbpedia.org/ontology/SportsTeam'
+p1695
+Vsports team
+p1696
+sS'http://dbpedia.org/resource/Category:1996_software'
+p1697
+V1996 software
+p1698
+sS'http://dbpedia.org/resource/Erlang_(programming_language)'
+p1699
+VErlang (programming language)
+p1700
+sS'http://dbpedia.org/resource/Category:Robot_programming_languages'
+p1701
+VRobot programming languages
+p1702
+sS'http://dbpedia.org/resource/Category:MUD_servers'
+p1703
+VMUD servers
+p1704
+sS'http://dbpedia.org/resource/Category:Low-level_programming_languages'
+p1705
+VLow-level programming languages
+p1706
+sS'http://dbpedia.org/resource/Category:Articles_with_example_Lisp_code'
+p1707
+VArticles with example Lisp code
+p1708
+sS'http://dbpedia.org/resource/Category:Free_compilers_and_interpreters'
+p1709
+VFree compilers and interpreters
+p1710
+sS'http://dbpedia.org/resource/Oberon_(programming_language)'
+p1711
+VOberon (programming language)
+p1712
+s.

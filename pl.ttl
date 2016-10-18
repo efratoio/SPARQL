@@ -1,0 +1,1330 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix ns1: <http://dbpedia.org/resource/PL/> .
+@prefix ns2: <http://dbpedia.org/resource/PL/> .
+@prefix ns3: <http://dbpedia.org/resource/SQL/> .
+@prefix ns4: <http://dbpedia.org/resource/SP/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix res: <http://www.w3.org/2005/sparql-results#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:ALGOL dbo:designer dbr:Adriaan_van_Wijngaarden,
+        dbr:Alan_Perlis,
+        dbr:Bernard_Vauquois,
+        dbr:Charles_Katz,
+        dbr:Friedrich_L._Bauer,
+        dbr:Heinz_Rutishauser,
+        dbr:Hermann_Bottenbruch,
+        dbr:John_Backus,
+        <http://dbpedia.org/resource/John_McCarthy_(computer_scientist)>,
+        dbr:Joseph_Henry_Wegstein,
+        <http://dbpedia.org/resource/Julien_Green_(computer_scientist)>,
+        dbr:Klaus_Samelson,
+        dbr:Michael_Woodger,
+        dbr:Peter_Naur ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        <http://dbpedia.org/resource/CPL_(programming_language)>,
+        <http://dbpedia.org/resource/C_(programming_language)>,
+        <http://dbpedia.org/resource/Pascal_(programming_language)>,
+        dbr:Simula .
+
+dbr:ALGOL_W dbo:influenced <http://dbpedia.org/resource/Pascal_(programming_language)> ;
+    dbp:developer dbr:Niklaus_Wirth,
+        dbr:Tony_Hoare .
+
+<http://dbpedia.org/resource/APL_(programming_language)> dbo:designer dbr:Kenneth_E._Iverson ;
+    dbo:influenced <http://dbpedia.org/resource/J_(programming_language)>,
+        <http://dbpedia.org/resource/K_(programming_language)>,
+        dbr:MATLAB,
+        dbr:Mathematica,
+        dbr:Nial,
+        dbr:Polymorphic_Programming_Language,
+        <http://dbpedia.org/resource/Q_(programming_language_from_Kx_Systems)>,
+        <http://dbpedia.org/resource/S_(programming_language)> ;
+    dbp:developer dbr:Kenneth_E._Iverson ;
+    dbp:typing dbr:Type_system .
+
+dbr:COMIT dbo:designer dbr:Victor_Yngve ;
+    dbo:influenced dbr:SNOBOL .
+
+dbr:COMTRAN dbo:influenced dbr:COBOL ;
+    dbp:developer dbr:Bob_Bemer .
+
+dbr:Caml dbo:designer dbr:Ascánder_Suárez,
+        <http://dbpedia.org/resource/Guy_Cousineau_(computer_scientists)>,
+        dbr:Gérard_Huet,
+        dbr:Michel_Mauny,
+        dbr:Pierre_Weis,
+        dbr:Xavier_Leroy ;
+    dbo:influenced <http://dbpedia.org/resource/F_Sharp_(programming_language)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+dbr:Coq dbo:influenced <http://dbpedia.org/resource/Agda_(programming_language)>,
+        dbr:Matita ;
+    dbp:developer "The Coq development team"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:DBase dbo:influenced <http://dbpedia.org/resource/Clipper_(programming_language)>,
+        <http://dbpedia.org/resource/Harbour_(software)>,
+        dbr:VP-Info ;
+    dbp:developer dbr:Wayne_Ratliff .
+
+<http://dbpedia.org/resource/Emerald_(programming_language)> dbo:designer <http://dbpedia.org/resource/Hank_Levy_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Singularity_(operating_system)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Euclid_(programming_language)> dbo:designer dbr:Butler_Lampson,
+        <http://dbpedia.org/resource/PARC_(company)> ;
+    dbo:influenced dbr:Concurrent_Euclid,
+        <http://dbpedia.org/resource/Mesa_(programming_language)>,
+        <http://dbpedia.org/resource/Turing_(programming_language)> ;
+    dbp:developer "Ric Holt and James Cordy"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:FLOW-MATIC dbo:designer dbr:Grace_Hopper,
+        dbr:Remington_Rand ;
+    dbo:influenced dbr:COBOL .
+
+<http://dbpedia.org/resource/FP_(programming_language)> dbo:designer dbr:John_Backus ;
+    dbo:influenced <http://dbpedia.org/resource/FL_(programming_language)>,
+        <http://dbpedia.org/resource/FPr_(programming_language)>,
+        <http://dbpedia.org/resource/J_(programming_language)> .
+
+dbr:IBM_BASIC dbo:influenced dbr:GW-BASIC ;
+    dbp:developer "Microsoft"@en ;
+    dbp:operatingSystem dbr:IBM_PC_DOS .
+
+dbr:ISWIM dbo:designer dbr:Peter_Landin ;
+    dbo:influenced <http://dbpedia.org/resource/Clean_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Lucid_(programming_language)>,
+        <http://dbpedia.org/resource/ML_(programming_language)>,
+        <http://dbpedia.org/resource/Miranda_(programming_language)>,
+        <http://dbpedia.org/resource/SASL_(programming_language)> .
+
+dbr:Information_Processing_Language dbo:designer dbr:Allen_Newell,
+        dbr:Cliff_Shaw,
+        dbr:Herbert_A._Simon ;
+    dbo:influenced <http://dbpedia.org/resource/Lisp_(programming_language)> ;
+    dbp:developer "Allen Newell, Cliff Shaw, Herbert A. Simon"@en ;
+    dbp:operatingSystem dbr:Cross-platform,
+        dbr:IBM_650,
+        dbr:IBM_704,
+        dbr:IBM_7090,
+        dbr:JOHNNIAC .
+
+<http://dbpedia.org/resource/Joy_(programming_language)> dbo:influenced <http://dbpedia.org/resource/Cat_(programming_language)>,
+        <http://dbpedia.org/resource/Factor_(programming_language)>,
+        <http://dbpedia.org/resource/Trith_(programming_language)>,
+        <http://dbpedia.org/resource/V_(programming_language)> ;
+    dbp:developer "Manfred von Thun, John Cowan"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/MUF_(programming_language)> dbo:influenced dbr:ColdC,
+        dbr:CoolMUD,
+        <http://dbpedia.org/resource/MOO_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Newsqueak dbo:designer dbr:Rob_Pike ;
+    dbo:influenced <http://dbpedia.org/resource/Alef_(programming_language)>,
+        <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Limbo_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:developer dbr:Bell_Labs ;
+    dbp:typing dbr:Strong_and_weak_typing .
+
+dbr:Oaklisp dbo:designer dbr:Kevin_J._Lang ;
+    dbo:influenced <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:EuLisp ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Object_Oberon dbo:influenced <http://dbpedia.org/resource/Oberon-2_(programming_language)> ;
+    dbp:developer "H Mössenböck, J Templ, R Griesemer"@en .
+
+<http://dbpedia.org/resource/Orwell_(programming_language)> dbo:designer dbr:Philip_Wadler ;
+    dbo:influenced <http://dbpedia.org/resource/Haskell_(programming_language)> .
+
+<http://dbpedia.org/resource/Pizza_(programming_language)> dbo:influenced dbr:Generic_Java,
+        <http://dbpedia.org/resource/Scala_(programming_language)> .
+
+dbr:Plankalkül dbo:designer dbr:Konrad_Zuse ;
+    dbo:influenced dbr:ALGOL_58,
+        dbr:Superplan .
+
+
+
+dbr:Prolog dbo:designer dbr:Alain_Colmerauer ;
+    dbo:influenced dbr:Constraint_Handling_Rules,
+        dbr:Datalog,
+        <http://dbpedia.org/resource/Erlang_(programming_language)>,
+        dbr:KL0,
+        dbr:KL1,
+        <http://dbpedia.org/resource/Mercury_(programming_language)>,
+        <http://dbpedia.org/resource/Oz_(programming_language)>,
+        <http://dbpedia.org/resource/Strand_(programming_language)>,
+        dbr:Visual_Prolog,
+        dbr:XSB .
+
+dbr:SETL dbo:designer dbr:Jacob_T._Schwartz ;
+    dbo:influenced <http://dbpedia.org/resource/ABC_(programming_language)>,
+        dbr:ProSet,
+        <http://dbpedia.org/resource/Slim_(programming_language)> ;
+    dbp:developer dbr:Courant_Institute_of_Mathematical_Sciences ;
+    dbp:typing dbr:Type_system .
+
+<http://dbpedia.org/resource/Sass_(stylesheet_language)> dbo:designer dbr:Hampton_Catlin ;
+    dbo:influenced <http://dbpedia.org/resource/Less_(stylesheet_language)>,
+        <http://dbpedia.org/resource/Stylus_(stylesheet_language)>,
+        <http://dbpedia.org/resource/Tritium_(programming_language)> ;
+    dbp:developer dbr:Chris_Eppstein,
+        dbr:Natalie_Weizenbaum ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Type_system .
+
+<http://dbpedia.org/resource/Scheme_(programming_language)> dbo:influenced dbr:Clojure,
+        dbr:Common_Lisp,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:EuLisp,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Hop_(software)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        <http://dbpedia.org/resource/R_(programming_language)>,
+        <http://dbpedia.org/resource/Racket_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/S_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Sed dbo:designer dbr:Lee_E._McMahon ;
+    dbo:influenced dbr:AWK,
+        dbr:Chomski,
+        dbr:Perl .
+
+dbr:Speedcoding dbo:designer dbr:John_Backus ;
+    dbo:influenced dbr:ALGOL_58,
+        dbr:BASIC,
+        <http://dbpedia.org/resource/C_(programming_language)>,
+        dbr:Fortran,
+        dbr:MUMPS,
+        <http://dbpedia.org/resource/PACT_(compiler)>,
+        ns2:I,
+        dbr:Ratfor ;
+    dbp:developer "John Backus and IBM"@en ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Standard_ML dbo:influenced dbr:OCaml,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+dbr:TELCOMP dbo:influenced dbr:MUMPS ;
+    dbp:developer dbr:BBN_Technologies .
+
+<http://dbpedia.org/resource/T_(programming_language)> dbo:influenced dbr:EuLisp ;
+    dbp:developer "Jonathan A. Rees and"@en,
+        "Norman I. Adams"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/ABC_(programming_language)> dbo:designer dbr:Lambert_Meertens,
+        dbr:Leo_Geurts,
+        dbr:Steven_Pemberton ;
+    dbo:influenced <http://dbpedia.org/resource/Python_(programming_language)> ;
+    dbp:developer <http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica> ;
+    dbp:typing <http://dbpedia.org/resource/Polymorphism_(computer_science)>,
+        dbr:Strong_and_weak_typing .
+
+<http://dbpedia.org/resource/Alef_(programming_language)> dbo:designer dbr:Phil_Winterbottom ;
+    dbo:influenced <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Limbo_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:operatingSystem dbr:Plan_9_from_Bell_Labs ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:BCPL dbo:designer <http://dbpedia.org/resource/Martin_Richards_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/B_(programming_language)>,
+        <http://dbpedia.org/resource/C_(programming_language)> ;
+    dbp:typing "typeless"@en .
+
+<http://dbpedia.org/resource/CLU_(programming_language)> dbo:designer dbr:Barbara_Liskov,
+        dbr:Massachusetts_Institute_of_Technology ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        <http://dbpedia.org/resource/Argus_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Sather,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Barbara Liskov and her students at MIT"@en ;
+    dbp:typing dbr:Strong_and_weak_typing .
+
+<http://dbpedia.org/resource/CPL_(programming_language)> dbo:designer dbr:Christopher_Strachey ;
+    dbo:influenced dbr:BCPL,
+        dbr:POP-2 .
+
+dbr:Common_Lisp dbo:designer dbr:Daniel_Weinreb,
+        dbr:David_Moon,
+        <http://dbpedia.org/resource/Guy_L._Steele,_Jr.>,
+        dbr:Richard_P._Gabriel,
+        dbr:Scott_Fahlman ;
+    dbo:influenced dbr:Cadence_SKILL,
+        dbr:Clojure,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:Emacs_Lisp,
+        dbr:EuLisp,
+        dbr:ISLISP,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Moose_(Perl)>,
+        <http://dbpedia.org/resource/R_(programming_language)>,
+        dbr:SubL ;
+    dbp:developer "ANSI X3J13 committee"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Concurrent_Euclid dbo:designer dbr:James_Cordy,
+        dbr:Ric_Holt ;
+    dbo:influenced <http://dbpedia.org/resource/Turing+> ;
+    dbp:developer "James Cordy and Ric Holt"@en ;
+    dbp:operatingSystem dbr:Cross-platform,
+        dbr:Motorola_68000,
+        dbr:Motorola_6809,
+        dbr:PDP-11,
+        dbr:VAX-11 ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Cool_(programming_language)> dbo:influenced dbr:OCaml ;
+    dbp:developer "Alexander Aiken"@en ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Eiffel_(programming_language)> dbo:designer dbr:Bertrand_Meyer ;
+    dbo:influenced <http://albatross-lang.sourceforge.net>,
+        <http://dbpedia.org/resource/Ada_(programming_language)>,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Lisaac,
+        <http://dbpedia.org/resource/Racket_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Sather,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:developer dbr:Bertrand_Meyer,
+        dbr:Eiffel_Software ;
+    dbp:typing dbr:Type_system .
+
+<http://dbpedia.org/resource/FL_(programming_language)> dbo:designer dbr:Edward_Wimmers,
+        dbr:John_Backus,
+        <http://dbpedia.org/resource/John_Williams_(Computer_Scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/J_(programming_language)> ;
+    dbp:typing dbr:Type_system .
+
+dbr:Fortran dbo:designer dbr:John_Backus ;
+    dbo:influenced dbr:ALGOL_58,
+        dbr:BASIC,
+        <http://dbpedia.org/resource/CMS-2_(programming_language)>,
+        <http://dbpedia.org/resource/C_(programming_language)>,
+        dbr:MUMPS,
+        <http://dbpedia.org/resource/PACT_(compiler)>,
+        ns2:I,
+        dbr:Ratfor ;
+    dbp:developer "John Backus and IBM"@en ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:GW-BASIC dbo:influenced dbr:MSX_BASIC,
+        dbr:QBasic,
+        dbr:QuickBASIC ;
+    dbp:developer dbr:Microsoft ;
+    dbp:operatingSystem dbr:DOS .
+
+dbr:Generic_Java dbo:designer dbr:David_Stoutamire,
+        dbr:Gilad_Bracha,
+        dbr:Martin_Odersky,
+        dbr:Philip_Wadler,
+        <http://dbpedia.org/resource/William_Maddox_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing .
+
+<http://dbpedia.org/resource/Icon_(programming_language)> dbo:designer dbr:Ralph_Griswold ;
+    dbo:influenced <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Unicon_(programming_language)> ;
+    dbp:typing dbr:Type_system .
+
+<http://dbpedia.org/resource/Karel_(programming_language)> dbo:designer dbr:Richard_E._Pattis ;
+    dbo:influenced dbr:AgentSheets,
+        dbr:Guido_van_Robot,
+        <http://dbpedia.org/resource/Karel_(programming_language)> .
+
+dbr:Kent_Recursive_Calculator dbo:designer <http://dbpedia.org/resource/David_Turner_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Miranda_(programming_language)> .
+
+<http://dbpedia.org/resource/Lisp_(programming_language)> dbo:designer <http://dbpedia.org/resource/John_McCarthy_(computer_scientist)> ;
+    dbo:influenced dbr:CLIPS,
+        <http://dbpedia.org/resource/CLU_(programming_language)>,
+        dbr:COWSEL,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Forth_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        <http://dbpedia.org/resource/Ioke_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Logo_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        <http://dbpedia.org/resource/MDL_(programming_language)>,
+        <http://dbpedia.org/resource/ML_(programming_language)>,
+        dbr:Mathematica,
+        <http://dbpedia.org/resource/Nu_(programming_language)>,
+        dbr:OPS5,
+        dbr:POP-11,
+        dbr:POP-2,
+        dbr:Perl,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/R_(programming_language)>,
+        dbr:Rebol,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Smalltalk,
+        dbr:Tcl ;
+    dbp:developer "Steve Russell, Timothy P. Hart, and Mike Levin"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Logo_(programming_language)> dbo:designer dbr:Seymour_Papert,
+        dbr:Wally_Feurzeig ;
+    dbo:influenced <http://dbpedia.org/resource/Boxer_(programming_environment)>,
+        <http://dbpedia.org/resource/Etoys_(programming_language)>,
+        dbr:KTurtle,
+        dbr:NetLogo,
+        dbr:Rebol,
+        <http://dbpedia.org/resource/Scratch_(programming_language)>,
+        dbr:Smalltalk ;
+    dbp:developer "Wally Feurzeig, Seymour Papert"@en ;
+    dbp:typing dbr:Type_system .
+
+<http://dbpedia.org/resource/Lucid_(programming_language)> dbo:designer dbr:Edward_A._Ashcroft,
+        dbr:William_W._Wadge ;
+    dbo:influenced <http://dbpedia.org/resource/Lustre_(programming_language)>,
+        dbr:Pure_Data,
+        dbr:SISAL ;
+    dbp:developer "Wadge"@en ;
+    dbp:typing dbr:Typeless .
+
+<http://dbpedia.org/resource/MOO_(programming_language)> dbo:designer dbr:Stephen_White ;
+    dbo:influenced dbr:ColdC,
+        dbr:CoolMUD ;
+    dbp:developer "Stephen White and Pavel Curtis"@en ;
+    dbp:typing dbr:Type_system .
+
+<http://dbpedia.org/resource/Mesa_(programming_language)> dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Modula-2 ;
+    dbp:developer <http://dbpedia.org/resource/PARC_(company)> ;
+    dbp:typing "strongly typed"@en .
+
+<http://dbpedia.org/resource/Oberon_(programming_language)> dbo:designer dbr:Niklaus_Wirth ;
+    dbo:influenced <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Oberon-2_(programming_language)>,
+        dbr:Zonnon ;
+    dbp:typing "strong, hybrid"@en .
+
+dbr:Object_Pascal dbo:designer dbr:Anders_Hejlsberg,
+        dbr:Niklaus_Wirth ;
+    dbo:influenced <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)> ;
+    dbp:typing "static and dynamic , strong, safe"@en .
+
+<http://dbpedia.org/resource/Oz_(programming_language)> dbo:designer dbr:Gert_Smolka ;
+    dbo:influenced <http://dbpedia.org/resource/Alice_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:developer dbr:Mozart_Consortium ;
+    dbp:typing dbr:Type_system .
+
+dbr:Rc dbo:designer dbr:Tom_Duff ;
+    dbo:influenced <http://dbpedia.org/resource/Inferno_(operating_system)>,
+        dbr:Rc ;
+    dbp:developer dbr:Bell_Labs ;
+    dbp:operatingSystem "Cross-platform"@en ;
+    dbp:typing dbr:Strong_and_weak_typing .
+
+<http://dbpedia.org/resource/SASL_(programming_language)> dbo:designer <http://dbpedia.org/resource/David_Turner_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        dbr:Kent_Recursive_Calculator,
+        <http://dbpedia.org/resource/Miranda_(programming_language)> .
+
+dbr:SNOBOL dbo:designer dbr:David_J._Farber,
+        dbr:Ivan_P._Polonsky,
+        dbr:Ralph_Griswold ;
+    dbo:influenced <http://dbpedia.org/resource/Icon_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)> ;
+    dbp:developer "David J. Farber, Ralph E. Griswold, Ivan P. Polonsky, and Bell Labs"@en .
+
+<http://dbpedia.org/resource/Self_(programming_language)> dbo:designer dbr:David_Ungar ;
+    dbo:influenced <http://dbpedia.org/resource/Agora_(programming_language)>,
+        <http://dbpedia.org/resource/Cel_(programming_language)>,
+        <http://dbpedia.org/resource/Factor_(programming_language)>,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        dbr:JavaScript,
+        dbr:Lisaac,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        dbr:NewtonScript,
+        dbr:Rebol,
+        dbr:Squeak ;
+    dbp:developer "David Ungar, Randall Smith, Stanford University, Sun Microsystems"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Spec_Sharp dbo:designer dbr:Microsoft_Research ;
+    dbo:influenced dbr:Spec_Sharp ;
+    dbp:developer dbr:Microsoft_Research ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Type_system .
+
+dbr:AWK dbo:designer dbr:Alfred_Aho,
+        dbr:Brian_Kernighan,
+        dbr:Peter_J._Weinberger ;
+    dbo:influenced dbr:AMPL,
+        dbr:Korn_shell,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        dbr:Perl,
+        dbr:Tcl ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing "none; can handle strings, integers and floating-point numbers; regular expressions"@en .
+
+dbr:BASIC dbo:designer dbr:John_G._Kemeny,
+        dbr:Thomas_E._Kurtz ;
+    dbo:influenced dbr:AutoHotkey,
+        dbr:AutoIt,
+        dbr:COMAL,
+        <http://dbpedia.org/resource/GRASS_(programming_language)>,
+        dbr:Visual_Basic,
+        dbr:Visual_Basic_.NET,
+        dbr:Xojo .
+
+<http://dbpedia.org/resource/B_(programming_language)> dbo:designer dbr:Ken_Thompson ;
+    dbo:influenced <http://dbpedia.org/resource/C_(programming_language)> ;
+    dbp:developer dbr:Dennis_Ritchie,
+        dbr:Ken_Thompson ;
+    dbp:typing "typeless"@en .
+
+dbr:COBOL dbo:influenced ns2:I ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/ML_(programming_language)> dbo:designer dbr:Robin_Milner ;
+    dbo:influenced <http://dbpedia.org/resource/C++>,
+        dbr:Clojure,
+        <http://dbpedia.org/resource/Cyclone_(programming_language)>,
+        <http://dbpedia.org/resource/Erlang_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Felix_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Miranda_(programming_language)>,
+        <http://dbpedia.org/resource/Opa_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_safety,
+        dbr:Type_system .
+
+dbr:NewtonScript dbo:influenced <http://dbpedia.org/resource/Io_(programming_language)> ;
+    dbp:developer <http://dbpedia.org/resource/Apple_Inc.> ;
+    dbp:typing dbr:Type_system .
+
+dbr:OCaml dbo:influenced <http://dbpedia.org/resource/ATS_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Opa_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:developer dbr:French_Institute_for_Research_in_Computer_Science_and_Automation ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+dbr:Objective-C dbo:designer dbr:Brad_Cox ;
+    dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Nu_(programming_language)>,
+        dbr:Objective-J,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        <http://dbpedia.org/resource/TOM_(object-oriented_programming_language)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Pascal_(programming_language)> dbo:designer dbr:Niklaus_Wirth ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        dbr:Component_Pascal,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Modula,
+        <http://dbpedia.org/resource/Oberon_(programming_language)>,
+        dbr:Object_Pascal,
+        <http://dbpedia.org/resource/Oxygene_(programming_language)>,
+        dbr:Seed7 ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Sather dbo:designer dbr:Steve_Omohundro ;
+    dbo:influenced <http://dbpedia.org/resource/Cool_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:developer dbr:Free_Software_Foundation,
+        <http://dbpedia.org/resource/University_of_California,_Berkeley>,
+        dbr:University_of_Waikato ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Smalltalk dbo:designer <http://dbpedia.org/resource/Adele_Goldberg_(computer_scientist)>,
+        dbr:Alan_Kay,
+        <http://dbpedia.org/resource/Daniel_Henry_Holmes_Ingalls,_Jr.> ;
+    dbo:influenced dbr:AppleScript,
+        dbr:Common_Lisp_Object_System,
+        <http://dbpedia.org/resource/Dart_(programming_language)>,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Fancy_(programming_language)>,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        <http://dbpedia.org/resource/Ioke_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Lasso_(programming_language)>,
+        dbr:Lisaac,
+        dbr:Logtalk,
+        dbr:NewtonScript,
+        dbr:Object_REXX,
+        dbr:Objective-C,
+        dbr:PHP,
+        dbr:Perl_6,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)>,
+        <http://dbpedia.org/resource/Self_(programming_language)> ;
+    dbp:developer "Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, Scott Wallace, Peter Deutsch and Xerox PARC"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/C++> dbo:designer dbr:Bjarne_Stroustrup ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        dbr:C99,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        dbr:PHP,
+        dbr:Perl ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Limbo_(programming_language)> dbo:designer dbr:Phil_Winterbottom,
+        dbr:Rob_Pike,
+        dbr:Sean_Dorward ;
+    dbo:influenced <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        dbr:Stackless_Python ;
+    dbp:developer dbr:Bell_Labs,
+        dbr:Vita_Nuova_Holdings ;
+    dbp:operatingSystem <http://dbpedia.org/resource/Inferno_(operating_system)> ;
+    dbp:typing dbr:Strong_and_weak_typing .
+
+ns2:I dbo:designer dbr:IBM,
+        <http://dbpedia.org/resource/SHARE_(computing)> ;
+    dbo:influenced <http://dbpedia.org/resource/B_(programming_language)>,
+        <http://dbpedia.org/resource/CMS-2_(programming_language)>,
+        dbr:IBM_i_Control_Language,
+        dbr:Rexx,
+        ns4:k ;
+    dbp:developer dbr:IBM .
+
+dbr:EuLisp dbo:influenced <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:ISLISP ;
+    dbp:operatingSystem dbr:Linux ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Miranda_(programming_language)> dbo:designer <http://dbpedia.org/resource/David_Turner_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Clean_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)> ;
+    dbp:developer "Research Software Ltd"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/C_(programming_language)> dbo:designer dbr:Dennis_Ritchie ;
+    dbo:influenced dbr:AMPL,
+        dbr:AWK,
+        dbr:BitC,
+        <http://dbpedia.org/resource/C++>,
+        dbr:C--,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        dbr:C_shell,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Go_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/LPC_(programming_language)>,
+        <http://dbpedia.org/resource/Limbo_(programming_language)>,
+        dbr:Objective-C,
+        dbr:PHP,
+        dbr:Perl,
+        <http://dbpedia.org/resource/Pike_(programming_language)>,
+        <http://dbpedia.org/resource/Processing_(programming_language)>,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        dbr:Seed7,
+        dbr:Verilog ;
+    dbp:developer "Dennis Ritchie & Bell Labs ; ANSI X3J11 ;"@en,
+        "ISO/IEC JTC1/SC22/WG14"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Nominal_type_system,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+dbr:Perl dbo:designer dbr:Larry_Wall ;
+    dbo:influenced dbr:ECMAScript,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/LPC_(programming_language)>,
+        dbr:PHP,
+        dbr:Perl_6,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Qore_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Windows_PowerShell ;
+    dbp:developer "Larry Wall"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing "Dynamic"@en .
+
+<http://dbpedia.org/resource/Ada_(programming_language)> dbo:designer dbr:Jean_Ichbiah ;
+    dbo:influenced <http://dbpedia.org/resource/C++>,
+        <http://dbpedia.org/resource/Eiffel_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        ns2:SQL,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        ns3:PSM,
+        dbr:Seed7,
+        dbr:VHDL ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_safety,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/D_(programming_language)> dbo:designer dbr:Andrei_Alexandrescu,
+        dbr:Walter_Bright ;
+    dbo:influenced dbr:DScript,
+        <http://dbpedia.org/resource/Genie_(programming_language)>,
+        dbr:MiniD,
+        dbr:Qore_Language,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        <http://dbpedia.org/resource/Vala_(programming_language)> ;
+    dbp:developer dbr:Andrei_Alexandrescu,
+        dbr:Digital_Mars ;
+    dbp:operatingSystem "DMD: Unix-like , Windows, OS X"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Dylan_(programming_language)> dbo:influenced <http://dbpedia.org/resource/Goo_(programming_language)>,
+        <http://dbpedia.org/resource/Lasso_(programming_language)>,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)> ;
+    dbp:developer <http://dbpedia.org/resource/Apple_Inc.>,
+        dbr:Carnegie_Mellon_University,
+        <http://dbpedia.org/resource/Harlequin_(software_company)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing "Strong, dynamic"@en .
+
+<http://dbpedia.org/resource/F_Sharp_(programming_language)> dbo:designer dbr:Microsoft_Research ;
+    dbo:influenced <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/F*_(programming_language)>,
+        dbr:LiveScript ;
+    dbp:developer dbr:F_Sharp_Software_Foundation,
+        dbr:Microsoft ;
+    dbp:operatingSystem "Cross-platform"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Haskell_(programming_language)> dbo:designer <http://dbpedia.org/resource/Erik_Meijer_(computer_scientist)>,
+        <http://dbpedia.org/resource/John_Hughes_(computer_scientist)>,
+        dbr:Lennart_Augustsson,
+        dbr:Paul_Hudak,
+        dbr:Philip_Wadler,
+        dbr:Simon_Peyton_Jones ;
+    dbo:influenced <http://dbpedia.org/resource/Agda_(programming_language)>,
+        <http://dbpedia.org/resource/Bluespec,_Inc.>,
+        <http://dbpedia.org/resource/C++11>,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Cayenne_(programming_language)>,
+        <http://dbpedia.org/resource/Clean_(programming_language)>,
+        dbr:Clojure,
+        dbr:CoffeeScript,
+        <http://dbpedia.org/resource/Concepts_(C++)>,
+        <http://dbpedia.org/resource/Curry_(programming_language)>,
+        <http://dbpedia.org/resource/Elm_(programming_language)>,
+        <http://dbpedia.org/resource/Epigram_(programming_language)>,
+        <http://dbpedia.org/resource/Escher_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Frege_(programming_language)>,
+        dbr:Generics_in_Java,
+        <http://dbpedia.org/resource/Idris_(programming_language)>,
+        <http://dbpedia.org/resource/Isabelle_(proof_assistant)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Language_Integrated_Query,
+        dbr:LiveScript,
+        <http://dbpedia.org/resource/Mercury_(programming_language)>,
+        dbr:Perl_6,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        dbr:Quark_Framework,
+        <http://dbpedia.org/resource/Scala_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        <http://dbpedia.org/resource/Timber_(programming_language)>,
+        dbr:Visual_Basic_.NET,
+        dbr:Ωmega ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+dbr:JavaScript dbo:designer dbr:Brendan_Eich ;
+    dbo:influenced dbr:ActionScript,
+        dbr:AtScript,
+        dbr:CoffeeScript,
+        <http://dbpedia.org/resource/Dart_(programming_language)>,
+        dbr:JScript_.NET,
+        dbr:LiveScript,
+        dbr:Objective-J,
+        dbr:QML,
+        dbr:TypeScript ;
+    dbp:developer dbr:Ecma_International,
+        dbr:Mozilla_Foundation,
+        dbr:Netscape ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Lua_(programming_language)> dbo:designer dbr:Roberto_Ierusalimschy ;
+    dbo:influenced <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        dbr:GameMonkey_Script,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        dbr:MiniD,
+        <http://dbpedia.org/resource/Squirrel_(programming_language)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/C_Sharp_(programming_language)> dbo:designer dbr:Microsoft ;
+    dbo:influenced <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Dart_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Kotlin_(programming_language)>,
+        dbr:Monkey_X,
+        dbr:Nemerle,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        <http://dbpedia.org/resource/Vala_(programming_language)> ;
+    dbp:developer "Microsoft"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Python_(programming_language)> dbo:designer dbr:Guido_van_Rossum ;
+    dbo:influenced <http://dbpedia.org/resource/Boo_(programming_language)>,
+        <http://dbpedia.org/resource/Cobra_(programming_language)>,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Nim_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer dbr:Python_Software_Foundation ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Gradual_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Ruby_(programming_language)> dbo:designer dbr:Yukihiro_Matsumoto ;
+    dbo:influenced dbr:Clojure,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Elixir_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Fancy_(programming_language)>,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        <http://dbpedia.org/resource/Ioke_(programming_language)>,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Mirah_(programming_language)>,
+        <http://dbpedia.org/resource/Nu_(programming_language)>,
+        <http://dbpedia.org/resource/Potion_(programming_language)>,
+        <http://dbpedia.org/resource/Reia_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Yukihiro Matsumoto, et al."@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Rust_(programming_language)> dbo:influenced <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Elm_(programming_language)>,
+        <http://dbpedia.org/resource/Idris_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Rust Project Developers"@en ;
+    dbp:operatingSystem <http://dbpedia.org/resource/Android_(operating_system)>,
+        dbr:FreeBSD,
+        dbr:IOS,
+        dbr:Linux,
+        dbr:Microsoft_Windows,
+        dbr:OS_X ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Strong_and_weak_typing,
+        dbr:Substructural_type_system,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Scala_(programming_language)> dbo:designer dbr:Martin_Odersky ;
+    dbo:influenced <http://dbpedia.org/resource/Ceylon_(programming_language)>,
+        <http://dbpedia.org/resource/Fantom_(programming_language)>,
+        <http://dbpedia.org/resource/Kotlin_(programming_language)>,
+        <http://dbpedia.org/resource/Lasso_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Programming Methods Laboratory of École Polytechnique Fédérale de Lausanne"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Structural_type_system,
+        dbr:Type_inference,
+        dbr:Type_system .
+
+<http://dbpedia.org/resource/Java_(programming_language)> dbo:designer dbr:James_Gosling,
+        dbr:Sun_Microsystems ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        dbr:BeanShell,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        dbr:Clojure,
+        dbr:ECMAScript,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        <http://dbpedia.org/resource/Hack_(programming_language)>,
+        dbr:J_Sharp,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Kotlin_(programming_language)>,
+        dbr:PHP,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)>,
+        dbr:Seed7,
+        <http://dbpedia.org/resource/Vala_(programming_language)> ;
+    dbp:developer dbr:Oracle_Corporation ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Nominal_type_system,
+        dbr:Type_system .
+
+[] a res:ResultSet ;
+    res:resultVariable "a" ;
+    res:solution [ res:binding [ res:value dbr:Standard_ML ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Haskell_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Rust_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Cool_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Scala_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Object_Oberon ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/APL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:AWK ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Ada_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:BCPL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:BASIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/B_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/CLU_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:COBOL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Common_Lisp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Dylan_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Eiffel_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Icon_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Java_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Kent_Recursive_Calculator ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Logo_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/C_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/ML_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/MOO_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Mesa_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Oberon_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value ns2:I ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Pascal_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Prolog ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Python_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Ruby_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Fortran ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:SNOBOL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Sather ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Scheme_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Sed ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Smalltalk ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:TELCOMP ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Generic_Java ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Polyphonic_C_Sharp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Oz_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/ABC_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:JavaScript ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Caml ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Limbo_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Miranda_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:OCaml ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Orwell_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Rc ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Newsqueak ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Lisp_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Perl ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Lua_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Alef_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/FP_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Information_Processing_Language ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/SASL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:EuLisp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:IBM_BASIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Speedcoding ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/T_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:ISWIM ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Sass_(stylesheet_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Lucid_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/C++> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:FLOW-MATIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:NewtonScript ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Self_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:COMTRAN ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:DBase ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/MUF_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:ALGOL_W ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Pizza_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/CPL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Oaklisp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:COMIT ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Concurrent_Euclid ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/D_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Coq ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Objective-C ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/FL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:GW-BASIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:ALGOL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Joy_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Spec_Sharp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Emerald_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Karel_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/C_Sharp_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Euclid_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/F_Sharp_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Object_Pascal ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:SETL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Plankalkül ;
+                    res:variable "a" ] ] .
+
+[] a res:ResultSet ;
+    res:resultVariable "a" ;
+    res:solution [ res:binding [ res:value dbr:Standard_ML ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Haskell_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Rust_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Cool_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Scala_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Object_Oberon ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/APL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:AWK ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Ada_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:BCPL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:BASIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/B_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/CLU_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:COBOL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Common_Lisp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Dylan_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Eiffel_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Icon_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Java_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Kent_Recursive_Calculator ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Logo_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/C_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/ML_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/MOO_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Mesa_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Oberon_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value ns2:I ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Pascal_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Prolog ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Python_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Ruby_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Fortran ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:SNOBOL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Sather ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Scheme_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Sed ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Smalltalk ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:TELCOMP ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Generic_Java ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Polyphonic_C_Sharp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Oz_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/ABC_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:JavaScript ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Caml ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Limbo_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Miranda_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:OCaml ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Orwell_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Rc ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Newsqueak ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Lisp_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Perl ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Lua_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Alef_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/FP_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Information_Processing_Language ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/SASL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:EuLisp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:IBM_BASIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Speedcoding ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/T_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:ISWIM ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Sass_(stylesheet_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Lucid_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/C++> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:FLOW-MATIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:NewtonScript ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Self_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:COMTRAN ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:DBase ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/MUF_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:ALGOL_W ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Pizza_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/CPL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Oaklisp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:COMIT ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Concurrent_Euclid ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/D_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Coq ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Objective-C ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/FL_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:GW-BASIC ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:ALGOL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Joy_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Spec_Sharp ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Emerald_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Karel_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/C_Sharp_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/Euclid_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value <http://dbpedia.org/resource/F_Sharp_(programming_language)> ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Object_Pascal ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:SETL ;
+                    res:variable "a" ] ],
+        [ res:binding [ res:value dbr:Plankalkül ;
+                    res:variable "a" ] ] .
+

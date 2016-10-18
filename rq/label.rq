@@ -1,0 +1,6 @@
+SELECT  ?c 
+WHERE {
+	?a rdfs:label ?c .
+	FILTER(?a = <{{name}}>)
+	FILTER(langMatches(lang(?c), "EN"))
+}

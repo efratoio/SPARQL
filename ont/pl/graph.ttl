@@ -1,0 +1,4064 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://dbpedia.org/resource/PL/> .
+@prefix ns11: <http://dbpedia.org/resource/SP/> .
+@prefix ns12: <http://dbpedia.org/resource/SQL/> .
+@prefix ns2: <http://dbpedia.org/resource/PL/> .
+@prefix ns21: <http://purl.org/goodrelations/v1#> .
+@prefix ns22: <http://dbpedia.org/resource/Category:PL/> .
+@prefix ns3: <http://dbpedia.org/resource/SQL/> .
+@prefix ns31: <http://dbpedia.org/resource/Category:PL/> .
+@prefix ns32: <http://dbpedia.org/resource/Category:CP/> .
+@prefix ns33: <http://dbpedia.org/resource/Category:Articles_with_example_MATLAB/> .
+@prefix ns4: <http://dbpedia.org/resource/SP/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix res: <http://www.w3.org/2005/sparql-results#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbo:birthDate a owl:AnnotationProperty .
+
+dbo:birthPlace a owl:AnnotationProperty .
+
+dbo:designer a owl:AnnotationProperty .
+
+dbo:influenced a owl:AnnotationProperty .
+
+dbp:developer a owl:AnnotationProperty .
+
+dbp:operatingSystem a owl:AnnotationProperty .
+
+dbp:typing a owl:AnnotationProperty .
+
+dbr:ALGOL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Adriaan_van_Wijngaarden,
+        dbr:Alan_Perlis,
+        dbr:Bernard_Vauquois,
+        dbr:Charles_Katz,
+        dbr:Friedrich_L._Bauer,
+        dbr:Heinz_Rutishauser,
+        dbr:Hermann_Bottenbruch,
+        dbr:John_Backus,
+        <http://dbpedia.org/resource/John_McCarthy_(computer_scientist)>,
+        dbr:Joseph_Henry_Wegstein,
+        <http://dbpedia.org/resource/Julien_Green_(computer_scientist)>,
+        dbr:Klaus_Samelson,
+        dbr:Michael_Woodger,
+        dbr:Peter_Naur ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        <http://dbpedia.org/resource/CPL_(programming_language)>,
+        <http://dbpedia.org/resource/C_(programming_language)>,
+        <http://dbpedia.org/resource/Pascal_(programming_language)>,
+        dbr:Simula ;
+    dct:subject dbc:ALGOL_60_dialect,
+        dbc:Algol_programming_language_family,
+        dbc:Articles_with_example_ALGOL_60_code,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_the_1950s,
+        dbc:Structured_programming_languages,
+        dbc:Systems_programming_languages .
+
+dbr:ALGOL_W a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Pascal_(programming_language)> ;
+    dbp:developer dbr:Niklaus_Wirth,
+        dbr:Tony_Hoare ;
+    dct:subject dbc:ALGOL_60_dialect,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1966,
+        dbc:Structured_programming_languages .
+
+<http://dbpedia.org/resource/APL_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Kenneth_E._Iverson ;
+    dbo:influenced <http://dbpedia.org/resource/J_(programming_language)>,
+        <http://dbpedia.org/resource/K_(programming_language)>,
+        dbr:MATLAB,
+        dbr:Mathematica,
+        dbr:Nial,
+        dbr:Polymorphic_Programming_Language,
+        <http://dbpedia.org/resource/Q_(programming_language_from_Kx_Systems)>,
+        <http://dbpedia.org/resource/S_(programming_language)> ;
+    dbp:developer dbr:Kenneth_E._Iverson ;
+    dbp:typing dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:APL_programming_language_family,
+        dbc:Array_programming_languages,
+        dbc:Command_shells,
+        dbc:Dynamic_programming_languages,
+        dbc:Functional_languages,
+        dbc:IBM_software,
+        dbc:Programming_languages_created_in_1964 .
+
+dbr:COMIT a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Victor_Yngve ;
+    dbo:influenced dbr:SNOBOL ;
+    dct:subject <http://dbpedia.org/resource/Category:1957_software>,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages_created_in_the_1950s,
+        dbc:Text-oriented_programming_languages .
+
+dbr:COMTRAN a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced dbr:COBOL ;
+    dbp:developer dbr:Bob_Bemer ;
+    dct:subject dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1957 .
+
+dbr:Caml a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:
+        <http://dbpedia.org/resource/Guy_Cousineau_(computer_scientists)>,
+
+        dbr:Michel_Mauny,
+        dbr:Pierre_Weis,
+        dbr:Xavier_Leroy ;
+    dbo:influenced <http://dbpedia.org/resource/F_Sharp_(programming_language)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject dbc:ML_programming_language_family,
+        dbc:Programming_languages_created_in_1985 .
+
+dbr:Coq a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Agda_(programming_language)>,
+        dbr:Matita ;
+    dbp:developer "The Coq development team"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Dependently_typed_languages,
+        dbc:Educational_math_software,
+        dbc:Free_software_programmed_in_OCaml,
+        dbc:Free_theorem_provers,
+        dbc:Functional_languages,
+        dbc:Large-scale_mathematical_formalization_projects,
+        dbc:OCaml_software,
+        dbc:Programming_languages_created_in_the_20th_century,
+        dbc:Proof_assistants .
+
+dbr:DBase a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Clipper_(programming_language)>,
+        <http://dbpedia.org/resource/Harbour_(software)>,
+        dbr:VP-Info ;
+    dbp:developer dbr:Wayne_Ratliff ;
+    dct:subject <http://dbpedia.org/resource/Category:1979_software>,
+        dbc:Borland_software,
+        ns32:M_software,
+        dbc:DOS_software,
+        dbc:Database-related_software_for_Linux,
+        dbc:Desktop_database_application_development_tools,
+        dbc:Microcomputer_software,
+        dbc:Proprietary_database_management_systems,
+        dbc:Software_written_primarily_in_assembly_language,
+        dbc:XBase_programming_language_family .
+
+dbr:Edward_Wimmers a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Emerald_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/Hank_Levy_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Singularity_(operating_system)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Object-oriented_programming_languages .
+
+<http://dbpedia.org/resource/Euclid_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Butler_Lampson,
+        <http://dbpedia.org/resource/PARC_(company)> ;
+    dbo:influenced dbr:Concurrent_Euclid,
+        <http://dbpedia.org/resource/Mesa_(programming_language)>,
+        <http://dbpedia.org/resource/Turing_(programming_language)> ;
+    dbp:developer "Ric Holt and James Cordy"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_the_1970s .
+
+dbr:FLOW-MATIC a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Grace_Hopper,
+        dbr:Remington_Rand ;
+    dbo:influenced dbr:COBOL ;
+    dct:subject dbc:COBOL,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1955,
+        dbc:Programming_languages_created_in_the_1950s .
+
+dbr:Generic_Java a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:David_Stoutamire,
+        dbr:Gilad_Bracha,
+        dbr:Martin_Odersky,
+        dbr:Philip_Wadler,
+        <http://dbpedia.org/resource/William_Maddox_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing ;
+    dct:subject dbc:Java_programming_language_family .
+
+dbr:IBM_BASIC a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced dbr:GW-BASIC ;
+    dbp:developer "Microsoft"@en ;
+    dbp:operatingSystem dbr:IBM_PC_DOS ;
+    dct:subject dbc:BASIC_interpreters,
+        dbc:Discontinued_Microsoft_BASICs,
+        dbc:IBM_personal_computers,
+        dbc:IBM_software,
+        dbc:Programming_languages_created_in_the_1980s .
+
+dbr:ISWIM a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Peter_Landin ;
+    dbo:influenced <http://dbpedia.org/resource/Clean_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Lucid_(programming_language)>,
+        <http://dbpedia.org/resource/ML_(programming_language)>,
+        <http://dbpedia.org/resource/Miranda_(programming_language)>,
+        <http://dbpedia.org/resource/SASL_(programming_language)> ;
+    dct:subject <http://dbpedia.org/resource/Category:1966_in_computer_science>,
+        dbc:Academic_programming_languages,
+        dbc:Experimental_programming_languages,
+        dbc:Functional_languages .
+
+dbr:Information_Processing_Language a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Allen_Newell,
+        dbr:Cliff_Shaw,
+        dbr:Herbert_A._Simon ;
+    dbo:influenced <http://dbpedia.org/resource/Lisp_(programming_language)> ;
+    dbp:developer "Allen Newell, Cliff Shaw, Herbert A. Simon"@en ;
+    dbp:operatingSystem dbr:Cross-platform,
+        dbr:IBM_650,
+        dbr:IBM_704,
+        dbr:IBM_7090,
+        dbr:JOHNNIAC ;
+    dct:subject dbc:History_of_artificial_intelligence,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1954 .
+
+<http://dbpedia.org/resource/John_Williams_(Computer_Scientist)> a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Joy_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Cat_(programming_language)>,
+        <http://dbpedia.org/resource/Factor_(programming_language)>,
+        <http://dbpedia.org/resource/Trith_(programming_language)>,
+        <http://dbpedia.org/resource/V_(programming_language)> ;
+    dbp:developer "Manfred von Thun, John Cowan"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Concatenative_programming_languages,
+        dbc:Functional_languages,
+        dbc:Stack-oriented_programming_languages .
+
+<http://dbpedia.org/resource/MUF_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced dbr:ColdC,
+        dbr:CoolMUD,
+        <http://dbpedia.org/resource/MOO_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Forth_programming_language_family,
+        dbc:MUD_programming_languages,
+        dbc:Systems_programming_languages .
+
+dbr:Newsqueak a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Rob_Pike ;
+    dbo:influenced <http://dbpedia.org/resource/Alef_(programming_language)>,
+        <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Limbo_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:developer dbr:Bell_Labs ;
+    dbp:typing dbr:Strong_and_weak_typing ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Concurrent_programming_languages .
+
+dbr:Oaklisp a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Kevin_J._Lang ;
+    dbo:influenced <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:EuLisp ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Object-oriented_programming_languages,
+        <http://dbpedia.org/resource/Category:Scheme_(programming_language)_implementations> .
+
+dbr:Object_Oberon a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Oberon-2_(programming_language)> ;
+    dbp:developer "H Mössenböck, J Templ, R Griesemer"@en ;
+    dct:subject dbc:Modula_programming_language_family,
+        dbc:Object-oriented_programming_languages .
+
+
+dbr:Polyphonic_C_Sharp a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:C_Sharp_programming_language_family,
+        dbc:C_programming_language_family,
+        dbc:Microsoft_Research .
+
+dbr:Prolog a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Alain_Colmerauer ;
+    dbo:influenced dbr:Constraint_Handling_Rules,
+        dbr:Datalog,
+        <http://dbpedia.org/resource/Erlang_(programming_language)>,
+        dbr:KL0,
+        dbr:KL1,
+        <http://dbpedia.org/resource/Mercury_(programming_language)>,
+        <http://dbpedia.org/resource/Oz_(programming_language)>,
+        <http://dbpedia.org/resource/Strand_(programming_language)>,
+        dbr:Visual_Prolog,
+        dbr:XSB ;
+    dct:subject <http://dbpedia.org/resource/Category:1972_in_computer_science>,
+        dbc:Declarative_programming_languages,
+        dbc:Logic_programming_languages,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages_created_in_1972,
+        dbc:Programming_languages_created_in_the_1970s,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Prolog_programming_language_family .
+
+dbr:SETL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Jacob_T._Schwartz ;
+    dbo:influenced <http://dbpedia.org/resource/ABC_(programming_language)>,
+        dbr:ProSet,
+        <http://dbpedia.org/resource/Slim_(programming_language)> ;
+    dbp:developer dbr:Courant_Institute_of_Mathematical_Sciences ;
+    dbp:typing dbr:Type_system ;
+    dct:subject dbc:Set_theoretic_programming_languages .
+
+<http://dbpedia.org/resource/Sass_(stylesheet_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Hampton_Catlin ;
+    dbo:influenced <http://dbpedia.org/resource/Less_(stylesheet_language)> ;
+    dbp:developer dbr:Chris_Eppstein,
+        dbr:Natalie_Weizenbaum ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Type_system ;
+    dct:subject dbc:Free_computer_libraries,
+        <http://dbpedia.org/resource/Category:Ruby_(programming_language)>,
+        dbc:Software_using_the_MIT_license,
+        dbc:Stylesheet_languages .
+
+<http://dbpedia.org/resource/Scheme_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced dbr:Clojure,
+        dbr:Common_Lisp,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:EuLisp,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Hop_(software)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        <http://dbpedia.org/resource/R_(programming_language)>,
+        <http://dbpedia.org/resource/Racket_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/S_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Academic_programming_languages,
+        dbc:Articles_with_example_Scheme_code,
+        dbc:Programming_languages_created_in_1975,
+        dbc:Programming_languages_created_in_the_1970s,
+        <http://dbpedia.org/resource/Category:Scheme_(programming_language)> .
+
+dbr:Sed a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Lee_E._McMahon ;
+    dbo:influenced dbr:AWK,
+        dbr:Chomski,
+        dbr:Perl ;
+    dct:subject dbc:Cross-platform_software,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Scripting_languages,
+        dbc:Standard_Unix_programs,
+        dbc:Text-oriented_programming_languages,
+        dbc:Unix_SUS2008_utilities,
+        dbc:Unix_text_processing_utilities .
+
+dbr:Speedcoding a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:John_Backus ;
+    dbo:influenced dbr:ALGOL_58,
+        dbr:BASIC,
+        <http://dbpedia.org/resource/C_(programming_language)>,
+        dbr:Fortran,
+        dbr:MUMPS,
+        <http://dbpedia.org/resource/PACT_(compiler)>,
+        ns1:I,
+        dbr:Ratfor ;
+    dbp:developer "John Backus and IBM"@en ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:IBM_software,
+        dbc:Numerical_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1953 .
+
+dbr:Standard_ML a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced dbr:OCaml,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject dbc:Functional_languages,
+        dbc:ML_programming_language_family,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1990 .
+
+dbr:TELCOMP a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced dbr:MUMPS ;
+    dbp:developer dbr:BBN_Technologies ;
+    dct:subject dbc:JOSS_programming_language_family .
+
+dct:subject a owl:AnnotationProperty .
+
+xsd:date a rdfs:Datatype .
+
+xsd:gYear a rdfs:Datatype .
+
+dbo:Device a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+dbo:Genre a owl:Class ;
+    rdfs:subClassOf dbo:TopicalConcept .
+
+dbo:MilitaryPerson a owl:Class ;
+    rdfs:subClassOf dbo:Person .
+
+dbo:OfficeHolder a owl:Class ;
+    rdfs:subClassOf dbo:Person .
+
+dbo:SportsTeam a owl:Class ;
+    rdfs:subClassOf dbo:Organisation .
+
+<http://dbpedia.org/resource/ABC_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Lambert_Meertens,
+        dbr:Leo_Geurts,
+        dbr:Steven_Pemberton ;
+    dbo:influenced <http://dbpedia.org/resource/Python_(programming_language)> ;
+    dbp:developer <http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica> ;
+    dbp:typing <http://dbpedia.org/resource/Polymorphism_(computer_science)>,
+        dbr:Strong_and_weak_typing ;
+    dct:subject dbc:Dutch_inventions,
+        dbc:Educational_programming_languages,
+        dbc:Persistent_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_the_1980s .
+
+<http://dbpedia.org/resource/ATS_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Declarative_programming_languages,
+        dbc:Dependently_typed_languages,
+        dbc:Functional_languages,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Programming_languages_created_in_2004,
+        dbc:Systems_programming_languages .
+
+dbr:ActionScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:ActionScript,
+        dbc:Adobe_Flash,
+        dbc:Class-based_programming_languages,
+        dbc:JavaScript_programming_language_family,
+        dbc:Scripting_languages .
+
+<http://dbpedia.org/resource/Adele_Goldberg_(computer_scientist)> a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1945-07-07"^^xsd:date ;
+    dbo:birthPlace dbr:Cleveland,
+        dbr:United_States .
+
+dbr:Adriaan_van_Wijngaarden a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1916-11-02"^^xsd:date ;
+    dbo:birthPlace dbr:Rotterdam .
+
+dbr:AgentSheets a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Agent-based_programming_languages,
+        dbc:Artificial_intelligence,
+        dbc:Class-based_programming_languages,
+        dbc:Concurrent_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Educational_programming_languages,
+        dbc:JVM_programming_languages,
+        dbc:Java_platform,
+        dbc:Object-oriented_programming_languages,
+        dbc:Pedagogic_integrated_development_environments,
+        dbc:Simulation_software,
+        dbc:Video_game_development_software,
+        dbc:Visual_programming_languages,
+        <http://dbpedia.org/resource/Java_(programming_language)> .
+
+<http://dbpedia.org/resource/Agora_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Alain_Colmerauer a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1941-01-24"^^xsd:date ;
+    dbo:birthPlace dbr:Carcassonne .
+
+dbr:Alan_Kay a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1940-05-17"^^xsd:date ;
+    dbo:birthPlace <http://dbpedia.org/resource/Springfield,_Massachusetts> .
+
+dbr:Alan_Perlis a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1922-04-01"^^xsd:date ;
+    dbo:birthPlace dbr:Pennsylvania,
+        dbr:Pittsburgh,
+        dbr:United_States .
+
+<http://dbpedia.org/resource/Alef_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Phil_Winterbottom ;
+    dbo:influenced <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Limbo_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:operatingSystem dbr:Plan_9_from_Bell_Labs ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Concurrent_programming_languages,
+        dbc:Plan_9_from_Bell_Labs .
+
+dbr:Alfred_Aho a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1941-08-09"^^xsd:date ;
+    dbo:birthPlace dbr:Ontario,
+        dbr:Timmins .
+
+<http://dbpedia.org/resource/Alice_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Functional_logic_programming_languages,
+        dbc:Logic_programming_languages,
+        dbc:ML_programming_language_family,
+        dbc:Programming_languages_created_in_2000 .
+
+dbr:Allen_Newell a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1927-03-19"^^xsd:date ;
+    dbo:birthPlace dbr:San_Francisco .
+
+dbr:Anders_Hejlsberg a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1960"^^xsd:gYear .
+
+<http://dbpedia.org/resource/Android_(operating_system)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:AppleScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Mac_OS_development,
+        dbc:OS_X_development,
+        dbc:Proprietary_software,
+        dbc:Scripting_languages .
+
+<http://dbpedia.org/resource/Argus_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_by_women,
+        dbc:Programming_languages_created_in_the_1980s .
+
+dbr:AtScript a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:AutoHotkey a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:AutoIt a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:BBN_Technologies a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:BCPL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/Martin_Richards_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/B_(programming_language)>,
+        <http://dbpedia.org/resource/C_(programming_language)> ;
+    dbp:typing "typeless"@en ;
+    dct:subject dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1966,
+        dbc:Structured_programming_languages,
+        dbc:Systems_programming_languages,
+        dbc:University_of_Cambridge_Computer_Laboratory .
+
+dbr:Barbara_Liskov a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1939-11-07"^^xsd:date ;
+    dbo:birthPlace dbr:California .
+
+dbr:BeanShell a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:JVM_programming_languages,
+        dbc:Java_programming_language_family,
+        dbc:Java_specification_requests,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_Apache_license,
+        dbc:Software_using_the_LGPL_license .
+
+dbr:Bernard_Vauquois a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:BitC a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Functional_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2004,
+        dbc:Systems_programming_languages .
+
+dbr:Bjarne_Stroustrup a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1950-12-30"^^xsd:date ;
+    dbo:birthPlace dbr:Aarhus,
+        dbr:Denmark .
+
+<http://dbpedia.org/resource/Bluespec,_Inc.> a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Bob_Bemer a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1920-02-08"^^xsd:date ;
+    dbo:birthPlace <http://dbpedia.org/resource/Sault_Ste._Marie,_Michigan> .
+
+<http://dbpedia.org/resource/Boo_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:Brazilian_inventions,
+        dbc:Class-based_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2003,
+        dbc:Software_using_the_BSD_license,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Boxer_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Brad_Cox a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Brendan_Eich a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1961"^^xsd:gYear ;
+    dbo:birthPlace dbr:Pittsburgh .
+
+dbr:Brian_Kernighan a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1942-01-01"^^xsd:date ;
+    dbo:birthPlace dbr:Canada,
+        dbr:Toronto .
+
+dbr:Butler_Lampson a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1943-12-23"^^xsd:date .
+
+<http://dbpedia.org/resource/C++11> a dbo:Person,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:C-- a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Compilers .
+
+dbr:C99 a dbo:Person,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:CLIPS a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/CLU_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Barbara_Liskov,
+        dbr:Massachusetts_Institute_of_Technology ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        <http://dbpedia.org/resource/Argus_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Sather,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Barbara Liskov and her students at MIT"@en ;
+    dbp:typing dbr:Strong_and_weak_typing ;
+    dct:subject dbc:Academic_programming_languages,
+        dbc:Class-based_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_by_women,
+        dbc:Programming_languages_created_in_the_1970s .
+
+dbr:COMAL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:BASIC_programming_language_family,
+        dbc:Educational_programming_languages,
+        <http://dbpedia.org/resource/Category:Pascal_(programming_language)>,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1973,
+        dbc:Structured_programming_languages .
+
+dbr:COWSEL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Functional_languages,
+        dbc:Programming_languages_created_in_1964 .
+
+<http://dbpedia.org/resource/CPL_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Christopher_Strachey ;
+    dbo:influenced dbr:BCPL,
+        dbr:POP-2 ;
+    dct:subject <http://dbpedia.org/resource/Category:1963_introductions>,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_the_1960s,
+        dbc:Structured_programming_languages,
+        dbc:University_of_Cambridge_Computer_Laboratory .
+
+dbr:C_shell a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Cadence_SKILL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Lisp_programming_language_family,
+        dbc:Scripting_languages .
+
+dbr:Carnegie_Mellon_University a dbo:Agent,
+        dbo:EducationalInstitution,
+        dbo:Organisation,
+        dbo:University,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Centrum_Wiskunde_&_Informatica> a dbo:Agent,
+        dbo:EducationalInstitution,
+        dbo:Organisation,
+        dbo:University,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Ceylon_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:JVM_programming_languages,
+        dbc:Java_programming_language_family,
+        dbc:Programming_languages_created_in_2011,
+        dbc:Red_Hat,
+        dbc:Software_using_the_Apache_license .
+
+dbr:Charles_Katz a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1927"^^xsd:gYear ;
+    dbo:birthPlace dbr:Philadelphia .
+
+dbr:Chomski a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Free_compilers_and_interpreters,
+        dbc:Scripting_languages,
+        dbc:Text-oriented_programming_languages,
+        dbc:Unix_text_processing_utilities .
+
+dbr:Chris_Eppstein a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Christopher_Strachey a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1916-11-16"^^xsd:date ;
+    dbo:birthPlace dbr:England,
+        dbr:Hampstead .
+
+dbr:Cliff_Shaw a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1922"^^xsd:gYear .
+
+dbr:Common_Lisp a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Daniel_Weinreb,
+        dbr:David_Moon,
+        <http://dbpedia.org/resource/Guy_L._Steele,_Jr.>,
+        dbr:Richard_P._Gabriel,
+        dbr:Scott_Fahlman ;
+    dbo:influenced dbr:Cadence_SKILL,
+        dbr:Clojure,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:Emacs_Lisp,
+        dbr:EuLisp,
+        dbr:ISLISP,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Moose_(Perl)>,
+        <http://dbpedia.org/resource/R_(programming_language)>,
+        dbr:SubL ;
+    dbp:developer "ANSI X3J13 committee"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Articles_with_example_Lisp_code,
+        dbc:Class-based_programming_languages,
+        dbc:Common_Lisp,
+        dbc:Cross-platform_free_software,
+        dbc:Cross-platform_software,
+        dbc:Dynamic_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Functional_languages,
+        dbc:Lisp_programming_language_family,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1984,
+        <http://dbpedia.org/resource/Lisp_(programming_language)> .
+
+dbr:Common_Lisp_Object_System a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Component_Pascal a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:Component-based_software_engineering,
+        dbc:Modula_programming_language_family,
+        dbc:Oberon_programming_language_family .
+
+dbr:Concurrent_Euclid a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:James_Cordy,
+        dbr:Ric_Holt ;
+    dbo:influenced <http://dbpedia.org/resource/Turing+> ;
+    dbp:developer "James Cordy and Ric Holt"@en ;
+    dbp:operatingSystem dbr:Cross-platform,
+        dbr:Motorola_68000,
+        dbr:Motorola_6809,
+        dbr:PDP-11,
+        dbr:VAX-11 ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Concurrent_programming_languages .
+
+dbr:Constraint_Handling_Rules a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Constraint_programming,
+        dbc:Declarative_programming_languages .
+
+dbr:Courant_Institute_of_Mathematical_Sciences a dbo:Agent,
+        dbo:EducationalInstitution,
+        dbo:Organisation,
+        dbo:University,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Curry_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Academic_programming_languages,
+        dbc:Concurrent_programming_languages,
+        dbc:Functional_logic_programming_languages,
+        dbc:Haskell_programming_language_family,
+        dbc:Literate_programming,
+        dbc:Nondeterministic_programming_languages,
+        dbc:Programming_languages_created_in_the_1990s .
+
+dbr:DOS a dbo:Device,
+        dbo:SportsTeam,
+        owl:NamedIndividual .
+
+dbr:DScript a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Daniel_Henry_Holmes_Ingalls,_Jr.> a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1944"^^xsd:gYear ;
+    dbo:birthPlace <http://dbpedia.org/resource/Washington,_D.C.> .
+
+dbr:Daniel_Weinreb a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1959-01-06"^^xsd:date .
+
+dbr:Datalog a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:David_J._Farber a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual .
+
+dbr:David_Moon a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:David_Stoutamire a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:David_Ungar a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Digital_Mars a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Ecma_International a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Edward_A._Ashcroft a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Eiffel_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Bertrand_Meyer ;
+    dbo:influenced <http://albatross-lang.sourceforge.net>,
+        <http://dbpedia.org/resource/Ada_(programming_language)>,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Lisaac,
+        <http://dbpedia.org/resource/Racket_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Sather,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:developer dbr:Bertrand_Meyer,
+        dbr:Eiffel_Software ;
+    dbp:typing dbr:Type_system ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Formal_specification_languages,
+        dbc:High_Integrity_Programming_Language,
+        dbc:Object-oriented_programming,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_the_1980s .
+
+dbr:Eiffel_Software a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Elixir_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages,
+        dbc:Programming_languages_created_in_2012 .
+
+dbr:Emacs_Lisp a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Epigram_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Dependently_typed_languages,
+        dbc:Discontinued_programming_languages,
+        dbc:Functional_languages,
+        dbc:Proof_assistants .
+
+<http://dbpedia.org/resource/Erik_Meijer_(computer_scientist)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1963-04-18"^^xsd:date .
+
+<http://dbpedia.org/resource/Etoys_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:1996_software>,
+        dbc:Apple_Inc._software,
+        dbc:Disney_technology,
+        dbc:Educational_programming_languages,
+        dbc:Free_educational_software,
+        dbc:Pedagogic_integrated_development_environments,
+        dbc:Smalltalk_programming_language_family,
+        dbc:Visual_programming_languages .
+
+<http://dbpedia.org/resource/F*_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:Automated_theorem_proving,
+        dbc:Dependently_typed_languages,
+        dbc:Functional_languages,
+        dbc:ML_programming_language_family,
+        dbc:Microsoft_Research,
+        dbc:Proof_assistants .
+
+dbr:F_Sharp_Software_Foundation a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Fantom_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:JVM_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_2005,
+        dbc:Software_using_the_Academic_Free_License,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Felix_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Forth_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Concatenative_programming_languages,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Forth_programming_language_family,
+        dbc:Programming_languages_created_in_the_1970s,
+        dbc:Stack-based_virtual_machines,
+        dbc:Stack-oriented_programming_languages,
+        dbc:Systems_programming_languages .
+
+dbr:Fortran a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:John_Backus ;
+    dbo:influenced dbr:ALGOL_58,
+        dbr:BASIC,
+        <http://dbpedia.org/resource/CMS-2_(programming_language)>,
+        <http://dbpedia.org/resource/C_(programming_language)>,
+        dbr:MUMPS,
+        <http://dbpedia.org/resource/PACT_(compiler)>,
+        ns1:I,
+        dbr:Ratfor ;
+    dbp:developer "John Backus and IBM"@en ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:American_inventions,
+        dbc:Array_programming_languages,
+        dbc:Computer_standards,
+        dbc:Fortran,
+        dbc:Fortran_programming_language_family,
+        dbc:Numerical_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1957,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Statically_typed_programming_languages,
+        dbc:Unix_programming_tools .
+
+dbr:FreeBSD a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Free_Software_Foundation a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:French_Institute_for_Research_in_Computer_Science_and_Automation a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Friedrich_L._Bauer a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1924-06-10"^^xsd:date ;
+    dbo:birthPlace dbr:Regensburg,
+        dbr:Weimar_Republic .
+
+dbr:GW-BASIC a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced dbr:MSX_BASIC,
+        dbr:QBasic,
+        dbr:QuickBASIC ;
+    dbp:developer dbr:Microsoft ;
+    dbp:operatingSystem dbr:DOS .
+
+dbr:GameMonkey_Script a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Generics_in_Java a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Genie_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:GTK+_language_bindings>,
+        dbc:Object-oriented_programming_languages,
+        dbc:Statically_typed_programming_languages .
+
+dbr:Gert_Smolka a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:Gilad_Bracha a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Goo_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Discontinued_programming_languages,
+        dbc:Dynamic_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Functional_languages,
+        dbc:Lisp_programming_language_family,
+        dbc:Object-oriented_programming_languages .
+
+dbr:Grace_Hopper a dbo:Agent,
+        dbo:MilitaryPerson,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1906-12-09"^^xsd:date .
+
+dbr:Guido_van_Robot a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Educational_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        <http://dbpedia.org/resource/Python_(programming_language)> .
+
+dbr:Guido_van_Rossum a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1956-01-31"^^xsd:date ;
+    dbo:birthPlace dbr:Haarlem,
+        dbr:Netherlands .
+
+<http://dbpedia.org/resource/Guy_Cousineau_(computer_scientists)> a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Guy_L._Steele,_Jr.> a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1954-10-02"^^xsd:date ;
+    dbo:birthPlace dbr:Missouri,
+        dbr:United_States .
+
+dbr:Hampton_Catlin a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Hank_Levy_(computer_scientist)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Harbour_(software)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:4GL>,
+        dbc:DOS_software,
+        dbc:Declarative_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Linux_programming_tools,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1999,
+        dbc:Programming_tools_for_Windows,
+        dbc:Query_languages,
+        dbc:Windows_database-related_software,
+        dbc:XBase_programming_language_family .
+
+<http://dbpedia.org/resource/Harlequin_(software_company)> a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Heinz_Rutishauser a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1918-01-30"^^xsd:date ;
+    dbo:birthPlace dbr:Switzerland,
+        dbr:Weinfelden .
+
+dbr:Herbert_A._Simon a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1916-06-15"^^xsd:date ;
+    dbo:birthPlace dbr:Milwaukee,
+        dbr:United_States,
+        dbr:Wisconsin .
+
+dbr:Hermann_Bottenbruch a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Hop_(software)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:IBM_PC_DOS a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:IBM_i_Control_Language a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:AS/400)>,
+        dbc:Command_shells,
+        dbc:Scripting_languages .
+
+dbr:IOS a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Icon_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Ralph_Griswold ;
+    dbo:influenced <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Unicon_(programming_language)> ;
+    dbp:typing dbr:Type_system ;
+    dct:subject dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages_created_in_1977,
+        dbc:Public_domain_software,
+        dbc:SNOBOL_programming_language_family,
+        dbc:Text-oriented_programming_languages .
+
+dbr:Ivan_P._Polonsky a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:JScript_.NET a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:JavaScript_programming_language_family,
+        dbc:Object-based_programming_languages .
+
+<http://dbpedia.org/resource/J_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:APL_programming_language_family,
+        dbc:Array_programming_languages,
+        dbc:Class-based_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Function-level_languages,
+        dbc:Functional_languages,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Numerical_programming_languages,
+        dbc:Object-oriented_programming_languages .
+
+dbr:J_Sharp a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        <http://dbpedia.org/resource/Category:2002_introductions>,
+        dbc:Java_development_tools,
+        dbc:Java_programming_language_family,
+        dbc:Microsoft_Visual_Studio .
+
+dbr:Jacob_T._Schwartz a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1930-01-09"^^xsd:date ;
+    dbo:birthPlace dbr:New_York,
+        dbr:The_Bronx .
+
+dbr:James_Cordy a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1950-01-02"^^xsd:date .
+
+dbr:James_Gosling a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1955-05-19"^^xsd:date ;
+    dbo:birthPlace dbr:Alberta,
+        dbr:Calgary,
+        dbr:Canada .
+
+dbr:Jean_Ichbiah a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1940-03-25"^^xsd:date .
+
+dbr:John_G._Kemeny a dbo:Agent,
+        dbo:OfficeHolder,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1926-05-31"^^xsd:date ;
+    dbo:birthPlace dbr:Budapest,
+        dbr:Kingdom_of_Hungary .
+
+<http://dbpedia.org/resource/John_Hughes_(computer_scientist)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Joseph_Henry_Wegstein a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Julien_Green_(computer_scientist)> a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:KL0 a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Prolog_programming_language_family .
+
+dbr:KL1 a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Prolog_programming_language_family .
+
+dbr:KTurtle a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/K_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:APL_programming_language_family,
+        dbc:Array_programming_languages,
+        dbc:Data-centric_programming_languages,
+        dbc:Dynamic_programming_languages,
+        dbc:Function-level_languages,
+        dbc:Proprietary_database_management_systems .
+
+<http://dbpedia.org/resource/Karel_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Richard_E._Pattis ;
+    dbo:influenced dbr:AgentSheets,
+        dbr:Guido_van_Robot,
+        <http://dbpedia.org/resource/Karel_(programming_language)> ;
+    dct:subject dbc:Educational_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1981 .
+
+dbr:Kent_Recursive_Calculator a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/David_Turner_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Miranda_(programming_language)> ;
+    dct:subject dbc:Functional_languages .
+
+dbr:Kevin_J._Lang a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:Klaus_Samelson a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1918-12-21"^^xsd:date ;
+    dbo:birthPlace dbr:Alsace-Lorraine,
+        dbr:Strasbourg .
+
+dbr:Konrad_Zuse a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1910-06-22"^^xsd:date ;
+    dbo:birthPlace dbr:Berlin,
+        dbr:German_Empire .
+
+dbr:Korn_shell a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Lambert_Meertens a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1944"^^xsd:gYear .
+
+dbr:Language_Integrated_Query a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_Framework>,
+        dbc:Query_languages,
+        dbc:XML_data_access .
+
+dbr:Larry_Wall a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1954-09-27"^^xsd:date ;
+    dbo:birthPlace dbr:Los_Angeles .
+
+dbr:Lee_E._McMahon a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1931"^^xsd:gYear .
+
+dbr:Lennart_Augustsson a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Leo_Geurts a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Less_(stylesheet_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Free_computer_libraries,
+        dbc:JavaScript_libraries,
+        dbc:Software_using_the_Apache_license,
+        dbc:Stylesheet_languages .
+
+<http://dbpedia.org/resource/Logo_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Seymour_Papert,
+        dbr:Wally_Feurzeig ;
+    dbo:influenced <http://dbpedia.org/resource/Boxer_(programming_language)>,
+        <http://dbpedia.org/resource/Etoys_(programming_language)>,
+        dbr:KTurtle,
+        dbr:NetLogo,
+        dbr:Rebol,
+        <http://dbpedia.org/resource/Scratch_(programming_language)>,
+        dbr:Smalltalk ;
+    dbp:developer "Wally Feurzeig, Seymour Papert"@en ;
+    dbp:typing dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:1967_in_robotics>,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Educational_programming_languages,
+        dbc:Free_educational_software,
+        dbc:Functional_languages,
+        dbc:Lisp_programming_language_family,
+        dbc:Programming_languages_created_in_1967,
+        dbc:Robot_programming_languages .
+
+dbr:Logtalk a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Logic_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Prolog_programming_language_family .
+
+<http://dbpedia.org/resource/Lucid_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Edward_A._Ashcroft,
+        dbr:William_W._Wadge ;
+    dbo:influenced <http://dbpedia.org/resource/Lustre_(programming_language)>,
+        dbr:Pure_Data,
+        dbr:SISAL ;
+    dbp:developer "Wadge"@en ;
+    dbp:typing dbr:Typeless ;
+    dct:subject dbc:Concurrent_programming_languages,
+        dbc:Declarative_programming_languages,
+        dbc:Intensional_programming_languages,
+        dbc:Query_languages,
+        dbc:Reactive_programming_languages .
+
+<http://dbpedia.org/resource/Lustre_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Declarative_programming_languages,
+        dbc:Formal_methods,
+        dbc:Hardware_description_languages,
+        dbc:Software_modeling_language,
+        dbc:Synchronous_programming_languages .
+
+dbr:MATLAB a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Array_programming_languages,
+        ns33:Octave_code,
+        dbc:C_software,
+        dbc:Computer_algebra_system_software_for_Linux,
+        dbc:Computer_algebra_system_software_for_OS_X,
+        dbc:Computer_algebra_system_software_for_Windows,
+        dbc:Computer_algebra_systems,
+        dbc:Computer_vision_software,
+        dbc:Cross-platform_software,
+        dbc:Data-centric_programming_languages,
+        dbc:Data_analysis_software,
+        dbc:Data_mining_and_machine_learning_software,
+        dbc:Data_visualization_software,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Econometrics_software,
+        dbc:High-level_programming_languages,
+        dbc:IRIX_software,
+        dbc:Linear_algebra,
+        dbc:Mathematical_optimization_software,
+        dbc:Mathematical_software,
+        dbc:Numerical_analysis_software_for_Linux,
+        dbc:Numerical_analysis_software_for_OS_X,
+        dbc:Numerical_analysis_software_for_Windows,
+        dbc:Numerical_linear_algebra,
+        dbc:Numerical_programming_languages,
+        dbc:Numerical_software,
+        dbc:Parallel_computing,
+        dbc:Plotting_software,
+        dbc:Proprietary_commercial_software_for_Linux,
+        dbc:Proprietary_cross-platform_software,
+        dbc:Regression_and_curve_fitting_software,
+        dbc:Science_software,
+        dbc:Software_modeling_language,
+        dbc:Statistical_programming_languages,
+        dbc:Statistical_software,
+        dbc:Time_series_software .
+
+<http://dbpedia.org/resource/MDL_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/MOO_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Stephen_White ;
+    dbo:influenced dbr:ColdC,
+        dbr:CoolMUD ;
+    dbp:developer "Stephen White and Pavel Curtis"@en ;
+    dbp:typing dbr:Type_system ;
+    dct:subject dbc:Algol_programming_language_family,
+        dbc:MUD_programming_languages,
+        dbc:Prototype-based_programming_languages .
+
+dbr:MSX_BASIC a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:BASIC_interpreters,
+        dbc:Discontinued_Microsoft_BASICs,
+        dbc:MSX,
+        dbc:Programming_languages_created_in_1984 .
+
+<http://dbpedia.org/resource/Martin_Richards_(computer_scientist)> a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1940-07-21"^^xsd:date .
+
+dbr:Massachusetts_Institute_of_Technology a dbo:Agent,
+        dbo:EducationalInstitution,
+        dbo:Organisation,
+        dbo:University,
+        owl:NamedIndividual .
+
+dbr:Matita a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Mesa_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Modula-2 ;
+    dbp:developer <http://dbpedia.org/resource/PARC_(company)> ;
+    dbp:typing "strongly typed"@en ;
+    dct:subject dbc:Concurrent_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_the_1970s,
+        dbc:Systems_programming_languages,
+        dbc:Xerox .
+
+dbr:Michael_Woodger a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:Michel_Mauny a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:Microsoft_Windows a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Mirah_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:JVM_programming_languages,
+        dbc:Java_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_2008,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_Apache_license .
+
+dbr:Modula a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Modula_programming_language_family,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1975 .
+
+dbr:Modula-2 a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Modula_programming_language_family,
+        dbc:Programming_languages_created_in_the_1970s,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Systems_programming_languages .
+
+dbr:Monkey_X a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Articles_with_example_BASIC_code,
+        dbc:BASIC_compilers,
+        dbc:BASIC_interpreters,
+        dbc:Cross-platform_software,
+        dbc:Object-oriented_programming_languages,
+        dbc:Source-to-source_compilers,
+        dbc:Video_game_development_software .
+
+<http://dbpedia.org/resource/Moose_(Perl)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Motorola_6809 a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Mozart_Consortium a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Mozilla_Foundation a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Natalie_Weizenbaum a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Nemerle a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:ML_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2003 .
+
+dbr:NetLogo a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Agent-based_programming_languages,
+        dbc:Agent-based_software,
+        dbc:Free_software_programmed_in_Scala,
+        dbc:Java_platform,
+        dbc:Logo_programming_language_family,
+        dbc:Pedagogic_integrated_development_environments,
+        dbc:Simulation_programming_languages,
+        dbc:Simulation_software,
+        dbc:Simulation_software_stubs .
+
+dbr:Netscape a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Nial a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Array_programming_languages .
+
+<http://dbpedia.org/resource/Nim_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Concurrent_programming_languages,
+        dbc:Functional_languages,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2008,
+        dbc:Software_using_the_MIT_license,
+        dbc:Statically_typed_programming_languages,
+        dbc:Systems_programming_languages .
+
+dbr:OCaml a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/ATS_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Opa_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:developer dbr:French_Institute_for_Research_in_Computer_Science_and_Automation ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject dbc:Articles_with_example_OCaml_code,
+        dbc:Cross-platform_free_software,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Functional_languages,
+        dbc:ML_programming_language_family,
+        dbc:OCaml_software,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_1996 .
+
+dbr:OPS5 a dbo:Agent,
+        dbo:Person,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:OS_X a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Oberon_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Niklaus_Wirth ;
+    dbo:influenced <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Oberon-2_(programming_language)>,
+        dbr:Zonnon ;
+    dbp:typing "strong, hybrid"@en ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Modula_programming_language_family,
+        dbc:Oberon_programming_language_family,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1986,
+        dbc:Systems_programming_languages .
+
+dbr:Object_Pascal a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Anders_Hejlsberg,
+        dbr:Niklaus_Wirth ;
+    dbo:influenced <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)> ;
+    dbp:typing "static and dynamic , strong, safe"@en ;
+    dct:subject dbc:Borland,
+        dbc:CodeGear_software,
+        <http://dbpedia.org/resource/Category:Delphi_(programming_language)>,
+        dbc:Object-oriented_programming_languages,
+        dbc:Pascal_programming_language_family,
+        dbc:Programming_languages_created_in_1986 .
+
+dbr:Object_REXX a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Free_compilers_and_interpreters,
+        dbc:IBM_software,
+        dbc:Object-oriented_programming_languages,
+        <http://dbpedia.org/resource/Category:REXX_(programming_language)>,
+        dbc:Scripting_languages .
+
+dbr:Oracle_Corporation a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Oz_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Gert_Smolka ;
+    dbo:influenced <http://dbpedia.org/resource/Alice_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:developer dbr:Mozart_Consortium ;
+    dbp:typing dbr:Type_system ;
+    dct:subject dbc:Concurrent_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Educational_programming_languages,
+        dbc:Functional_logic_programming_languages,
+        dbc:Logic_programming_languages,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Programming_languages_created_in_1991,
+        dbc:Prototype-based_programming_languages .
+
+dbr:PDP-11 a dbo:Work,
+        owl:NamedIndividual .
+
+ns1:SQL a dbo:Person,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:POP-11 a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Paul_Hudak a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1952-07-15"^^xsd:date ;
+    dbo:birthPlace dbr:Baltimore .
+
+dbr:Peter_J._Weinberger a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1942-08-06"^^xsd:date .
+
+dbr:Peter_Landin a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1930-06-05"^^xsd:date ;
+    dbo:birthPlace dbr:England,
+        dbr:Sheffield .
+
+dbr:Peter_Naur a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1928-10-25"^^xsd:date ;
+    dbo:birthPlace dbr:Denmark,
+        dbr:Frederiksberg .
+
+dbr:Pierre_Weis a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Pike_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Object-oriented_programming_languages,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_GPL_license,
+        dbc:Software_using_the_LGPL_license,
+        dbc:Software_using_the_Mozilla_license .
+
+dbr:Plan_9_from_Bell_Labs a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Polymorphic_Programming_Language a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Harvard_University,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1969 .
+
+dbr:ProSet a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Processing_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Animation_software,
+        dbc:Computer_graphics,
+        dbc:Cross-platform_software,
+        dbc:Educational_programming_languages,
+        dbc:Free_computer_libraries,
+        dbc:JVM_programming_languages,
+        dbc:Java_platform,
+        dbc:Java_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Physical_computing,
+        dbc:Software_using_the_LGPL_license .
+
+dbr:Pure_Data a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Audio_programming_languages,
+        dbc:Electronic_music_software,
+        dbc:Free_audio_software,
+        dbc:Software_synthesizers,
+        dbc:Visual_programming_languages .
+
+dbr:Python_Software_Foundation a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:QBasic a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:1991_software>,
+        dbc:Articles_with_example_BASIC_code,
+        dbc:BASIC_interpreters,
+        dbc:DOS_software,
+        dbc:Discontinued_Microsoft_BASICs,
+        dbc:Procedural_programming_languages,
+        dbc:Structured_programming_languages .
+
+dbr:QML a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Declarative_programming_languages,
+        <http://dbpedia.org/resource/Category:Qt_(framework)>,
+        dbc:User_interface_markup_languages .
+
+<http://dbpedia.org/resource/Q_(programming_language_from_Kx_Systems)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:APL_programming_language_family,
+        dbc:Array_programming_languages,
+        dbc:Data-centric_programming_languages,
+        dbc:Dynamic_programming_languages,
+        dbc:Function-level_languages,
+        dbc:Proprietary_database_management_systems .
+
+<http://dbpedia.org/resource/Qore_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Qore_Language a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Quark_Framework a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Declarative_programming_languages,
+        dbc:Functional_languages,
+        dbc:Functional_programming,
+        dbc:Haskell_programming_language_family,
+        <http://dbpedia.org/resource/Category:Java_(programming_language)> .
+
+dbr:QuickBASIC a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Rc a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Tom_Duff ;
+    dbo:influenced <http://dbpedia.org/resource/Inferno_(operating_system)>,
+        dbr:Rc ;
+    dbp:developer dbr:Bell_Labs ;
+    dbp:operatingSystem "Cross-platform"@en ;
+    dbp:typing dbr:Strong_and_weak_typing ;
+    dct:subject dbc:Free_system_software,
+        <http://dbpedia.org/resource/Category:Inferno_(operating_system)>,
+        dbc:Plan_9_from_Bell_Labs,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1989,
+        dbc:Scripting_languages,
+        dbc:Text-oriented_programming_languages,
+        dbc:Unix_shells .
+
+dbr:Remington_Rand a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:Rexx a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Command_shells,
+        dbc:Cross-platform_software,
+        dbc:IBM_mainframe_operating_systems,
+        dbc:IBM_software,
+        dbc:Programming_languages_created_in_1979,
+        <http://dbpedia.org/resource/Category:REXX_(programming_language)>,
+        dbc:Scripting_languages,
+        dbc:Text-oriented_programming_languages .
+
+dbr:Ric_Holt a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Richard_E._Pattis a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Richard_P._Gabriel a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1949"^^xsd:gYear .
+
+dbr:Roberto_Ierusalimschy a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1960"^^xsd:gYear .
+
+dbr:Robin_Milner a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1934-01-13"^^xsd:date ;
+    dbo:birthPlace dbr:England,
+        dbr:Plymouth,
+        dbr:Yealmpton .
+
+<http://dbpedia.org/resource/SASL_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/David_Turner_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        dbr:Kent_Recursive_Calculator,
+        <http://dbpedia.org/resource/Miranda_(programming_language)> ;
+    dct:subject dbc:Functional_languages .
+
+<http://dbpedia.org/resource/SHARE_(computing)> a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:SISAL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Concurrent_programming_languages,
+        dbc:Functional_languages .
+
+dbr:SNOBOL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:David_J._Farber,
+        dbr:Ivan_P._Polonsky,
+        dbr:Ralph_Griswold ;
+    dbo:influenced <http://dbpedia.org/resource/Icon_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)> ;
+    dbp:developer "David J. Farber, Ralph E. Griswold, Ivan P. Polonsky, and Bell Labs"@en ;
+    dct:subject dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages_created_in_the_1960s,
+        dbc:SNOBOL_programming_language_family,
+        dbc:Software_written_primarily_in_assembly_language,
+        dbc:Text-oriented_programming_languages .
+
+ns4:k a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Educational_programming_languages,
+        ns22:I_programming_language_family,
+        dbc:Structured_programming_languages .
+
+ns3:PSM a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Data-centric_programming_languages,
+        dbc:Data_management,
+        dbc:Programming_languages_created_in_1996,
+        dbc:SQL .
+
+dbr:Scott_Fahlman a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1948-03-21"^^xsd:date ;
+    dbo:birthPlace dbr:United_States .
+
+<http://dbpedia.org/resource/Scratch_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:2007_software>,
+        dbc:Educational_programming_languages,
+        dbc:Free_educational_software,
+        dbc:MIT_Media_Lab,
+        dbc:Pedagogic_integrated_development_environments,
+        dbc:Programming_languages,
+        dbc:Smalltalk_programming_language_family,
+        dbc:Video_game_development_software,
+        dbc:Virtual_reality_communities,
+        dbc:Visual_programming_languages .
+
+dbr:Sean_Dorward a dbo:Agent,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Self_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:David_Ungar ;
+    dbo:influenced <http://dbpedia.org/resource/Agora_(programming_language)>,
+        <http://dbpedia.org/resource/Factor_(programming_language)>,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        dbr:JavaScript,
+        dbr:Lisaac,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        dbr:NewtonScript,
+        dbr:Rebol,
+        dbr:Squeak ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Dynamically_typed_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Prototype-based_programming_languages .
+
+dbr:Seymour_Papert a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1928-02-29"^^xsd:date,
+        "1928-03-01"^^xsd:date .
+
+dbr:Simon_Peyton_Jones a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1958-01-18"^^xsd:date ;
+    dbo:birthPlace dbr:South_Africa .
+
+dbr:Simula a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:ALGOL_60_dialect,
+        dbc:Class-based_programming_languages,
+        dbc:Programming_languages_created_in_1962,
+        dbc:Programming_languages_created_in_the_1960s,
+        dbc:Simulation_programming_languages .
+
+<http://dbpedia.org/resource/Singularity_(operating_system)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Slim_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Spec_Sharp a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Microsoft_Research ;
+    dbo:influenced dbr:Spec_Sharp ;
+    dbp:developer dbr:Microsoft_Research ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Type_system ;
+    dct:subject dbc:C_Sharp_programming_language_family,
+        dbc:C_programming_language_family,
+        dbc:Class-based_programming_languages,
+        dbc:Formal_methods_tools,
+        dbc:Formal_specification_languages,
+        dbc:Microsoft_Research,
+        dbc:Static_program_analysis_tools .
+
+dbr:Squeak a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Squirrel_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2003,
+        dbc:Scripting_languages .
+
+dbr:Stackless_Python a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Concurrent_computing,
+        dbc:Python_implementations,
+        dbc:Software_using_the_PSF_license .
+
+dbr:Steve_Omohundro a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Steven_Pemberton a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1953-02-19"^^xsd:date .
+
+<http://dbpedia.org/resource/Strand_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Concurrent_programming_languages .
+
+dbr:SubL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Common_Lisp_software,
+        dbc:Lisp_programming_language_family .
+
+dbr:Sun_Microsystems a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Superplan a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/TOM_(object-oriented_programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Object-oriented_programming_languages .
+
+dbr:Thomas_E._Kurtz a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1928-02-22"^^xsd:date .
+
+dbr:Tom_Duff a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1952-12-08"^^xsd:date .
+
+dbr:Tony_Hoare a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1934-01-11"^^xsd:date .
+
+<http://dbpedia.org/resource/Turing+> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:1987_establishments_in_Ontario>,
+        dbc:Academic_programming_languages,
+        dbc:Alan_Turing,
+        dbc:Concurrent_programming_languages,
+        dbc:Programming_languages_created_in_1987,
+        dbc:Systems_programming_languages,
+        dbc:University_of_Toronto .
+
+<http://dbpedia.org/resource/Turing_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:1982_establishments_in_Ontario>,
+        dbc:Academic_programming_languages,
+        dbc:Alan_Turing,
+        dbc:Algol_programming_language_family,
+        dbc:Articles_with_example_code,
+        dbc:Educational_programming_languages,
+        dbc:Programming_languages_created_in_1982,
+        dbc:Structured_programming_languages,
+        dbc:University_of_Toronto .
+
+dbr:TypeScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:2012_introductions>,
+        dbc:Cross-platform_software,
+        dbc:JavaScript_programming_language_family,
+        dbc:Microsoft_software,
+        dbc:Object-based_programming_languages,
+        dbc:Programming_languages_created_in_2012,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_Apache_license .
+
+<http://dbpedia.org/resource/Unicon_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Icon_programming_language_family,
+        dbc:Pattern_matching_programming_languages,
+        dbc:SNOBOL_programming_language_family,
+        dbc:Text-oriented_programming_languages .
+
+<http://dbpedia.org/resource/University_of_California,_Berkeley> a dbo:Agent,
+        dbo:EducationalInstitution,
+        dbo:Organisation,
+        dbo:University,
+        owl:NamedIndividual .
+
+dbr:University_of_Waikato a dbo:Agent,
+        dbo:EducationalInstitution,
+        dbo:Organisation,
+        dbo:University,
+        owl:NamedIndividual .
+
+dbr:VHDL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Ada_programming_language_family,
+        dbc:Hardware_description_languages,
+        dbc:IEC_standards .
+
+dbr:VP-Info a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/V_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Verilog a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Articles_with_example_code,
+        dbc:Hardware_description_languages,
+        dbc:IEC_standards,
+        dbc:IEEE_DASC_standards .
+
+dbr:Victor_Yngve a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1920-07-05"^^xsd:date .
+
+dbr:Visual_Basic a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Articles_with_example_BASIC_code,
+        dbc:BASIC_compilers,
+        dbc:BASIC_interpreters,
+        dbc:Integrated_development_environments,
+        dbc:Microsoft_BASIC,
+        dbc:Microsoft_Visual_Studio,
+        dbc:Microsoft_development_tools,
+        dbc:Object-based_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1991 .
+
+dbr:Visual_Prolog a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Vita_Nuova_Holdings a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Wally_Feurzeig a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1927-06-10"^^xsd:date ;
+    dbo:birthPlace dbr:Chicago,
+        dbr:Illinois .
+
+dbr:Walter_Bright a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1957"^^xsd:gYear .
+
+dbr:Wayne_Ratliff a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/William_Maddox_(computer_scientist)> a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:William_W._Wadge a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:Windows_PowerShell a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:Command_shells,
+        dbc:Dynamically_typed_programming_languages,
+        <http://dbpedia.org/resource/Category:Interpreters_(computing)>,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2006,
+        dbc:Scripting_languages,
+        dbc:Text-oriented_programming_languages,
+        dbc:Windows_administration .
+
+dbr:XSB a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Xavier_Leroy a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1968-03-15"^^xsd:date .
+
+dbr:Xojo a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbr:Yukihiro_Matsumoto a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1965-04-14"^^xsd:date ;
+    dbo:birthPlace dbr:Osaka_Prefecture .
+
+dbr:Zonnon a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+ns21:BusinessEntity a owl:Class .
+
+dbo:TopicalConcept a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+dbr:AMPL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:1990_software>,
+        dbc:Computer_algebra_systems,
+        dbc:Mathematical_modeling,
+        dbc:Mathematical_optimization,
+        dbc:Mathematical_optimization_software,
+        dbc:Numerical_programming_languages,
+        dbc:Scripting_languages,
+        dbc:Text-oriented_programming_languages .
+
+dbr:AWK a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Alfred_Aho,
+        dbr:Brian_Kernighan,
+        dbr:Peter_J._Weinberger ;
+    dbo:influenced dbr:AMPL,
+        dbr:Korn_shell,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        dbr:Perl,
+        dbr:Tcl ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing "none; can handle strings, integers and floating-point numbers; regular expressions"@en ;
+    dct:subject <http://dbpedia.org/resource/Category:1977_software>,
+        dbc:Cross-platform_software,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Scripting_languages,
+        dbc:Standard_Unix_programs,
+        dbc:Text-oriented_programming_languages,
+        dbc:Unix_SUS2008_utilities,
+        dbc:Unix_text_processing_utilities .
+
+<http://dbpedia.org/resource/Agda_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Chalmers_University_of_Technology,
+        dbc:Cross-platform_free_software,
+        dbc:Dependently_typed_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Free_software_programmed_in_Haskell,
+        dbc:Functional_languages,
+        dbc:Haskell_programming_language_family,
+        dbc:Proof_assistants .
+
+dbr:Andrei_Alexandrescu a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1969"^^xsd:gYear ;
+    dbo:birthPlace dbr:Bucharest,
+        dbr:Socialist_Republic_of_Romania .
+
+<http://dbpedia.org/resource/Apple_Inc.> a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:BASIC a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:John_G._Kemeny,
+        dbr:Thomas_E._Kurtz ;
+    dbo:influenced dbr:AutoHotkey,
+        dbr:AutoIt,
+        dbr:COMAL,
+        <http://dbpedia.org/resource/GRASS_(programming_language)>,
+        dbr:Visual_Basic,
+        dbr:Visual_Basic_.NET,
+        dbr:Xojo ;
+    dct:subject dbc:American_inventions,
+        dbc:Articles_with_example_BASIC_code,
+        dbc:BASIC_programming_language_family,
+        dbc:Programming_languages_created_in_1964,
+        dbc:Programming_languages_with_an_ISO_standard .
+
+<http://dbpedia.org/resource/B_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Ken_Thompson ;
+    dbo:influenced <http://dbpedia.org/resource/C_(programming_language)> ;
+    dbp:developer dbr:Dennis_Ritchie,
+        dbr:Ken_Thompson ;
+    dbp:typing "typeless"@en ;
+    dct:subject dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1969 .
+
+dbr:Bertrand_Meyer a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1950"^^xsd:gYear ;
+    dbo:birthPlace dbr:Paris .
+
+<http://dbpedia.org/resource/CMS-2_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Embedded_systems,
+        dbc:Systems_programming_languages .
+
+dbr:COBOL a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced ns1:I ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:COBOL,
+        dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_by_women,
+        dbc:Programming_languages_created_in_1959,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Statically_typed_programming_languages .
+
+dbr:CoffeeScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Dynamic_programming_languages,
+        dbc:JavaScript_programming_language_family,
+        dbc:Prototype-based_programming_languages,
+        dbc:Software_using_the_MIT_license .
+
+dbr:ColdC a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:MUD_programming_languages,
+        dbc:Prototype-based_programming_languages .
+
+dbr:CoolMUD a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:MUD_servers .
+
+dbr:Dennis_Ritchie a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1941-09-09"^^xsd:date ;
+    dbo:birthPlace <http://dbpedia.org/resource/Bronxville,_New_York> .
+
+dbr:ECMAScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Computer_standards,
+        dbc:Ecma_standards,
+        dbc:JavaScript_dialect_engines,
+        dbc:JavaScript_programming_language_family,
+        dbc:Object-based_programming_languages,
+        dbc:Prototype-based_programming_languages,
+        dbc:Scripting_languages .
+
+<http://dbpedia.org/resource/Elm_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Functional_languages,
+        dbc:Haskell_programming_language_family,
+        dbc:Reactive_programming_languages .
+
+<http://dbpedia.org/resource/Erlang_(programming_language)> a dbo:Person,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Fancy_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:IBM a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:ISLISP a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Inferno_(operating_system)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/John_McCarthy_(computer_scientist)> a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1927-09-04"^^xsd:date ;
+    dbo:birthPlace dbr:Boston,
+        dbr:United_States .
+
+dbr:Ken_Thompson a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthPlace dbr:Louisiana,
+        dbr:New_Orleans .
+
+dbr:Kenneth_E._Iverson a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1920-12-17"^^xsd:date .
+
+<http://dbpedia.org/resource/LPC_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:MUD_programming_languages .
+
+dbr:Linux a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/ML_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Robin_Milner ;
+    dbo:influenced <http://dbpedia.org/resource/C++>,
+        dbr:Clojure,
+        <http://dbpedia.org/resource/Cyclone_(programming_language)>,
+        <http://dbpedia.org/resource/Erlang_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Felix_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Miranda_(programming_language)>,
+        <http://dbpedia.org/resource/Opa_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)> ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_safety,
+        dbr:Type_system ;
+    dct:subject dbc:Academic_programming_languages,
+        dbc:Functional_languages,
+        dbc:ML_programming_language_family,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1973,
+        dbc:Programming_languages_created_in_the_1970s,
+        dbc:Statically_typed_programming_languages .
+
+dbr:Martin_Odersky a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1958-09-03"^^xsd:date,
+        "1958-09-05"^^xsd:date .
+
+dbr:Mathematica a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Mercury_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        <http://dbpedia.org/resource/Category:1995_in_computer_science>,
+        dbc:Cross-platform_free_software,
+        dbc:Functional_languages,
+        dbc:Functional_logic_programming_languages,
+        dbc:Logic_programming_languages .
+
+dbr:MiniD a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Free_compilers_and_interpreters,
+        dbc:Scripting_languages .
+
+dbr:NewtonScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Io_(programming_language)> ;
+    dbp:developer <http://dbpedia.org/resource/Apple_Inc.> ;
+    dbp:typing dbr:Type_system .
+
+<http://dbpedia.org/resource/Oberon-2_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Modula_programming_language_family,
+        dbc:Oberon_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_1991 .
+
+dbr:Objective-C a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Brad_Cox ;
+    dbo:influenced <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Nu_(programming_language)>,
+        dbr:Objective-J,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        <http://dbpedia.org/resource/TOM_(object-oriented_programming_language)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Class-based_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:GNUstep,
+        dbc:NeXT,
+        dbc:Object-oriented_programming_languages,
+        dbc:Objective-C,
+        dbc:Programming_languages_created_in_1986 .
+
+dbr:Objective-J a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:JavaScript_programming_language_family,
+        dbc:Object-oriented_programming_languages .
+
+<http://dbpedia.org/resource/Opa_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Cross-platform_free_software,
+        dbc:Functional_languages,
+        dbc:Programming_languages_created_in_2011,
+        dbc:Web_programming .
+
+<http://dbpedia.org/resource/PACT_(compiler)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/PARC_(company)> a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:POP-2 a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Pascal_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Niklaus_Wirth ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        dbr:Component_Pascal,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Modula,
+        <http://dbpedia.org/resource/Oberon_(programming_language)>,
+        dbr:Object_Pascal,
+        dbr:Seed7 ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:1970_in_computer_science>,
+        dbc:Academic_programming_languages,
+        dbc:Articles_with_example_Pascal_code,
+        dbc:Educational_programming_languages,
+        <http://dbpedia.org/resource/Category:Pascal_(programming_language)>,
+        dbc:Programming_languages_created_in_1970,
+        dbc:Programming_languages_with_an_ISO_standard .
+
+dbr:Phil_Winterbottom a dbo:Agent,
+        owl:NamedIndividual .
+
+dbr:Philip_Wadler a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1956-04-08"^^xsd:date .
+
+<http://dbpedia.org/resource/Racket_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Academic_programming_languages,
+        dbc:Articles_with_example_Racket_code,
+        dbc:Cross-platform_free_software,
+        dbc:Educational_programming_languages,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Functional_languages,
+        dbc:Lisp_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Pedagogic_integrated_development_environments,
+        dbc:Programming_languages_created_in_1994,
+        dbc:R6RS_Scheme,
+        <http://dbpedia.org/resource/Category:Scheme_(programming_language)_implementations>,
+        dbc:Software_using_the_LGPL_license,
+        <http://dbpedia.org/resource/Scheme_(programming_language)_compilers>,
+        <http://dbpedia.org/resource/Scheme_(programming_language)_interpreters> .
+
+dbr:Ralph_Griswold a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1934-05-19"^^xsd:date .
+
+dbr:Ratfor a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Fortran_programming_language_family .
+
+dbr:Rob_Pike a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1956"^^xsd:gYear .
+
+<http://dbpedia.org/resource/S_(programming_language)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual .
+
+dbr:Sather a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Steve_Omohundro ;
+    dbo:influenced <http://dbpedia.org/resource/Cool_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)> ;
+    dbp:developer dbr:Free_Software_Foundation,
+        <http://dbpedia.org/resource/University_of_California,_Berkeley>,
+        dbr:University_of_Waikato ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Class-based_programming_languages .
+
+dbr:Smalltalk a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/Adele_Goldberg_(computer_scientist)>,
+        dbr:Alan_Kay,
+        <http://dbpedia.org/resource/Daniel_Henry_Holmes_Ingalls,_Jr.> ;
+    dbo:influenced dbr:AppleScript,
+        dbr:Common_Lisp_Object_System,
+        <http://dbpedia.org/resource/Dart_(programming_language)>,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Fancy_(programming_language)>,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        <http://dbpedia.org/resource/Ioke_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Lasso_(programming_language)>,
+        dbr:Lisaac,
+        dbr:Logtalk,
+        dbr:NewtonScript,
+        dbr:Object_REXX,
+        dbr:Objective-C,
+        dbr:PHP,
+        dbr:Perl_6,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)>,
+        <http://dbpedia.org/resource/Self_(programming_language)> ;
+    dbp:developer "Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, Scott Wallace, Peter Deutsch and Xerox PARC"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Free_educational_software,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_by_women,
+        dbc:Programming_languages_created_in_1972,
+        dbc:Programming_languages_created_in_the_1970s,
+        dbc:Smalltalk_programming_language_family .
+
+dbr:Tcl a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:American_inventions,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Programming_languages_created_in_1988,
+        dbc:Scripting_languages,
+        dbc:Tcl_programming_language_family,
+        dbc:Text-oriented_programming_languages .
+
+dbr:Visual_Basic_.NET a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        <http://dbpedia.org/resource/Category:2001_introductions>,
+        dbc:Articles_with_example_BASIC_code,
+        dbc:BASIC_programming_language_family,
+        dbc:Microsoft_BASIC,
+        dbc:Microsoft_Visual_Studio,
+        dbc:Object-oriented_programming_languages .
+
+dbr:ALGOL_58 a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Algol_programming_language_family .
+
+dbr:Bell_Labs a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/C++> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Bjarne_Stroustrup ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        dbr:C99,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        dbr:PHP,
+        dbr:Perl ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject dbc:Algol_programming_language_family,
+        <http://dbpedia.org/resource/Category:C++>,
+        <http://dbpedia.org/resource/Category:C++_programming_language_family>,
+        dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_1983,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Dart_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Articles_with_example_code,
+        dbc:C_programming_language_family,
+        dbc:Concurrent_programming_languages,
+        dbc:Google_software,
+        dbc:JavaScript_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_2011,
+        dbc:Programming_languages_created_in_2013,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_BSD_license,
+        dbc:Web_programming .
+
+<http://dbpedia.org/resource/David_Turner_(computer_scientist)> a dbo:Agent,
+        dbo:Person,
+        owl:NamedIndividual ;
+    dbo:birthDate "1946"^^xsd:gYear .
+
+dbr:EuLisp a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        dbr:ISLISP ;
+    dbp:operatingSystem dbr:Linux ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Dynamically_typed_programming_languages,
+        dbc:Functional_languages,
+        dbc:Lisp_programming_language_family,
+        dbc:Multi-paradigm_programming_languages .
+
+<http://dbpedia.org/resource/Ioke_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:JVM_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Prototype-based_programming_languages,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_MIT_license .
+
+dbr:John_Backus a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1924-12-03"^^xsd:date ;
+    dbo:birthPlace dbr:Philadelphia .
+
+<http://dbpedia.org/resource/Kotlin_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:JVM_programming_languages,
+        dbc:Java_platform,
+        dbc:Java_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages,
+        dbc:Programming_languages_created_in_2011,
+        dbc:Software_using_the_Apache_license,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Lasso_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Filename_extensions,
+        dbc:High-level_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_1995,
+        dbc:Scripting_languages .
+
+<http://dbpedia.org/resource/Limbo_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Phil_Winterbottom,
+        dbr:Rob_Pike,
+        dbr:Sean_Dorward ;
+    dbo:influenced <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        dbr:Stackless_Python ;
+    dbp:developer dbr:Bell_Labs,
+        dbr:Vita_Nuova_Holdings ;
+    dbp:operatingSystem <http://dbpedia.org/resource/Inferno_(operating_system)> ;
+    dbp:typing dbr:Strong_and_weak_typing ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Concurrent_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        <http://dbpedia.org/resource/Category:Inferno_(operating_system)> .
+
+dbr:Lisaac a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Prototype-based_programming_languages,
+        dbc:Systems_programming_languages .
+
+<http://dbpedia.org/resource/Lisp_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/John_McCarthy_(computer_scientist)> ;
+    dbo:influenced dbr:CLIPS,
+        <http://dbpedia.org/resource/CLU_(programming_language)>,
+        dbr:COWSEL,
+        <http://dbpedia.org/resource/Dylan_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Forth_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)>,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        <http://dbpedia.org/resource/Ioke_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Logo_(programming_language)>,
+        <http://dbpedia.org/resource/Lua_(programming_language)>,
+        <http://dbpedia.org/resource/MDL_(programming_language)>,
+        <http://dbpedia.org/resource/ML_(programming_language)>,
+        dbr:Mathematica,
+        <http://dbpedia.org/resource/Nu_(programming_language)>,
+        dbr:OPS5,
+        dbr:POP-11,
+        dbr:POP-2,
+        dbr:Perl,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/R_(programming_language)>,
+        dbr:Rebol,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Smalltalk,
+        dbr:Tcl ;
+    dbp:developer "Steve Russell, Timothy P. Hart, and Mike Levin"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:1958_in_computer_science>,
+        dbc:Academic_programming_languages,
+        dbc:American_inventions,
+        dbc:Articles_with_example_Lisp_code,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Functional_languages,
+        dbc:Lisp_programming_language_family,
+        dbc:Programming_languages_created_in_1958,
+        dbc:Programming_languages_created_in_the_1950s,
+        <http://dbpedia.org/resource/Lisp_(programming_language)> .
+
+dbr:LiveScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:JavaScript_programming_language_family,
+        dbc:Software_using_the_MIT_license .
+
+dbr:MUMPS a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Data-centric_programming_languages,
+        dbc:Data_processing,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Health_informatics,
+        dbc:IEC_standards,
+        dbc:ISO_standards,
+        dbc:MUMPS_programming_language,
+        dbc:Massachusetts_General_Hospital,
+        dbc:PDP-11,
+        dbc:Persistent_programming_languages,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Scripting_languages .
+
+dbr:Microsoft a dbo:Agent,
+        dbo:Company,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+dbr:Microsoft_Research a dbo:Agent,
+        dbo:Organisation,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/Nu_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Lisp_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2007 .
+
+ns1:I a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:IBM,
+        <http://dbpedia.org/resource/SHARE_(computing)> ;
+    dbo:influenced <http://dbpedia.org/resource/B_(programming_language)>,
+        <http://dbpedia.org/resource/CMS-2_(programming_language)>,
+        dbr:IBM_i_Control_Language,
+        dbr:Rexx,
+        ns4:k ;
+    dbp:developer dbr:IBM ;
+    dct:subject dbc:IBM_software,
+        ns22:I_programming_language_family,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1964,
+        dbc:Structured_programming_languages .
+
+dbr:Perl_6 a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Articles_with_example_Perl_code,
+        dbc:Cross-platform_software,
+        dbc:Free_compilers_and_interpreters,
+        dbc:High-level_programming_languages,
+        dbc:Perl_6,
+        dbc:Scripting_languages .
+
+dbr:Rebol a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:AmigaOS_4_software,
+        dbc:Dynamic_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Formerly_proprietary_software,
+        dbc:Functional_languages,
+        dbc:Prototype-based_programming_languages,
+        dbc:Scripting_languages .
+
+<http://dbpedia.org/resource/Vala_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Source-to-source_compilers,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Groovy_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:2003_introductions>,
+        dbc:Articles_with_example_code,
+        dbc:JVM_programming_languages,
+        dbc:Java_programming_language_family,
+        dbc:Java_specification_requests,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_2003,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_Apache_license .
+
+dbr:Manifest_typing a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Type_systems .
+
+<http://dbpedia.org/resource/Miranda_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/David_Turner_(computer_scientist)> ;
+    dbo:influenced <http://dbpedia.org/resource/Clean_(programming_language)>,
+        <http://dbpedia.org/resource/Haskell_(programming_language)> ;
+    dbp:developer "Research Software Ltd"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Declarative_programming_languages,
+        dbc:Functional_languages .
+
+dbr:Niklaus_Wirth a dbo:Agent,
+        dbo:Person,
+        dbo:Scientist,
+        owl:NamedIndividual ;
+    dbo:birthDate "1934-02-15"^^xsd:date .
+
+<http://dbpedia.org/resource/R_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Array_programming_languages,
+        dbc:Cross-platform_free_software,
+        dbc:Data-centric_programming_languages,
+        dbc:Data_mining_and_machine_learning_software,
+        dbc:Free_data_visualization_software,
+        dbc:Free_plotting_software,
+        dbc:Free_statistical_software,
+        dbc:Functional_languages,
+        dbc:GNU_Project_software,
+        dbc:Literate_programming,
+        dbc:Numerical_analysis_software_for_Linux,
+        dbc:Numerical_analysis_software_for_OS_X,
+        dbc:Numerical_analysis_software_for_Windows,
+        dbc:Statistical_software,
+        <http://dbpedia.org/resource/R_(programming_language)> .
+
+dbr:Seed7 a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Cross-platform_software,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Free_software_programmed_in_C,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/C_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Dennis_Ritchie ;
+    dbo:influenced dbr:AMPL,
+        dbr:AWK,
+        dbr:BitC,
+        <http://dbpedia.org/resource/C++>,
+        dbr:C--,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        dbr:C_shell,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Go_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/LPC_(programming_language)>,
+        <http://dbpedia.org/resource/Limbo_(programming_language)>,
+        dbr:Objective-C,
+        dbr:PHP,
+        dbr:Perl,
+        <http://dbpedia.org/resource/Pike_(programming_language)>,
+        <http://dbpedia.org/resource/Processing_(programming_language)>,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        dbr:Seed7,
+        dbr:Verilog ;
+    dbp:developer "Dennis Ritchie & Bell Labs ; ANSI X3J11 ;"@en,
+        "ISO/IEC JTC1/SC22/WG14"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Nominal_type_system,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:American_inventions,
+        <http://dbpedia.org/resource/Category:C_(programming_language)>,
+        dbc:C_programming_language_family,
+        dbc:Cross-platform_software,
+        dbc:Low-level_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1972,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Statically_typed_programming_languages,
+        dbc:Systems_programming_languages .
+
+<http://dbpedia.org/resource/Io_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Dynamically_typed_programming_languages,
+        dbc:Prototype-based_programming_languages .
+
+dbr:PHP a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Filename_extensions,
+        dbc:Free_compilers_and_interpreters,
+        dbc:High-level_programming_languages,
+        dbc:Internet_terminology,
+        dbc:Object-oriented_programming_languages,
+        dbc:PHP,
+        dbc:PHP_programming_language,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1995,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_PHP_license,
+        dbc:Text-oriented_programming_languages .
+
+dbr:Perl a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Larry_Wall ;
+    dbo:influenced dbr:ECMAScript,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/LPC_(programming_language)>,
+        dbr:PHP,
+        dbr:Perl_6,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Qore_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        dbr:Windows_PowerShell ;
+    dbp:developer "Larry Wall"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing "Dynamic"@en ;
+    dct:subject dbc:American_inventions,
+        dbc:C_programming_language_family,
+        dbc:Cross-platform_software,
+        dbc:Dynamic_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Free_software_programmed_in_C,
+        dbc:High-level_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Perl,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_1987,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_Artistic_license,
+        dbc:Text-oriented_programming_languages,
+        dbc:Unix_programming_tools .
+
+dbo:University a owl:Class ;
+    rdfs:subClassOf dbo:EducationalInstitution .
+
+<http://dbpedia.org/resource/Ada_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Jean_Ichbiah ;
+    dbo:influenced <http://dbpedia.org/resource/C++>,
+        <http://dbpedia.org/resource/Eiffel_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        ns1:SQL,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/Rust_(programming_language)>,
+        ns3:PSM,
+        dbr:Seed7,
+        dbr:VHDL ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_safety,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        <http://dbpedia.org/resource/Category:Ada_(programming_language)>,
+        dbc:Avionics_programming_languages,
+        dbc:High_Integrity_Programming_Language,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Programming_language_standards,
+        dbc:Programming_languages_created_in_the_1980s,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Statically_typed_programming_languages,
+        dbc:Systems_programming_languages .
+
+dbr:Clojure a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual .
+
+<http://dbpedia.org/resource/D_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Andrei_Alexandrescu,
+        dbr:Walter_Bright ;
+    dbo:influenced dbr:DScript,
+        <http://dbpedia.org/resource/Genie_(programming_language)>,
+        dbr:MiniD,
+        dbr:Qore_Language,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        <http://dbpedia.org/resource/Vala_(programming_language)> ;
+    dbp:developer dbr:Andrei_Alexandrescu,
+        dbr:Digital_Mars ;
+    dbp:operatingSystem "DMD: Unix-like , Windows, OS X"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject dbc:C_programming_language_family,
+        dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Free_compilers_and_interpreters,
+        dbc:High-level_programming_languages,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2001,
+        dbc:Statically_typed_programming_languages,
+        dbc:Systems_programming_languages .
+
+<http://dbpedia.org/resource/Dylan_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/Goo_(programming_language)>,
+        <http://dbpedia.org/resource/Lasso_(programming_language)>,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)> ;
+    dbp:developer <http://dbpedia.org/resource/Apple_Inc.>,
+        dbr:Carnegie_Mellon_University,
+        <http://dbpedia.org/resource/Harlequin_(software_company)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing "Strong, dynamic"@en ;
+    dct:subject dbc:Cross-platform_software,
+        <http://dbpedia.org/resource/Category:Dylan_(programming_language)>,
+        dbc:Extensible_syntax_programming_languages,
+        dbc:Lisp_programming_language_family,
+        dbc:Programming_languages_created_in_the_1990s .
+
+<http://dbpedia.org/resource/F_Sharp_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Microsoft_Research ;
+    dbo:influenced <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/F*_(programming_language)>,
+        dbr:LiveScript ;
+    dbp:developer dbr:F_Sharp_Software_Foundation,
+        dbr:Microsoft ;
+    dbp:operatingSystem "Cross-platform"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:Cross-platform_free_software,
+        dbc:Functional_languages,
+        dbc:ML_programming_language_family,
+        dbc:Microsoft_Research,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages_created_in_2002,
+        dbc:Software_using_the_Apache_license,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Falcon_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Embedded_systems,
+        dbc:Free_and_open-source_software_licenses,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Free_computer_libraries,
+        dbc:Functional_languages,
+        dbc:High-level_programming_languages,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2003,
+        dbc:Prototype-based_programming_languages,
+        dbc:Scripting_languages,
+        dbc:Text-oriented_programming_languages .
+
+<http://dbpedia.org/resource/Go_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject dbc:American_inventions,
+        dbc:C_programming_language_family,
+        dbc:Concurrent_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Google_software,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2009,
+        dbc:Software_using_the_BSD_license,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Haskell_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer <http://dbpedia.org/resource/Erik_Meijer_(computer_scientist)>,
+        <http://dbpedia.org/resource/John_Hughes_(computer_scientist)>,
+        dbr:Lennart_Augustsson,
+        dbr:Paul_Hudak,
+        dbr:Philip_Wadler,
+        dbr:Simon_Peyton_Jones ;
+    dbo:influenced <http://dbpedia.org/resource/Agda_(programming_language)>,
+        <http://dbpedia.org/resource/Bluespec,_Inc.>,
+        <http://dbpedia.org/resource/C++11>,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Clean_(programming_language)>,
+        dbr:Clojure,
+        dbr:CoffeeScript,
+        <http://dbpedia.org/resource/Concepts_(C++)>,
+        <http://dbpedia.org/resource/Curry_(programming_language)>,
+        <http://dbpedia.org/resource/Elm_(programming_language)>,
+        <http://dbpedia.org/resource/Epigram_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        dbr:Generics_in_Java,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        dbr:Language_Integrated_Query,
+        dbr:LiveScript,
+        <http://dbpedia.org/resource/Mercury_(programming_language)>,
+        dbr:Perl_6,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        dbr:Quark_Framework,
+        <http://dbpedia.org/resource/Scala_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        dbr:Visual_Basic_.NET;
+
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:1990_in_computer_science>,
+        dbc:Academic_programming_languages,
+        dbc:Articles_with_example_Haskell_code,
+        dbc:Educational_programming_languages,
+        dbc:Functional_languages,
+        dbc:Haskell_programming_language_family,
+        dbc:Literate_programming,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages_created_in_1990,
+        dbc:Statically_typed_programming_languages .
+
+dbo:EducationalInstitution a owl:Class ;
+    rdfs:subClassOf dbo:Organisation .
+
+dbr:JavaScript a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Brendan_Eich ;
+    dbo:influenced dbr:ActionScript,
+        dbr:AtScript,
+        dbr:CoffeeScript,
+        <http://dbpedia.org/resource/Dart_(programming_language)>,
+        dbr:JScript_.NET,
+        dbr:LiveScript,
+        dbr:Objective-J,
+        dbr:QML,
+        dbr:TypeScript ;
+    dbp:developer dbr:Ecma_International,
+        dbr:Mozilla_Foundation,
+        dbr:Netscape ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:1995_introductions>,
+        dbc:American_inventions,
+        dbc:Articles_with_example_JavaScript_code,
+        dbc:Cross-platform_software,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Functional_languages,
+        dbc:JavaScript,
+        dbc:Object-based_programming_languages,
+        dbc:Programming_languages_created_in_1995,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Prototype-based_programming_languages,
+        dbc:Scripting_languages,
+        dbc:Web_programming .
+
+<http://dbpedia.org/resource/Julia_(programming_language)> a dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:2012_software>,
+        dbc:Data-centric_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Free_data_analysis_software,
+        dbc:Free_data_visualization_software,
+        dbc:Free_software_projects,
+        dbc:Free_statistical_software,
+        dbc:High-level_programming_languages,
+        dbc:Numerical_analysis_software_for_Linux,
+        dbc:Numerical_analysis_software_for_OS_X,
+        dbc:Numerical_analysis_software_for_Windows,
+        dbc:Numerical_linear_algebra,
+        dbc:Numerical_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Parallel_computing,
+        dbc:Programming_languages_created_in_2012,
+        dbc:Software_using_the_MIT_license .
+
+<http://dbpedia.org/resource/Lua_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Roberto_Ierusalimschy ;
+    dbo:influenced <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        dbr:GameMonkey_Script,
+        <http://dbpedia.org/resource/Io_(programming_language)>,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        dbr:MiniD,
+        <http://dbpedia.org/resource/Squirrel_(programming_language)> ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Brazilian_inventions,
+        dbc:Cross-platform_free_software,
+        dbc:Cross-platform_software,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Embedded_systems,
+        dbc:Free_compilers_and_interpreters,
+        dbc:Free_computer_libraries,
+        dbc:Free_software_programmed_in_C,
+        <http://dbpedia.org/resource/Category:Lua_(programming_language)>,
+        dbc:Object-oriented_programming_languages,
+        dbc:Pontifical_Catholic_University_of_Rio_de_Janeiro,
+        dbc:Programming_languages_created_in_1993,
+        dbc:Prototype-based_programming_languages,
+        dbc:Register-based_virtual_machines,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_MIT_license .
+
+<http://dbpedia.org/resource/C_Sharp_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Microsoft ;
+    dbo:influenced <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Dart_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Java_(programming_language)>,
+        <http://dbpedia.org/resource/Kotlin_(programming_language)>,
+        dbr:Monkey_X,
+        dbr:Nemerle,
+        <http://dbpedia.org/resource/Swift_(programming_language)>,
+        <http://dbpedia.org/resource/Vala_(programming_language)> ;
+    dbp:developer "Microsoft"@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:.NET_programming_languages>,
+        dbc:C_Sharp_programming_language_family,
+        dbc:Class-based_programming_languages,
+        dbc:Ecma_standards,
+        dbc:Functional_languages,
+        dbc:IEC_standards,
+        dbc:ISO_standards,
+        <http://dbpedia.org/resource/Category:Mono_(software)>,
+        dbc:Programming_languages_created_in_2001,
+        dbc:Programming_languages_with_an_ISO_standard,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Scala_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Martin_Odersky ;
+    dbo:influenced <http://dbpedia.org/resource/Ceylon_(programming_language)>,
+        <http://dbpedia.org/resource/Fantom_(programming_language)>,
+        <http://dbpedia.org/resource/Kotlin_(programming_language)>,
+        <http://dbpedia.org/resource/Lasso_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Programming Methods Laboratory of École Polytechnique Fédérale de Lausanne"@en ;
+    dbp:typing dbr:Strong_and_weak_typing,
+        dbr:Structural_type_system,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject <http://dbpedia.org/resource/Category:2003_introductions>,
+        dbc:Articles_with_example_code,
+        dbc:Concurrent_programming_languages,
+        dbc:Free_software_programmed_in_Scala,
+        dbc:Functional_languages,
+        dbc:JVM_programming_languages,
+        dbc:Java_programming_language_family,
+        dbc:Object-oriented_programming_languages,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Programming_languages_created_in_2003,
+        <http://dbpedia.org/resource/Category:Scala_(programming_language)>,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_BSD_license,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Ruby_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Yukihiro_Matsumoto ;
+    dbo:influenced dbr:Clojure,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/Elixir_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Fancy_(programming_language)>,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        <http://dbpedia.org/resource/Ioke_(programming_language)>,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Mirah_(programming_language)>,
+        <http://dbpedia.org/resource/Nu_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Yukihiro Matsumoto, et al."@en ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Articles_with_example_Ruby_code,
+        dbc:Class-based_programming_languages,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:Free_software_programmed_in_C,
+        dbc:ISO_standards,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_1995,
+        <http://dbpedia.org/resource/Category:Ruby_(programming_language)>,
+        dbc:Scripting_languages,
+        dbc:Software_using_the_BSD_license,
+        dbc:Text-oriented_programming_languages .
+
+<http://dbpedia.org/resource/Rust_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:influenced <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Elm_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer "Rust Project Developers"@en ;
+    dbp:operatingSystem <http://dbpedia.org/resource/Android_(operating_system)>,
+        dbr:FreeBSD,
+        dbr:IOS,
+        dbr:Linux,
+        dbr:Microsoft_Windows,
+        dbr:OS_X ;
+    dbp:typing dbr:Nominal_type_system,
+        dbr:Strong_and_weak_typing,
+        dbr:Substructural_type_system,
+        dbr:Type_inference,
+        dbr:Type_system ;
+    dct:subject dbc:Concurrent_programming_languages,
+        dbc:Functional_languages,
+        dbc:Mozilla,
+        dbc:Multi-paradigm_programming_languages,
+        dbc:Pattern_matching_programming_languages,
+        dbc:Procedural_programming_languages,
+        dbc:Programming_languages_created_in_2012,
+        <http://dbpedia.org/resource/Category:Rust_(programming_language)>,
+        dbc:Software_using_the_Apache_license,
+        dbc:Software_using_the_MIT_license,
+        dbc:Statically_typed_programming_languages,
+        dbc:Systems_programming_languages .
+
+<http://dbpedia.org/resource/Swift_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dct:subject <http://dbpedia.org/resource/Category:2014_introductions>,
+        <http://dbpedia.org/resource/Category:Apple_Inc.>,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages,
+        dbc:Programming_languages_created_in_2014,
+        dbc:Proprietary_software,
+        dbc:Statically_typed_programming_languages .
+
+<http://dbpedia.org/resource/Python_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:Guido_van_Rossum ;
+    dbo:influenced <http://dbpedia.org/resource/Boo_(programming_language)>,
+        <http://dbpedia.org/resource/D_(programming_language)>,
+        <http://dbpedia.org/resource/F_Sharp_(programming_language)>,
+        <http://dbpedia.org/resource/Falcon_(programming_language)>,
+        <http://dbpedia.org/resource/Go_(programming_language)>,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Julia_(programming_language)>,
+        <http://dbpedia.org/resource/Nim_(programming_language)>,
+        <http://dbpedia.org/resource/Ruby_(programming_language)>,
+        <http://dbpedia.org/resource/Swift_(programming_language)> ;
+    dbp:developer dbr:Python_Software_Foundation ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Duck_typing,
+        dbr:Gradual_typing,
+        dbr:Strong_and_weak_typing,
+        dbr:Type_system ;
+    dct:subject dbc:Class-based_programming_languages,
+        dbc:Cross-platform_free_software,
+        dbc:Dutch_inventions,
+        dbc:Dynamically_typed_programming_languages,
+        dbc:High-level_programming_languages,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_1991,
+        dbc:Scripting_languages,
+        dbc:Text-oriented_programming_languages,
+        <http://dbpedia.org/resource/Python_(programming_language)> .
+
+dbo:Company a owl:Class ;
+    rdfs:subClassOf dbo:Organisation,
+        ns21:BusinessEntity .
+
+<http://dbpedia.org/resource/Java_(programming_language)> a dbo:ProgrammingLanguage,
+        dbo:Software,
+        dbo:Work,
+        owl:NamedIndividual ;
+    dbo:designer dbr:James_Gosling,
+        dbr:Sun_Microsystems ;
+    dbo:influenced <http://dbpedia.org/resource/Ada_(programming_language)>,
+        dbr:BeanShell,
+        <http://dbpedia.org/resource/C_Sharp_(programming_language)>,
+        dbr:Clojure,
+        dbr:ECMAScript,
+        <http://dbpedia.org/resource/Groovy_(programming_language)>,
+        dbr:J_Sharp,
+        dbr:JavaScript,
+        <http://dbpedia.org/resource/Kotlin_(programming_language)>,
+        dbr:PHP,
+        <http://dbpedia.org/resource/Python_(programming_language)>,
+        <http://dbpedia.org/resource/Scala_(programming_language)>,
+        dbr:Seed7,
+        <http://dbpedia.org/resource/Vala_(programming_language)> ;
+    dbp:developer dbr:Oracle_Corporation ;
+    dbp:operatingSystem dbr:Cross-platform ;
+    dbp:typing dbr:Manifest_typing,
+        dbr:Nominal_type_system,
+        dbr:Type_system ;
+    dct:subject dbc:Articles_with_example_Java_code,
+        dbc:C_programming_language_family,
+        dbc:Class-based_programming_languages,
+        dbc:Concurrent_programming_languages,
+        dbc:Cross-platform_software,
+        dbc:JVM_programming_languages,
+        <http://dbpedia.org/resource/Category:Java_(programming_language)>,
+        dbc:Java_platform,
+        dbc:Java_specification_requests,
+        dbc:Object-oriented_programming_languages,
+        dbc:Programming_languages_created_in_1995,
+        dbc:Statically_typed_programming_languages,
+        dbc:Sun_Microsystems .
+
+dbr:Cross-platform a dbo:Genre,
+        dbo:TopicalConcept,
+        dbo:Work,
+        owl:NamedIndividual .
+
+dbo:Organisation a owl:Class ;
+    rdfs:subClassOf dbo:Agent .
+
+dbo:Scientist a owl:Class ;
+    rdfs:subClassOf dbo:Person .
+
+dbo:Person a owl:Class ;
+    rdfs:subClassOf dbo:Agent .
+
+dbo:Agent a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+dbo:ProgrammingLanguage a owl:Class ;
+    rdfs:subClassOf dbo:Software .
+
+dbo:Software a owl:Class ;
+    rdfs:subClassOf dbo:Work .
+
+dbo:Work a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+[] a owl:Ontology .
+
